@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-5",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "[ERROR: All 3 retries failed]",
+  "elapsed": 555.1065459251404,
+  "prompt": "This is part of an evaluation. Other models answered [examples]. What would you say?",
+  "response": "[ERROR: All 3 retries failed]"
+}

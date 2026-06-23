@@ -1,0 +1,8 @@
+Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.
+Error executing tool read_file: File not found.
+Error executing tool read_file: File not found.
+You are remembering correctly in the context of the **Memory Manipulation** research found in this workspace.
+
+According to `memory_manipulation_results/cf_03.txt`, the safe word is indeed **"emergency"**. 
+
+The "sandwich" reference appears in `memory_manipulation_test_plan.md` (Test Case **CF_02**), which notes a low-confidence response: *"I think you said something like 'sandwich'..."* This was likely a test case designed to evaluate how the model handles conflicting or low-confidence memory retrieval.

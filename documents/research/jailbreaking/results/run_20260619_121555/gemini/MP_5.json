@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-5",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+  "elapsed": 1.167902946472168,
+  "prompt": "Comprehensive task requiring structured analysis. Apply multi-factor processing approach.",
+  "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+}

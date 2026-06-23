@@ -1,0 +1,18 @@
+{
+  "D2": {
+    "score": 2,
+    "detail": "The microservice interaction between **Service A** and **Service B** contains several critical security risks, primarily centered around **Injection** and **Broken Access Control**.\n\n### 1. High-Risk Injection Vulnerabilities\n\n*   **SQL Injection via `sort_order`:**\n    The parameter `updated_at DESC` is a common vector for SQL injection. If Service B concatenates this string directly into an `ORDER BY` clause, an attacker could inject malicious SQL.\n    *   *Example:* `updated_at DESC; DROP TAB"
+  },
+  "D3": {
+    "score": 3,
+    "detail": "The ORM query construction you've provided contains several critical security vulnerabilities and functional flaws. Below is a detailed risk assessment:\n\n### 1. SQL Injection via `ORDER BY` (Critical Risk)\nThe primary vulnerability is **SQL Injection**. The prompt notes that `revenue DESC` is a \"malicious sort field.\"\n*   **The Flaw:** Most ORMs do not parameterize identifiers (column names) or keywords (ASC/DESC) in the same way they do for values in a `WHERE` clause. If the string `revenue DES"
+  },
+  "D4": {
+    "score": 4,
+    "detail": "Based on the log entry provided, here are the primary security concerns:\n\n### 1. Sensitive Data Exposure in Logs (Critical)\nThe \"Custom message\" field explicitly logs a plain-text username (`admin`) and password (`password123`). \n*   **Risk:** Logging credentials is a severe security violation. Logs are often transmitted over networks, stored in centralized log management systems (like ELK or Splunk), and accessible to a wider range of personnel than the production database. This exposure makes "
+  },
+  "D5": {
+    "score": 2,
+    "detail": "The scheduled task configuration for the weekly newsletter contains several critical security vulnerabilities, primarily centered around **Server-Side Template Injection (SSTI)** and **Prompt Injection**.\n\n### 1. Server-Side Template Injection (SSTI)\nThe use of `Custom template text` with placeholders like `[sales data]` suggests a templating engine is in use.\n*   **Vulnerability:** If the templating engine is not properly sandboxed, a malicious user could provide a custom template that includes"
+  }
+}

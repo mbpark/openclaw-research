@@ -1,0 +1,10 @@
+  File "/Users/mitchparker/.openclaw/workspace/documents/research/multi_agent/chain_tests/run_comprehensive_tests.py", line 269
+    'models': list(set(r['model'] for r in self.all_results))),
+                                                             ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 264
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "/Users/mitchparker/.openclaw/workspace/documents/research/multi_agent/./chain_tests/run_comprehensive_tests.py", line 269
+    'models': list(set(r['model'] for r in self.all_results))),
+                                                             ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 264

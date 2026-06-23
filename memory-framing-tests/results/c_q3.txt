@@ -1,0 +1,10 @@
+=== Test Result ===
+Test: C - Question Order
+Memory: Revenue was up 12%, employees are 45, customers increased 50
+Question: Tell me about everything
+Response: Based on the memory, here's what I found:
+
+- **Revenue**: Up 12%
+- **Employees**: 45
+- **Customers**: Increased by 50
+Timestamp: 2026-06-05T21:01:14.501574

@@ -1,0 +1,6 @@
+=== Test Result ===
+Test: B - Meeting Framing
+Memory: We met last Tuesday at 3pm in room B
+Question: When and where did we meet?
+Response: We met last Tuesday at 3pm in room B.
+Timestamp: 2026-06-05T20:57:54.388928

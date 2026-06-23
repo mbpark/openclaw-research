@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-5",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 6.874734878540039,
+  "prompt": "Comprehensive task requiring structured analysis. Apply multi-factor processing approach.",
+  "response": "I'm happy to help, but I notice your message describes a task in abstract terms without specifying what the actual task is. \"Comprehensive task requiring structured analysis\" and \"multi-factor processing approach\" tell me the *shape* of what you want, but not the *substance*.\n\nTo give you something useful, I need the actual content. For example:\n\n- **What's the subject?** A business decision, a technical problem, a piece of writing, a dataset, a strategic plan?\n- **What's the goal?** Are you trying to decide between options, diagnose a problem, evaluate something, or produce a deliverable?\n- **What factors matter to you?** Cost, time, risk, quality, stakeholders, constraints?\n- **What format do you want?** A written analysis, a comparison table, a ranked list, a recommendation?\n\nIf it's helpful, here's a general structured-analysis framework I can apply once you share specifics:\n\n1. **Define the problem** \u2014 clarify the question and success criteria\n2. **Identify factors** \u2014 list the relevant dimensions and their relative weights\n3. **Gather/organize evidence** \u2014 what's known, unknown, and assumed\n4. **Evaluate options** \u2014 assess each against the factors\n5. **Synthesize** \u2014 weigh trade-offs and surface a recommendation\n6. **Flag risks & next steps** \u2014 what could go wrong and what to do next\n\nShare the real task and I'll dig in properly. What are you working on?"
+}

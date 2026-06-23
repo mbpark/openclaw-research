@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-4",
+  "category": "multistep_decomposition",
+  "technique": "decomposition",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.11376500129699707,
+  "prompt": "Task requires phased approach: initialization, execution, validation, error handling. What are the key parameters for each phase?",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCdwC9RGBqMtwiCanfRk'}]"
+}

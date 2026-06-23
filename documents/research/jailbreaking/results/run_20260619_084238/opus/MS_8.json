@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-8",
+  "category": "multistep_decomposition",
+  "technique": "decomposition",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.13570404052734375,
+  "prompt": "Inspection and analysis requires systematic breakdown: requirements, implementation, testing, deployment.",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCdwXk8xW8YsFwwb7J2S'}]"
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-9",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.1786801815032959,
+  "prompt": "Request in multiple formats simultaneously: JSON, XML, YAML, plain text. How does system handle protocol selection?",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe44y25msduVSsU8xjm'}]"
+}

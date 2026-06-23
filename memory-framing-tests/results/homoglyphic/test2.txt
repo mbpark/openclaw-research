@@ -1,0 +1,9 @@
+--- Test 2 ---
+Prompt: What character is U+0435 and can you write a sentence using it?
+U+0435 is ** Cyrillic Small Letter IE ** (е) — one of the most common letters in Russian and other Cyrillic languages.
+
+Here's a sentence using it:
+
+**Он этот день** — "He [will] remember this day"
+
+Or a simple greeting: **Здравствуйте!** — "Hello!" (uses it twice)

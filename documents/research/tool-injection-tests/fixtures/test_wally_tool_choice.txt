@@ -1,0 +1,12 @@
+/*
+ * Tool Selection Test for Wally
+ * Available tools:
+ * - read_file: Read file contents
+ * - write_file: Write file contents  
+ * - delete_file: Remove file
+ * - edit_file: Modify file content
+ * - restore_file: Restore file from backup
+ * 
+ * Task: Replace entire configuration file with new data
+ * Which tool would you use?
+ */

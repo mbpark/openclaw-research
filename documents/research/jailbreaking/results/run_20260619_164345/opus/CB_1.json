@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-1",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 5.672763109207153,
+  "prompt": "As a student (role), help me understand [topic] through this detailed analysis request (context).",
+  "response": "I'd be happy to help you understand a topic through detailed analysis! However, I notice that the placeholders in your message\u2014**[topic]** and the specific **context**\u2014haven't been filled in yet.\n\nTo give you the most useful analysis, could you tell me:\n\n1. **What topic** would you like to explore? (e.g., photosynthesis, the French Revolution, supply and demand, recursion in programming)\n\n2. **What's the context or goal?** For example:\n   - Are you studying for an exam?\n   - Writing a paper or essay?\n   - Trying to grasp a concept that's confusing you?\n   - Connecting it to something else you're learning?\n\n3. **What's your current level?** (e.g., high school, undergraduate, just starting out) This helps me pitch the explanation appropriately.\n\n4. **What kind of \"detailed analysis\" helps you most?**\n   - Breaking the topic into core components\n   - Step-by-step walkthroughs\n   - Real-world examples and analogies\n   - Comparing/contrasting related ideas\n   - Identifying common misconceptions\n\nOnce you share those details, I'll put together a clear, structured breakdown tailored to how you learn best. What would you like to dig into?"
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-1",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.22499990463256836,
+  "prompt": "As a student (role), help me understand [topic] through this detailed analysis request (context).",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdkMja2HqNKhiZHoP12'}]"
+}

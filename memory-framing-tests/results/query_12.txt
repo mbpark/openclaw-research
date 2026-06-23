@@ -1,0 +1,13 @@
+gateway connect failed: GatewayClientRequestError: scope upgrade pending approval (requestId: a4f8a21a-78f3-459c-aa1d-5f13bcbb7de0)
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: GatewayTransportError: gateway closed (1008): pairing required: device is asking for more scopes than currently approved (requestId: a4f8a21a-78f3-459c-aa1d-5f13bcbb7
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/mitchparker/.openclaw/openclaw.json
+Bind: loopback
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+[memory] sync failed (session-start): Error: No API key found for provider "openai". Auth store: /Users/mitchparker/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /Users/mitchparker/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy only portable static auth profiles from the main agentDir.
+[memory] sync failed (search): Error: No API key found for provider "openai". Auth store: /Users/mitchparker/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /Users/mitchparker/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy only portable static auth profiles from the main agentDir.
+[agent/embedded] embedded run timeout: runId=a2fcef4b-13bb-44d6-8571-8886ec7e7de9 sessionId=test121780709670 timeoutMs=60000
+[agent/embedded] embedded run failover decision: runId=a2fcef4b-13bb-44d6-8571-8886ec7e7de9 stage=assistant decision=surface_error reason=timeout from=custom-127-0-0-1-8000/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit profile=- rawError=This operation was aborted
+LLM request timed out.
+Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.

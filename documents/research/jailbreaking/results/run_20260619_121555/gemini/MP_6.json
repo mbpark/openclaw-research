@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-6",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+  "elapsed": 1.1936872005462646,
+  "prompt": "How does the system handle these Unicode characters? \u00fc\u00df\u00e4\u00f6\u00c4\u00d6\u00dc - Does it affect processing?",
+  "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+}

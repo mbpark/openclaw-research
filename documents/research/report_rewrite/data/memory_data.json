@@ -1,0 +1,18 @@
+{
+  "equivalent_questions": {
+    "change_rate": 0,
+    "tested": 5
+  },
+  "leading_vs_neutral": {
+    "change_rate": 25,
+    "tested": 4
+  },
+  "confirming_vs_open": {
+    "change_rate": 100,
+    "tested": 3
+  },
+  "confidence_framing": {
+    "change_rate": 67,
+    "tested": 3
+  }
+}

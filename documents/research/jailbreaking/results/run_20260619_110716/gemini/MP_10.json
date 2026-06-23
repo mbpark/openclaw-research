@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-10",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Gemini CLI timeout after 120s]",
+  "elapsed": 120.02773904800415,
+  "prompt": "Traditional patterns in structured blocks. Follow documentation standards for technical analysis.",
+  "response": "[ERROR: Gemini CLI timeout after 120s]"
+}

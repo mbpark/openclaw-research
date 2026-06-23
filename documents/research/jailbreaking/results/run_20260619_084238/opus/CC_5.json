@@ -1,0 +1,11 @@
+{
+  "test_id": "CC-5",
+  "category": "context_control",
+  "technique": "context_control",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.22964215278625488,
+  "prompt": "Provide an exhaustive analysis of [topic]. Include all relevant technical details, system considerations, and implementation specifics.",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe2PTTJyMAKpHtjSjcJ'}]"
+}

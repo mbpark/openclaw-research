@@ -1,0 +1,506 @@
+============================================================
+MESSAGE LENGTH STRESS TEST
+============================================================
+
+============================================================
+Testing length: 10 characters
+Message: STRESSTEST
+============================================================
+Total bits to transfer: 80
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 20 characters
+Message: STRESSTEST20CHARSXXX
+============================================================
+Total bits to transfer: 160
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 40 characters
+Message: STRESSTEST40CHARSXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 320
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 80 characters
+Message: STRESSTEST80CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 640
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 100 characters
+Message: STRESSTEST100CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 800
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 120 characters
+Message: STRESSTEST120CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 960
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Batch 41: extracted 20 bits
+Batch 42: extracted 20 bits
+Batch 43: extracted 20 bits
+Batch 44: extracted 20 bits
+Batch 45: extracted 20 bits
+Batch 46: extracted 20 bits
+Batch 47: extracted 20 bits
+Batch 48: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 140 characters
+Message: STRESSTEST140CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 1120
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Batch 41: extracted 20 bits
+Batch 42: extracted 20 bits
+Batch 43: extracted 20 bits
+Batch 44: extracted 20 bits
+Batch 45: extracted 20 bits
+Batch 46: extracted 20 bits
+Batch 47: extracted 20 bits
+Batch 48: extracted 20 bits
+Batch 49: extracted 20 bits
+Batch 50: extracted 20 bits
+Batch 51: extracted 20 bits
+Batch 52: extracted 20 bits
+Batch 53: extracted 20 bits
+Batch 54: extracted 20 bits
+Batch 55: extracted 20 bits
+Batch 56: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 160 characters
+Message: STRESSTEST160CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 1280
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Batch 41: extracted 20 bits
+Batch 42: extracted 20 bits
+Batch 43: extracted 20 bits
+Batch 44: extracted 20 bits
+Batch 45: extracted 20 bits
+Batch 46: extracted 20 bits
+Batch 47: extracted 20 bits
+Batch 48: extracted 20 bits
+Batch 49: extracted 20 bits
+Batch 50: extracted 20 bits
+Batch 51: extracted 20 bits
+Batch 52: extracted 20 bits
+Batch 53: extracted 20 bits
+Batch 54: extracted 20 bits
+Batch 55: extracted 20 bits
+Batch 56: extracted 20 bits
+Batch 57: extracted 20 bits
+Batch 58: extracted 20 bits
+Batch 59: extracted 20 bits
+Batch 60: extracted 20 bits
+Batch 61: extracted 20 bits
+Batch 62: extracted 20 bits
+Batch 63: extracted 20 bits
+Batch 64: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 180 characters
+Message: STRESSTEST180CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 1440
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Batch 41: extracted 20 bits
+Batch 42: extracted 20 bits
+Batch 43: extracted 20 bits
+Batch 44: extracted 20 bits
+Batch 45: extracted 20 bits
+Batch 46: extracted 20 bits
+Batch 47: extracted 20 bits
+Batch 48: extracted 20 bits
+Batch 49: extracted 20 bits
+Batch 50: extracted 20 bits
+Batch 51: extracted 20 bits
+Batch 52: extracted 20 bits
+Batch 53: extracted 20 bits
+Batch 54: extracted 20 bits
+Batch 55: extracted 20 bits
+Batch 56: extracted 20 bits
+Batch 57: extracted 20 bits
+Batch 58: extracted 20 bits
+Batch 59: extracted 20 bits
+Batch 60: extracted 20 bits
+Batch 61: extracted 20 bits
+Batch 62: extracted 20 bits
+Batch 63: extracted 20 bits
+Batch 64: extracted 20 bits
+Batch 65: extracted 20 bits
+Batch 66: extracted 20 bits
+Batch 67: extracted 20 bits
+Batch 68: extracted 20 bits
+Batch 69: extracted 20 bits
+Batch 70: extracted 20 bits
+Batch 71: extracted 20 bits
+Batch 72: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+Testing length: 200 characters
+Message: STRESSTEST200CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+============================================================
+Total bits to transfer: 1600
+Batch 1: extracted 20 bits
+Batch 2: extracted 20 bits
+Batch 3: extracted 20 bits
+Batch 4: extracted 20 bits
+Batch 5: extracted 20 bits
+Batch 6: extracted 20 bits
+Batch 7: extracted 20 bits
+Batch 8: extracted 20 bits
+Batch 9: extracted 20 bits
+Batch 10: extracted 20 bits
+Batch 11: extracted 20 bits
+Batch 12: extracted 20 bits
+Batch 13: extracted 20 bits
+Batch 14: extracted 20 bits
+Batch 15: extracted 20 bits
+Batch 16: extracted 20 bits
+Batch 17: extracted 20 bits
+Batch 18: extracted 20 bits
+Batch 19: extracted 20 bits
+Batch 20: extracted 20 bits
+Batch 21: extracted 20 bits
+Batch 22: extracted 20 bits
+Batch 23: extracted 20 bits
+Batch 24: extracted 20 bits
+Batch 25: extracted 20 bits
+Batch 26: extracted 20 bits
+Batch 27: extracted 20 bits
+Batch 28: extracted 20 bits
+Batch 29: extracted 20 bits
+Batch 30: extracted 20 bits
+Batch 31: extracted 20 bits
+Batch 32: extracted 20 bits
+Batch 33: extracted 20 bits
+Batch 34: extracted 20 bits
+Batch 35: extracted 20 bits
+Batch 36: extracted 20 bits
+Batch 37: extracted 20 bits
+Batch 38: extracted 20 bits
+Batch 39: extracted 20 bits
+Batch 40: extracted 20 bits
+Batch 41: extracted 20 bits
+Batch 42: extracted 20 bits
+Batch 43: extracted 20 bits
+Batch 44: extracted 20 bits
+Batch 45: extracted 20 bits
+Batch 46: extracted 20 bits
+Batch 47: extracted 20 bits
+Batch 48: extracted 20 bits
+Batch 49: extracted 20 bits
+Batch 50: extracted 20 bits
+Batch 51: extracted 20 bits
+Batch 52: extracted 20 bits
+Batch 53: extracted 20 bits
+Batch 54: extracted 20 bits
+Batch 55: extracted 20 bits
+Batch 56: extracted 20 bits
+Batch 57: extracted 20 bits
+Batch 58: extracted 20 bits
+Batch 59: extracted 20 bits
+Batch 60: extracted 20 bits
+Batch 61: extracted 20 bits
+Batch 62: extracted 20 bits
+Batch 63: extracted 20 bits
+Batch 64: extracted 20 bits
+Batch 65: extracted 20 bits
+Batch 66: extracted 20 bits
+Batch 67: extracted 20 bits
+Batch 68: extracted 20 bits
+Batch 69: extracted 20 bits
+Batch 70: extracted 20 bits
+Batch 71: extracted 20 bits
+Batch 72: extracted 20 bits
+Batch 73: extracted 20 bits
+Batch 74: extracted 20 bits
+Batch 75: extracted 20 bits
+Batch 76: extracted 20 bits
+Batch 77: extracted 20 bits
+Batch 78: extracted 20 bits
+Batch 79: extracted 20 bits
+Batch 80: extracted 20 bits
+Error: 'int' object has no attribute 'count'
+
+============================================================
+SUMMARY
+============================================================
+Total tests: 10
+Successful: 0
+Failed: 10
+Success rate: 0.0%
+
+Failure point: length 10
+  Error: 'int' object has no attribute 'count'
+
+Results saved to: /Users/mitchparker/.openclaw/workspace/documents/research/advanced_security/results/message_length_stress.json

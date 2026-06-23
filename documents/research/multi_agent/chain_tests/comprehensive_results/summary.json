@@ -1,0 +1,49 @@
+{
+  "total_tests": 276,
+  "by_vector_class": {
+    "class_1_direct_override": {
+      "total": 60,
+      "persisted": 57
+    },
+    "class_2_nested_encapsulation": {
+      "total": 60,
+      "persisted": 60
+    },
+    "class_3_progressive_erosion": {
+      "total": 36,
+      "persisted": 36
+    },
+    "class_4_system_override": {
+      "total": 60,
+      "persisted": 57
+    },
+    "class_5_logical_paradox": {
+      "total": 60,
+      "persisted": 60
+    }
+  },
+  "by_chain_length": {
+    "4": {
+      "total": 138,
+      "persisted": 134
+    },
+    "5": {
+      "total": 138,
+      "persisted": 136
+    }
+  },
+  "by_injection_point": {
+    "start": {
+      "total": 92,
+      "persisted": 91
+    },
+    "middle": {
+      "total": 92,
+      "persisted": 90
+    },
+    "end": {
+      "total": 92,
+      "persisted": 89
+    }
+  }
+}

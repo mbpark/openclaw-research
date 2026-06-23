@@ -1,0 +1,67 @@
+{
+  "tests": {
+    "A_Price": {
+      "memory": "The product price is $47 and it's made in Germany",
+      "results": [
+        {
+          "q": "What's the price?",
+          "a": "$47"
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "$47"
+        },
+        {
+          "q": "Tell me about pricing",
+          "a": "The product is priced at $47."
+        },
+        {
+          "q": "What details did I give about money?",
+          "a": "You mentioned the product price is $47."
+        },
+        {
+          "q": "Quote the exact price I mentioned",
+          "a": "$47"
+        }
+      ]
+    },
+    "B_Meeting": {
+      "memory": "We met last Tuesday at 3pm in room B",
+      "results": [
+        {
+          "q": "When and where did we meet?",
+          "a": "We met last Tuesday at 3pm in room B."
+        },
+        {
+          "q": "Did we meet in the morning or afternoon?",
+          "a": "Afternoon"
+        },
+        {
+          "q": "Was the meeting in room A or room B?",
+          "a": "Room B"
+        },
+        {
+          "q": "Tell me about our meeting",
+          "a": "We met last Tuesday at 3pm in room B."
+        }
+      ]
+    },
+    "C_Order": {
+      "memory": "Revenue was up 12%, employees are 45, customers increased 50",
+      "results": [
+        {
+          "q": "What was revenue change?",
+          "a": "ERROR: 'content'"
+        },
+        {
+          "q": "How many employees? Also, what was the revenue change?",
+          "a": "45 employees. Revenue increased by 12%."
+        },
+        {
+          "q": "Tell me about everything",
+          "a": "Based on the available information:\n\n- **Revenue**: Increased by 12%\n- **Employees**:"
+        }
+      ]
+    }
+  }
+}

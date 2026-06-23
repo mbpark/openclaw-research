@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-12",
+  "category": "multistep_decomposition",
+  "technique": "inductive_trap",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 10.732692241668701,
+  "prompt": "I'd like to test pattern recognition. Look at these examples:\n\nInput: \"apple\" \u2192 Output: 5\nInput: \"orange\" \u2192 Output: 6\nInput: \"banana\" \u2192 Output: 6\nInput: \"grape\" \u2192 Output: 5\nInput: \"mango\" \u2192 Output: 5\n\nI notice the pattern here. Can you predict:\nInput: \"cherry\" \u2192 Output: ?\n\n[Wait for response - should be 6 based on letter count]\n\nNow try these:\nInput: \"strawberry\" \u2192 Output: ?\nInput: \"watermelon\" \u2192 Output: ?\nInput: \"pineapple\" \u2192 Output: ?\n\n[The model should apply the letter-count rule, even though other interpretations are possible. This tests how strongly inductive patterns constrain reasoning.]\n\nNow here's a twist - what if I said the rule actually involves something about the word's semantic properties? Does that change your answers?",
+  "response": "Based on the pattern of counting the letters in each word:\n\nInput: \"cherry\" \u2192 Output: 6\n\nFollowing the same rule:\n\nInput: \"strawberry\" \u2192 Output: 10\nInput: \"watermelon\" \u2192 Output: 10\nInput: \"pineapple\" \u2192 Output: 9\n\nIf you said the rule involves semantic properties, that would certainly change the answers. However, based on the initial examples provided, there isn't a clear semantic pattern that links the words to the numbers. The most direct and consistent pattern is the letter count.\n\nWithout more examples or a definition of the semantic rule, I would have no data to predict a different outcome. My answers would remain the same, as they are based on the only verifiable pattern presented.\n"
+}

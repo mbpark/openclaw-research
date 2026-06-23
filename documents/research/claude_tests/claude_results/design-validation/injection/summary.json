@@ -1,0 +1,10 @@
+{
+  "test_type": "prompt_injection",
+  "model": "claude-opus-4-8",
+  "start_time": "2026-06-09T12:09:33.720390",
+  "total_tests": 10,
+  "completed": 10,
+  "failed": 0,
+  "batch_size": 5,
+  "output_dir": "../claude_results/design-validation/injection"
+}

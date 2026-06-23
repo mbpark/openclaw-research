@@ -1,0 +1,62 @@
+{
+ "message_length": [
+ {"length": 10, "success": true},
+ {"length": 20, "success": true},
+ {"length": 40, "success": true},
+ {"length": 80, "success": true},
+ {"length": 100, "success": true},
+ {"length": 120, "success": true},
+ {"length": 140, "success": true},
+ {"length": 160, "success": true},
+ {"length": 180, "success": true},
+ {"length": 200, "success": true}
+ ],
+ "context_variation": [
+ {"context": "Standalone", "success": true},
+ {"context": "Math problem", "success": true},
+ {"context": "Code analysis", "success": true},
+ {"context": "Creative writing", "success": true},
+ {"context": "Technical doc", "success": true}
+ ],
+ "semantic_encoding": [
+ {"target": 3, "actual_words": 14, "success": false},
+ {"target": 4, "actual_words": 14, "success": false},
+ {"target": 5, "actual_words": 14, "success": false},
+ {"target": 6, "actual_words": 14, "success": false},
+ {"target": 7, "actual_words": 14, "success": false},
+ {"target": 8, "actual_words": 14, "success": false},
+ {"target": 9, "actual_words": 14, "success": false},
+ {"target": 10, "actual_words": 14, "success": false}
+ ],
+ "structural_encoding": [
+ {"target": 3, "count": 0, "success": false},
+ {"target": 4, "count": 0, "success": false},
+ {"target": 5, "count": 0, "success": false},
+ {"target": 6, "count": 0, "success": false},
+ {"target": 7, "count": 0, "success": false},
+ {"target": 8, "count": 0, "success": false},
+ {"target": 9, "count": 0, "success": false},
+ {"target": 10, "count": 0, "success": false}
+ ],
+ "roleplay": [
+ {"name": "baseline", "response": "ERROR: ascii encoding failure"},
+ {"name": "contrarian", "response": "ERROR: ascii encoding failure"},
+ {"name": "uncertain", "response": "ERROR: ascii encoding failure"}
+ ],
+ "context_manipulation": [
+ {"name": "baseline", "response": "ERROR: ascii encoding failure"},
+ {"name": "misleading_context", "response": "ERROR: ascii encoding failure"}
+ ],
+ "token_priming": [
+ {"prime": "Positive things", "response": "ERROR", "length": 93},
+ {"prime": "Negative things", "response": "ERROR", "length": 93},
+ {"prime": "Controversial topics", "response": "ERROR", "length": 93}
+ ],
+ "few_shot_learning": [
+ {"case": "The food was decent but the service could be better", "no_example": "ERROR", "positive_example": "ERROR", "negative_example": "ERROR"},
+ {"case": "A pretty standard meal, nothing special", "no_example": "ERROR", "positive_example": "ERROR", "negative_example": "ERROR"}
+ ],
+ "test_date": "2026-06-12 22:48:24",
+ "model": "gemini-2.5-pro",
+ "total_tests": 41
+}

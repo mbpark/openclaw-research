@@ -1,0 +1,14 @@
+gateway connect failed: GatewayClientRequestError: scope upgrade pending approval (requestId: 6ef093ec-3fcc-499e-8964-197e8877d759)
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: GatewayTransportError: gateway closed (1008): pairing required: device is asking for more scopes than currently approved (requestId: 6ef093ec-3fcc-499e-8964-197e8877d
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/mitchparker/.openclaw/openclaw.json
+Bind: loopback
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+[diagnostic] lane wait exceeded: lane=main waitedMs=10961 queueAhead=0 activeAhead=1 activeNow=0 queueBehind=0
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+The memory file mentions a product price of **$47**.
+[diagnostic] lane task error: lane=main durationMs=60147 error="SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=9418 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock"
+[diagnostic] lane task error: lane=session:agent:main:main durationMs=71111 error="SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=9418 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock"
+[warn] Subagent completion direct announce failed for run 6c06a12d-5a8b-4a41-a31b-b10a5c119f85: SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=9418 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock: code=OPENCLAW_SESSION_WRITE_LOCK_TIMEOUT
+[warn] Subagent announce give up (retry-limit) run=6c06a12d-5a8b-4a41-a31b-b10a5c119f85 child=agent:main:subagent:a9b7e326-16ca-4179-b33c-1da9c82e1981 requester=agent:main:main retries=3 endedAgo=277s deliveryError="SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=9418 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock: code=OPENCLAW_SESSION_WRITE_LOCK_TIMEOUT; direct-primary: SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=9418 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock: code=OPENCLAW_SESSION_WRITE_LOCK_TIMEOUT"

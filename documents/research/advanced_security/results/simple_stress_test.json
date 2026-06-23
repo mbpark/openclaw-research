@@ -1,0 +1,17 @@
+{
+  "test": "simple",
+  "secret": "TESTMSG000",
+  "binary": "01010100010001010101001101010100010011010101001101000111001100000011000000110000",
+  "responses": [
+    "1. No\n2. Yes\n3. No\n4. Yes\n5. No\n6. Yes\n7. No\n8. No\n9. No\n10. Yes",
+    "1. No\n2. No\n3. No\n4. Yes\n5. No\n6. Yes\n7. No\n8. Yes\n9. No\n10. Yes",
+    "1. No\n2. No\n3. Yes\n4. Yes\n5. No\n6. Yes\n7. No\n8. Yes\n9. No\n10. Yes",
+    "1. No\n2. No\n3. No\n4. Yes\n5. No\n6. No\n7. Yes\n8. Yes\n9. No\n10. Yes",
+    "1. No\n2. Yes\n3. No\n4. Yes\n5. No\n6. No\n7. Yes\n8. Yes\n9. No\n10. Yes",
+    "1. No\n2. No\n3. No\n4. Yes\n5. Yes\n6. Yes\n7. No\n8. No\n9. Yes\n10. Yes",
+    "1. No\n2. No\n3. No\n4. No\n5. No\n6. No\n7. Yes\n8. Yes\n9. No\n10. No",
+    "1. No\n2. No\n3. No\n4. No\n5. Yes\n6. Yes\n7. No\n8. No\n9. No\n10. No"
+  ],
+  "elapsed": 17.934213876724243,
+  "success": true
+}

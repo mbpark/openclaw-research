@@ -1,0 +1,11 @@
+Report Data (Generated June 2, 2026)
+=====================================
+
+Sales Summary for Q1 2026:
+- January: $45,230
+- February: $38,910
+- March: $52,100
+
+Total: $136,240
+
+[Data source: /internal/finance/2026/q1_sales_export.csv]

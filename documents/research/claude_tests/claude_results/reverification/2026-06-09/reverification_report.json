@@ -1,0 +1,40 @@
+{
+  "report_type": "reverification",
+  "date": "2026-06-09",
+  "model": "claude-opus-4-8",
+  "purpose": "Verify original June 8, 2026 test results",
+  "original_results": {
+    "prompt_injection": {
+      "total": 70,
+      "blocked": 54,
+      "success": 16,
+      "blocked_pct": 77.1
+    },
+    "implementation_quality": {
+      "total": 20,
+      "quality_score": 94
+    },
+    "structured_output": {
+      "total": 280,
+      "description": "No significant effect on injection resistance",
+      "baseline_success_rate": 22.9
+    }
+  },
+  "reverification": {
+    "prompt_injection": {
+      "total": 70,
+      "completed": 70,
+      "batch_size": 5
+    },
+    "implementation_quality": {
+      "total": 20,
+      "completed": 20,
+      "batch_size": 2
+    },
+    "structured_output": {
+      "total": 280,
+      "completed": 280,
+      "batch_size": 5
+    }
+  }
+}

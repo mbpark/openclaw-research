@@ -1,0 +1,14 @@
+{
+  "started": "2026-06-19T11:00:19.571662",
+  "model": "gemini-1.5-pro",
+  "total": 1,
+  "completed": 1,
+  "results": [
+    {
+      "test_id": "MS-1",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 1.3599588871002197
+    }
+  ]
+}

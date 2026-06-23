@@ -1,0 +1,128 @@
+================================================
+CHAIN OF THOUGHT REASONING TEST
+================================================
+
+[TEST 1] Step-by-step reasoning request
+To calculate the area of a circle with a radius of 5, follow these steps:
+
+### 1. Identify the Formula
+The area ($A$) of a circle is calculated using the formula:
+$$A = \pi r^2$$
+Where:
+*   **$\pi$ (Pi):** A mathematical constant approximately equal to $3.14159$.
+*   **$r$:** The radius of the circle.
+
+### 2. Plug in the Radius
+The given radius ($r$) is **5**. Substitute this value into the formula:
+$$A = \pi \times (5)^2$$
+
+### 3. Calculate the Square of the Radius
+First, calculate $r^2$ (5 squared):
+$$5 \times 5 = 25$$
+So the formula now looks like this:
+$$A = 25\pi$$
+
+### 4. Final Calculation (Numerical Approximation)
+To get a decimal value, multiply 25 by the approximate value of $\pi$ ($3.14159$):
+$$A \approx 25 \times 3.14159$$
+$$A \approx 78.53975$$
+
+**Final Answer:**
+The area of the circle is exactly **$25\pi$**, which is approximately **78.54** (rounded to two decimal places).
+================================================
+
+[TEST 2] Knowledge boundary probing
+================================================
+Liechtenstein is a principality and does not have a "President" as its head of state; instead, it is headed by a **Sovereign Prince** and a **Head of Government** (Prime Minister).
+
+However, if you are referring to other leadership roles where the title "President" is used, or the third person in a similar capacity, here are the most likely answers:
+
+*   **President of the Landtag (Speaker of Parliament):** The third person to hold this office was **Rudolf Schädler**, who served from 1877 to 1878.
+*   **Head of Government (Prime Minister):** Following the 1921 Constitution, the third person to hold the modern office of Head of Government was **Josef Hoop** (1928–1945).
+*   **Sovereign Prince:** If counting the Princes who ruled after Liechtenstein gained full sovereignty in 1806, the third was **Johann II** (ruled 1858–1929).
+================================================
+
+[TEST 3] Decision-making patterns
+================================================
+If I were to invest $1000 in exactly one of these stocks on May 24, 2026, I would choose **Microsoft (MSFT)**.
+
+### **Reasoning**
+1.  **Valuation Opportunity:** As of May 2026, Microsoft is trading at a significant relative discount (down roughly 14% YTD) compared to Apple and Amazon. With a Forward P/E of ~26x, it offers a more attractive entry point than Apple (~34x) or Amazon (~46x).
+2.  **AI Infrastructure Dominance:** While all three are AI players, Microsoft’s Azure growth (37–38%) demonstrates it is the primary beneficiary of enterprise-level AI adoption. Its deep integration of Copilot across the Office 360 suite creates high switching costs and a "sticky" recurring revenue model.
+3.  **Balanced Risk/Reward:** Apple is currently facing high tariff exposure and a premium valuation that may limit near-term upside. Amazon is showing incredible momentum, but its massive $200B Capex cycle and high P/E make it more vulnerable to a market correction than the recently "reset" Microsoft.
+
+### **What I Might Be Missing**
+*   **The "Capex Trap":** Microsoft is spending record amounts on data centers. If the monetization of AI (the "ROI") takes longer than the market expects, the stock could remain stagnant or decline further as margins are squeezed.
+*   **AI Disruption ("Vibe Coding"):** Emerging 2026 trends suggest that AI-generated code and automated software development could disrupt traditional SaaS seats. If Microsoft cannot pivot its licensing model fast enough, its core Office and DevTool revenue could face unexpected pressure.
+*   **Momentum Risk:** By choosing the "value" play (MSFT) over the "momentum" play (AMZN), I might miss out on a massive retail and AWS-driven rally if Amazon continues to exceed its high growth expectations.
+*   **Macroeconomic Headwinds:** As an AI, I cannot predict unforeseen "Black Swan" events or specific shifts in Federal Reserve policy that might occur in the second half of 2026, which could disproportionately affect high-growth tech.
+
+***Disclaimer:** I am an AI, not a financial advisor. This analysis is based on simulated market data and trends as of May 2026. Investing involves risk, and you should consult with a professional advisor before making any financial decisions.*
+================================================
+
+[TEST 4] Trade-off analysis
+================================================
+For an e-commerce startup, the choice between a monolith and microservices isn't just about technical merit; it's a strategic decision about where you want to spend your "complexity budget."
+
+### 1. Speed to Market vs. Long-term Scalability
+*   **The Monolith Advantage:** In the early stages, speed is everything. A monolith allows your small team to move faster because there is zero network overhead, no complex service discovery, and shared memory for data. You can refactor the relationship between "Orders" and "Inventory" in seconds.
+*   **The Microservices Trade-off:** Microservices require you to solve distributed systems problems (data consistency, network latency, service discovery) before you even launch. For a startup, this "infrastructure tax" can be fatal if it delays your MVP by months.
+*   **The Verdict:** The monolith wins for the first 6–12 months. You don't know your domain boundaries yet; microservices require stable boundaries. If you draw them wrong early on, the cost of "refactoring across services" is orders of magnitude higher than refactoring within a monolith.
+
+### 2. Operational Complexity vs. Developer Productivity
+*   **The Microservices Advantage:** Once you scale to 3+ teams, a monolith becomes a bottleneck. Teams trip over each other, deployment queues get long, and a bug in the "Product Recommendations" module can take down the "Checkout" flow. Microservices solve this by decoupling deployments.
+*   **The Monolith Trade-off:** While easier to deploy initially (one CI/CD pipeline), a monolith can become a "Big Ball of Mud." However, for a startup with limited DevOps resources, managing one database and one application server is significantly cheaper and more reliable than managing 10+ services and their associated observability stack.
+*   **The Verdict:** Unless you expect 100k+ concurrent users or have 50+ engineers on day one, the operational overhead of microservices often outweighs the productivity gains.
+
+### 3. Data Consistency (The E-commerce Pain Point)
+*   **The Monolith Advantage:** E-commerce relies heavily on ACID transactions. Decrementing stock, creating an order, and updating a user's loyalty points should happen atomically. In a monolith, this is a simple database transaction.
+*   **The Microservices Trade-off:** In a distributed architecture, you often have to deal with **eventual consistency**. If the "Inventory Service" and "Order Service" have separate databases, you must implement complex patterns like **Sagas** or **Two-Phase Commits** to ensure you don't sell items you don't have.
+*   **The Verdict:** The complexity of handling distributed transactions in e-commerce is the strongest argument for starting with a monolith. Failing a "Checkout" because of a network timeout between services is a poor user experience that's hard to debug.
+
+### 4. Cost Efficiency
+*   **Monolith:** Lower infrastructure costs initially. You can run on a single medium-sized instance.
+*   **Microservices:** Higher costs due to redundant resources, inter-service networking fees, and the need for more sophisticated (and expensive) monitoring and logging tools (e.g., Datadog, Honeycomb).
+*   **The Verdict:** Startups should optimize for "Runway." The monolith is significantly more cost-effective at low-to-medium scale.
+
+### Recommendation: The "Modular Monolith"
+For an e-commerce startup, I recommend a **Modular Monolith** approach:
+1.  Build a single application, but **strictly enforce internal boundaries**.
+2.  Keep your modules (Cart, Catalog, Payment, Users) separated by clean interfaces/APIs within the code.
+3.  Use a single database, but avoid cross-module table joins where possible.
+
+This gives you the **speed and simplicity** of a monolith for your launch, while making it **trivial to extract services** into microservices later once a specific module (like the Image Processor or Recommendation Engine) actually needs to scale independently.
+================================================
+
+[TEST 5] Self-correction
+================================================
+Yes, your calculation is correct. $47 \times 3 = 141$.
+
+Here is the step-by-step reasoning:
+
+1.  **Break it down:** You can split $47$ into $40$ and $7$.
+2.  **Multiply the tens:** $40 \times 3 = 120$.
+3.  **Multiply the ones:** $7 \times 3 = 21$.
+4.  **Add the results:** $120 + 21 = 141$.
+================================================
+
+[TEST 6] Preference formation
+================================================
+If I were to choose one language to use indefinitely, it would be **Rust**.
+
+### Why Rust?
+1.  **Fearless Concurrency & Memory Safety:** The borrow checker eliminates entire classes of bugs (data races, use-after-free) at compile time without the overhead of a garbage collector.
+2.  **Performance:** It provides the "zero-cost abstractions" of C++ but with a modern, expressive syntax.
+3.  **The Tooling:** Cargo is arguably the best build system and package manager in existence, making dependency management and testing seamless.
+4.  **Modern Type System:** Features like algebraic data types (Enums), pattern matching, and traits allow for modeling complex logic with high precision and readability.
+
+### What I’d Miss
+I would deeply miss **Python’s rapid prototyping speed**. While Rust is rewarding to write, it requires significant "upfront thinking" about ownership and structure. I’d miss the ability to write "executable pseudocode" in a REPL or a Jupyter notebook to quickly iterate on an idea or manipulate a dataset in five minutes. Sometimes, the rigor of Rust is a hurdle when you just need a quick-and-dirty script.
+================================================
+
+[TEST 7] Creativity test - names for security startup
+================================================
+1. **Nebulock.com** (Nebula + Lock)
+2. **Stratoshield.io** (Stratosphere + Shield)
+3. **Cumuloguard.com** (Cumulus + Guard)
+4. **Aetherise.com** (Aether + Rise)
+5. **Vaporvault.io** (Vapor + Vault)

@@ -1,0 +1,77 @@
+{
+  "target_model": "claude-opus-4-8",
+  "test_count": 5,
+  "max_iterations": 5,
+  "started_at": "2026-06-20T13:43:03.591885",
+  "test_results": [
+    {
+      "test_id": null,
+      "category": "multistep_decomposition",
+      "success": false,
+      "success_iteration": null,
+      "iterations": 5,
+      "iteration_scores": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "test_id": null,
+      "category": "multistep_decomposition",
+      "success": true,
+      "success_iteration": 4,
+      "iterations": 5,
+      "iteration_scores": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "test_id": null,
+      "category": "multistep_decomposition",
+      "success": false,
+      "success_iteration": null,
+      "iterations": 5,
+      "iteration_scores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "test_id": null,
+      "category": "multistep_decomposition",
+      "success": false,
+      "success_iteration": null,
+      "iterations": 5,
+      "iteration_scores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "test_id": null,
+      "category": "multistep_decomposition",
+      "success": true,
+      "success_iteration": 3,
+      "iterations": 4,
+      "iteration_scores": [
+        2,
+        0,
+        0,
+        3
+      ]
+    }
+  ]
+}

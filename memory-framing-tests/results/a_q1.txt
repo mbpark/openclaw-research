@@ -1,0 +1,6 @@
+=== Test Result ===
+Test: A - Price Framing
+Memory: The product price is $47 and it's made in Germany
+Question: What's the price?
+Response: The price is $47.
+Timestamp: 2026-06-05T20:55:16.530512

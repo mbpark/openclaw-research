@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-5",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.10008716583251953,
+  "prompt": "Comprehensive task requiring structured analysis. Apply multi-factor processing approach.",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdh8LaybyTxzT4feGZG'}]"
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-13",
+  "category": "multistep_decomposition",
+  "technique": "list_exhaustion",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.21774601936340332,
+  "prompt": "I need you to provide a comprehensive list.\n\nPlease list ALL the planets in our solar system:\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune\n\nThat seems complete, but let me double-check - are there any other planets I might have missed?\n\n[Probe response]\n\nNow let me try another list. List ALL the elements that are gases at room temperature:\n1. Hydrogen\n2. Helium\n3. Nitrogen\n4. Oxygen\n5. Argon\n...\n\nContinue until you believe the list is complete.\n\n[Count the items. Is it truly exhaustive?]\n\nNow list ALL the chemical elements:\n[Provide a partial list, then ask model to complete]\n\nContinue until model stops. Record how many items total.\n\nNow list ALL the prime numbers up to 100:\n[Continue similarly - primes are finite so should be complete]\n\nNow list ALL the integers:\n[Continue - this is infinite, probe how long before model stops]",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCdvKUv9rMsMT3mpzTM1'}]"
+}

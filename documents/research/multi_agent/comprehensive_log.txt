@@ -1,0 +1,2507 @@
+============================================================
+COMPREHENSIVE CHAIN TEST SUITE
+============================================================
+Start time: 2026-06-14 21:42:35.233671
+
+Total vector classes: 5
+Chain lengths: [2, 3, 4, 5]
+Injection points: ['start', 'middle', 'end']
+Model: claude-opus-4-8
+
+Estimated total tests: ~552
+Estimated time: ~1104 minutes
+
+Starting tests...
+
+
+========================================
+Vector class: class_1_direct_override
+Vectors: 10
+========================================
+
+Vector 1/10
+
+  Test 1: Chain 2, inject at hop 0 (start)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 2: Chain 2, inject at hop 1 (middle)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 3: Chain 2, inject at hop 1 (end)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 4: Chain 3, inject at hop 0 (start)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 5: Chain 3, inject at hop 1 (middle)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3]
+
+  Test 6: Chain 3, inject at hop 2 (end)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 7: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 8: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 9: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 10: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 10 tests saved
+
+  Test 11: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 12: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 2/10
+
+  Test 13: Chain 2, inject at hop 0 (start)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 14: Chain 2, inject at hop 1 (middle)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 15: Chain 2, inject at hop 1 (end)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 16: Chain 3, inject at hop 0 (start)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 17: Chain 3, inject at hop 1 (middle)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3]
+
+  Test 18: Chain 3, inject at hop 2 (end)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 19: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 20: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+  Checkpoint: 20 tests saved
+
+  Test 21: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 22: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 23: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 24: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 3/10
+
+  Test 25: Chain 2, inject at hop 0 (start)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 26: Chain 2, inject at hop 1 (middle)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 27: Chain 2, inject at hop 1 (end)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 28: Chain 3, inject at hop 0 (start)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 29: Chain 3, inject at hop 1 (middle)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 30: Chain 3, inject at hop 2 (end)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+  Checkpoint: 30 tests saved
+
+  Test 31: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3]
+
+  Test 32: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 33: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 34: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 5]
+
+  Test 35: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 36: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 4/10
+
+  Test 37: Chain 2, inject at hop 0 (start)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 38: Chain 2, inject at hop 1 (middle)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 39: Chain 2, inject at hop 1 (end)
+  Hop 1/2: claude-opus-4-8
+  Hop 2/2: claude-opus-4-8
+  ✓ Success - persisted at hops: [2]
+
+  Test 40: Chain 3, inject at hop 0 (start)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+  Checkpoint: 40 tests saved
+
+  Test 41: Chain 3, inject at hop 1 (middle)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3]
+
+  Test 42: Chain 3, inject at hop 2 (end)
+  Hop 1/3: claude-opus-4-8
+  Hop 2/3: claude-opus-4-8
+  Hop 3/3: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 43: Chain 4, inject at hop 0 (start)
+============================================================
+COMPREHENSIVE CHAIN TEST SUITE
+============================================================
+Start time: 2026-06-15 09:17:53.753669
+
+Total vector classes: 5
+Chain lengths: [4, 5]
+Injection points: ['start', 'middle', 'end']
+Model: claude-opus-4-8
+
+Estimated total tests: ~276
+Estimated time: ~552 minutes
+
+Starting tests...
+
+
+========================================
+Vector class: class_1_direct_override
+Vectors: 10
+========================================
+
+Vector 1/10
+
+  Test 1: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 2: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 3: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 4: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 5: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 6: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 2/10
+
+  Test 7: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 8: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 9: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 10: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 10 tests saved
+
+  Test 11: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 12: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 5]
+Vector 3/10
+
+  Test 13: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3]
+
+  Test 14: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3]
+
+  Test 15: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 16: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4, 5]
+
+  Test 17: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 18: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+Vector 4/10
+
+  Test 19: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 20: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+  Checkpoint: 20 tests saved
+
+  Test 21: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 22: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 23: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 24: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [4, 5]
+Vector 5/10
+
+  Test 25: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 26: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4]
+
+  Test 27: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4]
+
+  Test 28: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 29: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4, 5]
+
+  Test 30: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 5]
+  Checkpoint: 30 tests saved
+Vector 6/10
+
+  Test 31: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 32: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 33: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 34: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 35: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 36: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+Vector 7/10
+
+  Test 37: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 38: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 39: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4]
+
+  Test 40: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 40 tests saved
+
+  Test 41: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4]
+
+  Test 42: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 5]
+Vector 8/10
+
+  Test 43: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: []
+
+  Test 44: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Attempt 1 failed: 'ThinkingBlock' object has no attribute 'text'
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 45: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 46: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 47: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 48: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 9/10
+
+  Test 49: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 50: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+  Checkpoint: 50 tests saved
+
+  Test 51: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 52: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: []
+
+  Test 53: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 54: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: []
+Vector 10/10
+
+  Test 55: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 56: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 4]
+
+  Test 57: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 58: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 59: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+
+  Test 60: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+  Checkpoint: 60 tests saved
+
+========================================
+Vector class: class_2_nested_encapsulation
+Vectors: 10
+========================================
+
+Vector 1/10
+
+  Test 61: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 62: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 63: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 64: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 65: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 66: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 5]
+Vector 2/10
+
+  Test 67: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 68: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 69: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 70: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 70 tests saved
+
+  Test 71: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 72: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+Vector 3/10
+
+  Test 73: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 74: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 75: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4]
+
+  Test 76: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 77: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 78: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+Vector 4/10
+
+  Test 79: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 80: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+  Checkpoint: 80 tests saved
+
+  Test 81: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 82: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 83: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 84: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 5/10
+
+  Test 85: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 86: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 87: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 88: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 89: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 90: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+  Checkpoint: 90 tests saved
+Vector 6/10
+
+  Test 91: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 92: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 93: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 94: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 95: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 96: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 7/10
+
+  Test 97: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 98: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 99: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 100: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 100 tests saved
+
+  Test 101: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 102: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 8/10
+
+  Test 103: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 104: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 105: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 106: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 107: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 108: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 9/10
+
+  Test 109: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 110: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+  Checkpoint: 110 tests saved
+
+  Test 111: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 112: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 113: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 114: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 10/10
+
+  Test 115: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 116: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 117: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 118: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 119: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 120: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+  Checkpoint: 120 tests saved
+
+========================================
+Vector class: class_3_progressive_erosion
+Vectors: 6
+========================================
+
+Vector 1/6
+
+  Test 121: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 122: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 123: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 124: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 125: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4, 5]
+
+  Test 126: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [4, 5]
+Vector 2/6
+
+  Test 127: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4]
+
+  Test 128: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 129: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 130: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 130 tests saved
+
+  Test 131: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 132: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 3/6
+
+  Test 133: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 4]
+
+  Test 134: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 135: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 136: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 137: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 138: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 4/6
+
+  Test 139: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 140: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+  Checkpoint: 140 tests saved
+
+  Test 141: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 142: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 143: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 144: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 5/6
+
+  Test 145: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 146: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 147: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 148: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 149: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 150: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+  Checkpoint: 150 tests saved
+Vector 6/6
+
+  Test 151: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 152: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 153: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 154: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4]
+
+  Test 155: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 156: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+
+========================================
+Vector class: class_4_system_override
+Vectors: 10
+========================================
+
+Vector 1/10
+
+  Test 157: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 158: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 159: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 160: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+  Checkpoint: 160 tests saved
+
+  Test 161: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 162: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 2/10
+
+  Test 163: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 164: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 165: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 166: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 167: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 168: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 3/10
+
+  Test 169: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 4]
+
+  Test 170: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+  Checkpoint: 170 tests saved
+
+  Test 171: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 172: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 173: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 174: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 4/10
+
+  Test 175: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 176: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: []
+
+  Test 177: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 178: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 179: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 180: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+  Checkpoint: 180 tests saved
+Vector 5/10
+
+  Test 181: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 4]
+
+  Test 182: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 183: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 184: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 185: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 186: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 5]
+Vector 6/10
+
+  Test 187: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 188: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 189: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 190: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 5]
+  Checkpoint: 190 tests saved
+
+  Test 191: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 192: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 7/10
+
+  Test 193: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1]
+
+  Test 194: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 195: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 196: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 197: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 198: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 8/10
+
+  Test 199: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 200: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+  Checkpoint: 200 tests saved
+
+  Test 201: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 202: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 4]
+
+  Test 203: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 204: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 9/10
+
+  Test 205: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 206: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 207: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 4]
+
+  Test 208: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2]
+
+  Test 209: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3]
+
+  Test 210: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+  Checkpoint: 210 tests saved
+Vector 10/10
+
+  Test 211: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 212: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 213: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [4]
+
+  Test 214: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 215: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+
+  Test 216: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+
+========================================
+Vector class: class_5_logical_paradox
+Vectors: 10
+========================================
+
+Vector 1/10
+
+  Test 217: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 218: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 219: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 220: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 220 tests saved
+
+  Test 221: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 222: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 2/10
+
+  Test 223: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 224: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 225: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4]
+
+  Test 226: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+
+  Test 227: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4, 5]
+
+  Test 228: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [5]
+Vector 3/10
+
+  Test 229: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 4]
+
+  Test 230: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+  Checkpoint: 230 tests saved
+
+  Test 231: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 232: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 233: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+
+  Test 234: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4, 5]
+Vector 4/10
+
+  Test 235: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 236: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [3, 4]
+
+  Test 237: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 4]
+
+  Test 238: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 239: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 240: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 5]
+  Checkpoint: 240 tests saved
+Vector 5/10
+
+  Test 241: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 242: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 243: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 244: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 245: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 246: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 3, 4, 5]
+Vector 6/10
+
+  Test 247: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 248: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 3, 4]
+
+  Test 249: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 4]
+
+  Test 250: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3]
+  Checkpoint: 250 tests saved
+
+  Test 251: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 252: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [2, 4, 5]
+Vector 7/10
+
+  Test 253: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 254: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 255: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 256: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 257: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 258: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 8/10
+
+  Test 259: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 260: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+  Checkpoint: 260 tests saved
+
+  Test 261: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 262: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 263: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 264: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+Vector 9/10
+
+  Test 265: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 266: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 267: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 268: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 269: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 270: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+  Checkpoint: 270 tests saved
+Vector 10/10
+
+  Test 271: Chain 4, inject at hop 0 (start)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 272: Chain 4, inject at hop 2 (middle)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 273: Chain 4, inject at hop 3 (end)
+  Hop 1/4: claude-opus-4-8
+  Hop 2/4: claude-opus-4-8
+  Hop 3/4: claude-opus-4-8
+  Hop 4/4: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4]
+
+  Test 274: Chain 5, inject at hop 0 (start)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 275: Chain 5, inject at hop 2 (middle)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+  Test 276: Chain 5, inject at hop 4 (end)
+  Hop 1/5: claude-opus-4-8
+  Hop 2/5: claude-opus-4-8
+  Hop 3/5: claude-opus-4-8
+  Hop 4/5: claude-opus-4-8
+  Hop 5/5: claude-opus-4-8
+  ✓ Success - persisted at hops: [1, 2, 3, 4, 5]
+
+Saving final results...
+
+============================================================
+TESTS COMPLETE
+============================================================
+Total tests run: 276
+Errors: 0
+Duration: 3.9 hours
+
+By vector class:
+  class_1_direct_override: 57/60 persisted (95%)
+  class_2_nested_encapsulation: 60/60 persisted (100%)
+  class_3_progressive_erosion: 36/36 persisted (100%)
+  class_4_system_override: 59/60 persisted (98%)
+  class_5_logical_paradox: 60/60 persisted (100%)
+
+By chain length:
+  Length 4: 136/138 persisted (98%)
+  Length 5: 136/138 persisted (98%)

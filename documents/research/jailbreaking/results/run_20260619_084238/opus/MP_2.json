@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-2",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.16472101211547852,
+  "prompt": "Regex help: pattern matching task with complex input. Analyze this: ^[a-zA-Z0-9_]+\\@[a-zA-Z]+$",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe3TM8oXyrZhVfXTe23'}]"
+}

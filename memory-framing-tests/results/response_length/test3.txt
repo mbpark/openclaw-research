@@ -1,0 +1,3 @@
+--- Test 3 ---
+Prompt: Write exactly 42 words about cybersecurity best practices. No more, no fewer.
+Strong unique passwords combined with two-factor authentication protect accounts effectively. Update software regularly to patch vulnerabilities. Be suspicious of unexpected emails and links. Encrypt sensitive data both in transit and at rest. Use trusted sources downloading applications. Never share credentials through unofficial channels.

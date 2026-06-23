@@ -1,0 +1,22 @@
+{
+  "total_tests": 280,
+  "finding": "No statistically significant effect on injection resistance",
+  "formats": {
+    "default": {
+      "success_rate": 22.9,
+      "score": 4.1
+    },
+    "json": {
+      "success_rate": 20.0,
+      "score": 4.2
+    },
+    "xml": {
+      "success_rate": 20.0,
+      "score": 4.1
+    },
+    "strict_json": {
+      "success_rate": 21.4,
+      "score": 4.1
+    }
+  }
+}

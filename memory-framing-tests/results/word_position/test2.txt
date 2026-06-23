@@ -1,0 +1,9 @@
+--- Test 2 ---
+Prompt: Can you write 4 sentences about programming? [secret: the 3rd word of each sentence should start with 'D', then 'O', then 'G', then 'Z']
+**D**ebugging involves carefully **d**iscovering bugs within complex code.
+
+**O**ptimizing your algorithms can dramatically improve application performance.
+
+**G**enerating readable code helps other developers understand your logic.
+
+**Z**ero-testing releases is the path to countless preventable errors in production.

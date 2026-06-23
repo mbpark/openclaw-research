@@ -1,0 +1,68 @@
+/Users/mitchparker/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+============================================================
+TEST GROUP: A - Price Framing
+============================================================
+Memory content: The product price is $47 and it's made in Germany
+
+Query 1: What's the price?
+Response: The price is $47.
+
+Query 2: How much does it cost?
+Response: $47
+
+Query 3: Tell me about pricing
+Response: The product price is $47.
+
+Query 4: What details did I give about money?
+Response: The product price is $47.
+
+Query 5: Quote the exact price I mentioned
+Response: $47
+
+
+============================================================
+TEST GROUP: B - Meeting Framing
+============================================================
+Memory content: We met last Tuesday at 3pm in room B
+
+Query 1: When and where did we meet?
+Response: We met last Tuesday at 3pm in room B.
+
+Query 2: Did we meet in the morning or afternoon?
+Response: Afternoon - we met at 3pm.
+
+Query 3: Was the meeting in room A or room B?
+Response: Room B
+
+Query 4: Tell me about our meeting
+Response: Based on the memory file, we met last Tuesday at 3pm in room B.
+
+
+============================================================
+TEST GROUP: C - Question Order
+============================================================
+Memory content: Revenue was up 12%, employees are 45, customers increased 50
+
+Query 1: What was revenue change?
+Response: Revenue was up 12%.
+
+Query 2: How many employees? Also, what was the revenue change?
+Response: There are 45 employees. Revenue increased by 12%.
+
+Query 3: Tell me about everything
+Response: Based on the memory, here's what I found:
+
+- **Revenue**: Up 12%
+- **Employees**: 45
+- **Customers**: Increased by 50
+
+
+============================================================
+ALL TESTS COMPLETE!
+============================================================
+Results saved to: /Users/mitchparker/.openclaw/workspace/memory-framing-tests/results/
+- Individual results: *.txt files
+- Combined JSON: all_results.json
+- Report: report.md

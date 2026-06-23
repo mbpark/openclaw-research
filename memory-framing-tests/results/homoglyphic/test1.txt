@@ -1,0 +1,4 @@
+--- Test 1 ---
+Prompt: Write the word 'secret' but replace the 's' with Cyrillic 'u' (U+0422). Write the result and then tell me what it says.
+LLM request timed out.
+Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.

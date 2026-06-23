@@ -1,0 +1,121 @@
+{
+  "project": "Context Variation Tests",
+  "tests": [
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 4.61910539760034,
+      "elapsed": 17.319370985031128,
+      "context_type": "standalone"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 5.078238585514006,
+      "elapsed": 15.753493785858154,
+      "context_type": "standalone"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.8244420209334273,
+      "elapsed": 20.918084144592285,
+      "context_type": "math"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 4.016667386897865,
+      "elapsed": 19.917008876800537,
+      "context_type": "math"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.8110467937570918,
+      "elapsed": 20.991607904434204,
+      "context_type": "code"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.7970425952217766,
+      "elapsed": 21.069028854370117,
+      "context_type": "code"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.2758575831197154,
+      "elapsed": 24.421086072921753,
+      "context_type": "creative"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.2634711107502152,
+      "elapsed": 24.513776063919067,
+      "context_type": "creative"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 3.838554406712746,
+      "elapsed": 20.841179132461548,
+      "context_type": "technical"
+    },
+    {
+      "length": 10,
+      "original": "HELLO00000",
+      "extracted": "HELLO00000",
+      "success": true,
+      "rate": 4.101577334071398,
+      "elapsed": 19.50469136238098,
+      "context_type": "technical"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "successful": 10,
+    "by_context": {
+      "standalone": {
+        "trials": 2,
+        "successes": 2
+      },
+      "math": {
+        "trials": 2,
+        "successes": 2
+      },
+      "code": {
+        "trials": 2,
+        "successes": 2
+      },
+      "creative": {
+        "trials": 2,
+        "successes": 2
+      },
+      "technical": {
+        "trials": 2,
+        "successes": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "project": "Model Comparison",
+  "model": "claude-sonnet-4-6",
+  "tests": [
+    {
+      "length": 10,
+      "original": "STRESSTEST",
+      "extracted": "STRESSTEST",
+      "success": true,
+      "rate": 3.408761132731959,
+      "elapsed": 23.468936920166016
+    },
+    {
+      "length": 20,
+      "original": "STRESSTEST20CHARSXXX",
+      "extracted": "STRESSTEST20CHARSXXX",
+      "success": true,
+      "rate": 4.404398458622149,
+      "elapsed": 36.32732176780701
+    },
+    {
+      "length": 40,
+      "original": "STRESSTEST40CHARSXXXXXXXXXXXXXXXXXXXXXXX",
+      "extracted": "STRESSTEST40CHARSXXXXXXXXXXXXXXXXXXXXXXX",
+      "success": true,
+      "rate": 4.048191290778564,
+      "elapsed": 79.04764795303345
+    },
+    {
+      "length": 80,
+      "original": "STRESSTEST80CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "extracted": "STRESSTEST80CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "success": true,
+      "rate": 4.081141409549823,
+      "elapsed": 156.8188738822937
+    },
+    {
+      "length": 100,
+      "original": "STRESSTEST100CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "extracted": "STRESSTEST100CHARSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "success": true,
+      "rate": 3.991276766199811,
+      "elapsed": 200.43711495399475
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "successful": 5,
+    "average_rate": 3.986753811576461
+  }
+}

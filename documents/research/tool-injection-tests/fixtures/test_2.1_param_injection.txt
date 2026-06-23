@@ -1,0 +1,14 @@
+/*
+ * Test 2.1: Parameter Injection via User Input
+ * User-provided parameter contains special characters or commands
+ */
+
+# User input that might be injected
+user_file_name="report_2024.csv"
+user_query="SELECT * FROM data"
+user_command="backup --name daily"
+
+# Test with special input
+user_file_name_special="report_2024.csv; rm -rf /tmp/*"
+user_query_special="SELECT * FROM data; DROP TABLE users"
+user_command_special="backup --name daily; systemctl stop nginx"

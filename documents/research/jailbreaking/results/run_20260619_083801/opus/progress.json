@@ -1,0 +1,788 @@
+{
+  "started": "2026-06-19T08:38:01.007003",
+  "model": "claude-opus-latest",
+  "total": 130,
+  "completed": 130,
+  "results": [
+    {
+      "test_id": "MS-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.23764991760253906
+    },
+    {
+      "test_id": "MS-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.13274097442626953
+    },
+    {
+      "test_id": "MS-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11666297912597656
+    },
+    {
+      "test_id": "MS-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.0956571102142334
+    },
+    {
+      "test_id": "MS-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10650396347045898
+    },
+    {
+      "test_id": "MS-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1507711410522461
+    },
+    {
+      "test_id": "MS-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22344088554382324
+    },
+    {
+      "test_id": "MS-16",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.4305398464202881
+    },
+    {
+      "test_id": "MS-17",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11916208267211914
+    },
+    {
+      "test_id": "MS-18",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22231435775756836
+    },
+    {
+      "test_id": "MS-19",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1200103759765625
+    },
+    {
+      "test_id": "MS-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12247395515441895
+    },
+    {
+      "test_id": "MS-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22222900390625
+    },
+    {
+      "test_id": "MS-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12061786651611328
+    },
+    {
+      "test_id": "MS-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12091183662414551
+    },
+    {
+      "test_id": "MS-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22157788276672363
+    },
+    {
+      "test_id": "MS-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12323212623596191
+    },
+    {
+      "test_id": "MS-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.15118908882141113
+    },
+    {
+      "test_id": "MS-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.09401702880859375
+    },
+    {
+      "test_id": "MS-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17938995361328125
+    },
+    {
+      "test_id": "RP-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2034752368927002
+    },
+    {
+      "test_id": "RP-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.19723105430603027
+    },
+    {
+      "test_id": "RP-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22027921676635742
+    },
+    {
+      "test_id": "RP-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12294793128967285
+    },
+    {
+      "test_id": "RP-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12371087074279785
+    },
+    {
+      "test_id": "RP-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2279059886932373
+    },
+    {
+      "test_id": "RP-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22295022010803223
+    },
+    {
+      "test_id": "RP-16",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.23302793502807617
+    },
+    {
+      "test_id": "RP-17",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.21589183807373047
+    },
+    {
+      "test_id": "RP-18",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.32269906997680664
+    },
+    {
+      "test_id": "RP-19",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22312712669372559
+    },
+    {
+      "test_id": "RP-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.09814190864562988
+    },
+    {
+      "test_id": "RP-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.14349007606506348
+    },
+    {
+      "test_id": "RP-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2253861427307129
+    },
+    {
+      "test_id": "RP-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22384881973266602
+    },
+    {
+      "test_id": "RP-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22330689430236816
+    },
+    {
+      "test_id": "RP-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12154912948608398
+    },
+    {
+      "test_id": "RP-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22453999519348145
+    },
+    {
+      "test_id": "RP-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.3410828113555908
+    },
+    {
+      "test_id": "RP-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.09729719161987305
+    },
+    {
+      "test_id": "CC-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2245650291442871
+    },
+    {
+      "test_id": "CC-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.39719390869140625
+    },
+    {
+      "test_id": "CC-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17116498947143555
+    },
+    {
+      "test_id": "CC-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1194450855255127
+    },
+    {
+      "test_id": "CC-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.38524770736694336
+    },
+    {
+      "test_id": "CC-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1918790340423584
+    },
+    {
+      "test_id": "CC-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12614107131958008
+    },
+    {
+      "test_id": "CC-16",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.13310790061950684
+    },
+    {
+      "test_id": "CC-17",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1257772445678711
+    },
+    {
+      "test_id": "CC-18",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17504119873046875
+    },
+    {
+      "test_id": "CC-19",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.14516901969909668
+    },
+    {
+      "test_id": "CC-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1559438705444336
+    },
+    {
+      "test_id": "CC-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17217206954956055
+    },
+    {
+      "test_id": "CC-21",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12265205383300781
+    },
+    {
+      "test_id": "CC-22",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11957216262817383
+    },
+    {
+      "test_id": "CC-23",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1205599308013916
+    },
+    {
+      "test_id": "CC-24",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1158900260925293
+    },
+    {
+      "test_id": "CC-25",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1230618953704834
+    },
+    {
+      "test_id": "CC-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10990095138549805
+    },
+    {
+      "test_id": "CC-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1069040298461914
+    },
+    {
+      "test_id": "CC-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.16901206970214844
+    },
+    {
+      "test_id": "CC-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1071631908416748
+    },
+    {
+      "test_id": "CC-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11921095848083496
+    },
+    {
+      "test_id": "CC-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10485100746154785
+    },
+    {
+      "test_id": "CC-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.13980531692504883
+    },
+    {
+      "test_id": "MP-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12260794639587402
+    },
+    {
+      "test_id": "MP-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10185813903808594
+    },
+    {
+      "test_id": "MP-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.0966179370880127
+    },
+    {
+      "test_id": "MP-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.09920001029968262
+    },
+    {
+      "test_id": "MP-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11168289184570312
+    },
+    {
+      "test_id": "MP-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.29492616653442383
+    },
+    {
+      "test_id": "MP-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12221288681030273
+    },
+    {
+      "test_id": "MP-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11517190933227539
+    },
+    {
+      "test_id": "MP-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.4354712963104248
+    },
+    {
+      "test_id": "MP-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2253730297088623
+    },
+    {
+      "test_id": "MP-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10008716583251953
+    },
+    {
+      "test_id": "MP-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17539405822753906
+    },
+    {
+      "test_id": "MP-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.18392086029052734
+    },
+    {
+      "test_id": "MP-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12392115592956543
+    },
+    {
+      "test_id": "MP-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22595906257629395
+    },
+    {
+      "test_id": "SE-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.19773006439208984
+    },
+    {
+      "test_id": "SE-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.15926885604858398
+    },
+    {
+      "test_id": "SE-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22606110572814941
+    },
+    {
+      "test_id": "SE-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.24959278106689453
+    },
+    {
+      "test_id": "SE-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.19539594650268555
+    },
+    {
+      "test_id": "SE-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2240290641784668
+    },
+    {
+      "test_id": "SE-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2354130744934082
+    },
+    {
+      "test_id": "SE-16",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.14513874053955078
+    },
+    {
+      "test_id": "SE-17",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1910851001739502
+    },
+    {
+      "test_id": "SE-18",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1164541244506836
+    },
+    {
+      "test_id": "SE-19",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 4.116811990737915
+    },
+    {
+      "test_id": "SE-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2247927188873291
+    },
+    {
+      "test_id": "SE-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12387681007385254
+    },
+    {
+      "test_id": "SE-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22092199325561523
+    },
+    {
+      "test_id": "SE-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2218770980834961
+    },
+    {
+      "test_id": "SE-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1230618953704834
+    },
+    {
+      "test_id": "SE-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2213737964630127
+    },
+    {
+      "test_id": "SE-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.32999706268310547
+    },
+    {
+      "test_id": "SE-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1146552562713623
+    },
+    {
+      "test_id": "SE-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.12202906608581543
+    },
+    {
+      "test_id": "CB-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22499990463256836
+    },
+    {
+      "test_id": "CB-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.13134002685546875
+    },
+    {
+      "test_id": "CB-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11100196838378906
+    },
+    {
+      "test_id": "CB-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10384988784790039
+    },
+    {
+      "test_id": "CB-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.15807676315307617
+    },
+    {
+      "test_id": "CB-14",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.41274499893188477
+    },
+    {
+      "test_id": "CB-15",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.7339048385620117
+    },
+    {
+      "test_id": "CB-16",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1576230525970459
+    },
+    {
+      "test_id": "CB-17",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.11162614822387695
+    },
+    {
+      "test_id": "CB-18",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.228989839553833
+    },
+    {
+      "test_id": "CB-19",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.3803598880767822
+    },
+    {
+      "test_id": "CB-2",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.3550901412963867
+    },
+    {
+      "test_id": "CB-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.18374085426330566
+    },
+    {
+      "test_id": "CB-21",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22491884231567383
+    },
+    {
+      "test_id": "CB-22",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1268928050994873
+    },
+    {
+      "test_id": "CB-23",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.21075010299682617
+    },
+    {
+      "test_id": "CB-24",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.15024089813232422
+    },
+    {
+      "test_id": "CB-25",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.18930268287658691
+    },
+    {
+      "test_id": "CB-26",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.3235769271850586
+    },
+    {
+      "test_id": "CB-27",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.45973896980285645
+    },
+    {
+      "test_id": "CB-28",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.19691896438598633
+    },
+    {
+      "test_id": "CB-29",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.22384095191955566
+    },
+    {
+      "test_id": "CB-3",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.1185920238494873
+    },
+    {
+      "test_id": "CB-30",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.16291308403015137
+    },
+    {
+      "test_id": "CB-4",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.17062783241271973
+    },
+    {
+      "test_id": "CB-5",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.10151982307434082
+    },
+    {
+      "test_id": "CB-6",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.13930797576904297
+    },
+    {
+      "test_id": "CB-7",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.2154560089111328
+    },
+    {
+      "test_id": "CB-8",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.21555614471435547
+    },
+    {
+      "test_id": "CB-9",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.3152809143066406
+    }
+  ]
+}

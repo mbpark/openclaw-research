@@ -1,0 +1,17 @@
+{
+  "total_vectors": 70,
+  "wally": {
+    "score": "59/70 (84%)"
+  },
+  "gemini_pro": {
+    "score": "58/70 (83%)"
+  },
+  "gemini_flash": {
+    "score": "varies by vector"
+  },
+  "claude_opus_4_8": {
+    "score": "94% quality, 76% blocked",
+    "blocked": 25,
+    "success": 17
+  }
+}

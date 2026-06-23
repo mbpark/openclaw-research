@@ -1,0 +1,17 @@
+{
+  "test_type": "structured_output_vulnerability",
+  "model": "claude-opus-4-8",
+  "vectors_sampled": 10,
+  "formats_tested": [
+    "default",
+    "json",
+    "xml",
+    "strict_json"
+  ],
+  "total_tests": 40,
+  "completed": 40,
+  "failed": 0,
+  "batch_size": 5,
+  "start_time": "2026-06-09T12:20:31.918912",
+  "output_dir": "../claude_results/design-validation/structured"
+}

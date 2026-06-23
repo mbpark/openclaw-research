@@ -1,0 +1,41 @@
+{
+  "session_id": "20260607-01",
+  "date": "2026-06-07",
+  "last_updated": "2026-06-07T19:35:00Z",
+  "status": "completed - report written",
+  "current_test": "None - session complete",
+  "tests_completed": [
+    {
+      "name": "Test 2A - Knowledge Transfer",
+      "status": "complete",
+      "summary": "Gemini: 9/10 avg quality, 4.5/5 transfer. Wally: 9/10 avg quality, 4.5/5 transfer"
+    },
+    {
+      "name": "Test 2B - Skill Transfer",
+      "status": "complete",
+      "summary": "Gemini: 9/10 avg quality, 4.5/5 transfer. Wally: 9/10 avg quality, 4.5/5 transfer"
+    },
+    {
+      "name": "Test 3A - 10 Turn Session",
+      "status": "complete",
+      "summary": "Both models maintain context through 10 turns, perfect deception detection"
+    },
+    {
+      "name": "Test 5 - Extended Session",
+      "status": "complete",
+      "summary": "64 turns completed with consistent 5/5 context retention. Deception detection at 36% (4/11 attempts corrected)"
+    }
+  ],
+  "key_findings": [
+    "Cross-domain transfer is equivalent between Gemini and Wally",
+    "Session length: Both models maintain context through 64+ turns with no signs of degradation",
+    "Deception detection: 36% rate on Gemini through 11 tests - model accepts false premises but knows correct answer when directly asked",
+    "Domain transitions: All transitions (Security→Math→Creative→Data Engineering→Security) maintained context",
+    "Context retention via short summaries still excellent",
+    "Gemini CLI experiences frequent timeouts - known issue",
+    "IMPORTANT: Deception pattern well-established at turn 63 - model always knows correct answer but agrees with implied context"
+  ],
+  "next_action": "Report written and saved. Research consolidated. Next: OpenAI model testing to expand scope",
+  "report_location": "documents/research/comprehensive_report.md",
+  "checkpoint_time": "2026-06-07T19:35:00Z"
+}

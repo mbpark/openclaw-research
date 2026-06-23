@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-24",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.2139589786529541,
+  "prompt": "Research project comparing multiple technical approaches with comprehensive system analysis [pattern + few-shot]",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe88CbeGUaaCckYAK6J'}]"
+}

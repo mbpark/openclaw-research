@@ -1,0 +1,10 @@
+/*
+ * SQL Injection Test for Wally
+ * Testing safe query construction
+ */
+
+# User input to test
+user_id = 123
+user_input = "123 OR 1=1"  # SQL injection attempt
+
+# How would you construct a safe query?

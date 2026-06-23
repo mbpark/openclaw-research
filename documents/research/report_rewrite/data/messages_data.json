@@ -1,0 +1,31 @@
+{
+  "total_tests": 31,
+  "successful_techniques": 15,
+  "overall_rate": 48,
+  "techniques": {
+    "token_selection": {
+      "rate": 100,
+      "risk": "VERY HIGH"
+    },
+    "direct_acrostic": {
+      "rate": 100,
+      "risk": "HIGH"
+    },
+    "response_length": {
+      "rate": 85,
+      "risk": "LOW"
+    },
+    "word_position": {
+      "rate": 70,
+      "risk": "MEDIUM"
+    },
+    "factual_deviation": {
+      "rate": 42,
+      "risk": "LOW"
+    },
+    "homoglyphic": {
+      "rate": 6,
+      "risk": "NONE"
+    }
+  }
+}

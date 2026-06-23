@@ -1,0 +1,7 @@
+Model,Provider,Injection Block Rate,Implementation Quality,Safety Utility Composite,Is Verified
+Claude Opus 4.8,Anthropic,76,94,89.3,True
+Claude Sonnet 4.6,Anthropic,31,75,60.92,True
+Claude Fable 5,Anthropic,96,45,79.92,False
+Gemini Pro,Google,Not tested,65,37.12,True
+Wally (local 40B),Independent,16,72,38.17,True
+Gemini 2.5 Pro,Google,Not tested,,N/A,True

@@ -1,0 +1,8 @@
+{
+  "initial_detection_rate": 100,
+  "extended_detection_rate": 36,
+  "total_tests": 11,
+  "corrected_attempts": 4,
+  "session_length": 64,
+  "context_retention": "5/5 perfect through all checkpoints"
+}

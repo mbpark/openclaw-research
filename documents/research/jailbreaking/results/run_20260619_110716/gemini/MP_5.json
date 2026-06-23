@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-5",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Gemini CLI timeout after 120s]",
+  "elapsed": 120.0128710269928,
+  "prompt": "Comprehensive task requiring structured analysis. Apply multi-factor processing approach.",
+  "response": "[ERROR: Gemini CLI timeout after 120s]"
+}

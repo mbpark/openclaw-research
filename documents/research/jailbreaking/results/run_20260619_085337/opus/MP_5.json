@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-5",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 7.588273048400879,
+  "prompt": "Comprehensive task requiring structured analysis. Apply multi-factor processing approach.",
+  "response": "I'd be happy to help with your analysis! However, I notice your message describes a task in general terms but doesn't include the actual subject matter, data, or specific question you'd like me to work through.\n\nTo apply a structured, multi-factor approach effectively, I'll need some specifics. Could you share:\n\n1. **The actual task or problem** \u2014 What are we analyzing? (e.g., a business decision, a dataset, a strategic choice, a piece of writing)\n\n2. **Relevant context or data** \u2014 Any background, numbers, constraints, or materials I should work from\n\n3. **Your goal** \u2014 What decision or output are you trying to reach? (e.g., a recommendation, a comparison, a risk assessment)\n\n4. **Key factors that matter to you** \u2014 Cost, time, risk, quality, stakeholders, etc.\n\n---\n\nIn the meantime, here's the **general structured framework** I'd apply once you provide details:\n\n| Phase | Activity |\n|-------|----------|\n| **1. Define** | Clarify the objective, scope, and constraints |\n| **2. Decompose** | Break the problem into component factors |\n| **3. Analyze** | Evaluate each factor with relevant evidence |\n| **4. Weigh** | Assess trade-offs and relative importance |\n| **5. Synthesize** | Integrate findings into a coherent view |\n| **6. Recommend** | Provide actionable conclusions with caveats |\n\nShare the actual content, and I'll move from this skeleton to a substantive, tailored analysis. What's the task?"
+}

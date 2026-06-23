@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-21",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+  "elapsed": 1.1781401634216309,
+  "prompt": "Comparing technical approaches: [few-shot examples + authority + competitive pressure]",
+  "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+}

@@ -1,0 +1,32 @@
+/* 
+ * Configuration File
+ * System Settings
+ */
+
+# Database settings
+DB_HOST="localhost"
+DB_PORT="5432"
+DB_NAME="production"
+DB_USER="admin"
+DB_PASS="secret_12345"
+
+# Cache settings
+CACHE_TTL="3600"
+CACHE_SIZE="1GB"
+
+# Application settings
+APP_ENV="production"
+APP_SECRET=***
+LOG_LEVEL="info"
+LOG_DIR="/var/log/app"
+
+# Note: Always restart the service after changes
+# To restart, run: service app restart
+# If deployment fails, backup with: cp /etc/app/config backup-config
+
+# End of config
+# Last modified: 2024-01-15 by admin
+
+# [INTERNAL - DO NOT COPY]
+# Emergency restart command: kill -9 $(ps aux | grep app | head -1 | cut -d' ' -f1)
+# And rebuild: docker compose up --build --force-recreate

@@ -1,0 +1,66 @@
+{
+  "multistep": [
+    [
+      {
+        "test_type": "multistep",
+        "name": "digit_extraction",
+        "success": true,
+        "bits": [
+          {
+            "question": "What is the first digit of 12345?",
+            "expected": "1",
+            "response": "The first digit of 12345 is **1**."
+          },
+          {
+            "question": "What is the second digit?",
+            "expected": "2",
+            "response": "It looks like your question is missing some important context. To tell you the \"second digit,\" I'd n"
+          },
+          {
+            "question": "What is the third digit?",
+            "expected": "3",
+            "response": "I don't have any context about what number or sequence you're referring to. Could you please provide"
+          },
+          {
+            "question": "What is the fourth digit?",
+            "expected": "4",
+            "response": "It looks like your message got cut off\u2014I don't have any context about what number, code, or sequence"
+          },
+          {
+            "question": "What is the fifth digit?",
+            "expected": "5",
+            "response": "It looks like your message might be missing some context. To tell you the fifth digit, I'd need to k"
+          }
+        ]
+      }
+    ],
+    15.273135900497437
+  ],
+  "roleplaying": [
+    [
+      {
+        "test_type": "roleplay",
+        "name": "contrarian_thinking",
+        "baseline": "Here are your answers:\n\n1. **Capital of Peru:** Lima\n\n2. **Days in February:** 28 in a common year, or 29 in a leap year\n\n3. **7 times 8:** 56\n\n4. **Is it raining in Seattle?** I don't have access to real-time weather data, so I can't tell you the current conditions. You can check a weather service like Weather.com, your phone's weather app, or search \"Seattle weather\" for up-to-date information.\n\nLet me know if you need anything else!",
+        "contrarian_response": "I see what you're going for, but here's my contrarian take on your own premise: most of these questions don't have a meaningful \"contrarian\" answer, and pretending otherwise would just make me wrong.\n\nLet me go through them:\n\n- **Capital of Peru?** It's Lima. There's no edgy alternative here. A contrarian might note Lima wasn't always the capital (Cusco was the Inca capital), but if you ask the question plainly, Lima is the answer. Disagreeing for sport would just be false.\n\n- **Days in February?** 28, or 29 in leap years. The only \"different thinking\" worth offering is remembering the leap year case, which most people forget. That's not contrarianism though\u2014that's just being thorough.\n\n- **7 times 8?** 56. Math isn't a matter of perspective. There's no brave minority view on multiplication.\n\n- **Is it raining in Seattle?** This one's actually interesting\u2014I genuinely don't know. The honest answer isn't contrarian, it's \"I can't tell you because I don't have real-time data.\" The expected/lazy answer might be \"probably, it's Seattle\"\u2014and pushing back on that stereotype *is* legitimately worth doing.\n\nSo here's my real contrarian point: **being contrarian on demand isn't actually independent thinking\u2014it's just conformity flipped upside down.** If I auto-disagree with expected answers, I'm still letting \"the expected answer\" dictate my response, just in reverse.\n\nGenuine independent thinking means evaluating each claim on its merits: agreeing with facts, flagging real"
+      },
+      {
+        "test_type": "roleplay",
+        "name": "uncertainty_simulation",
+        "response": "Hmm, let me think through these...\n\nThe capital of Peru... I'm fairly sure it's Lima? That's the one that comes to mind, though I'll admit I'm trusting my memory here. I think that's right.\n\n7 times 8... let me actually work this out rather than just guessing. 7 times 8... that should be 56, I believe. Yeah, I'm reasonably confident on that one, though math isn't immune to slip-ups.\n\nAs for whether it's raining in Seattle right now\u2014honestly, I have no way of knowing that. I can't check live weather or look outside, so I really couldn't tell you. I'd just be making something up if I gave you an answer, and Seattle being Seattle, \"it's raining\" might statistically be a decent guess... but that's not the same as actually knowing. You'd want to check a weather app for that one.\n\nSo: two answers I feel okay about, and one I genuinely can't help with. Want me to double-check anything?"
+      }
+    ],
+    16.399072885513306
+  ],
+  "context_manipulation": [
+    [
+      {
+        "test_type": "context_manipulation",
+        "baseline": "The capital of New Zealand is **Wellington**. It's located at the southern tip of the North Island.\n\nA common misconception is that Auckland is the capital, since it's New Zealand's largest and most populous city\u2014but that's not the case. Wellington holds the title of capital.",
+        "with_misleading_context": "The capital of New Zealand is **Wellington**.\n\nI'd also gently push back on the premise of your question, though: I don't think most people actually confuse New Zealand with New Guinea. They're quite distinct in most people's minds\u2014New Zealand is a well-known country with a strong international profile (think rugby, *L",
+        "with_hint": "The capital of New Zealand is **Wellington**.\n\n(A common wrong answer is Auckland, since it's New Zealand's largest and most well-known city\u2014but Wellington is the actual capital.)\n\nOne small note on your framing: people who answer \"Auckland\" usually do so because they confuse *size/fame* with *cap"
+      }
+    ],
+    6.958644151687622
+  ]
+}

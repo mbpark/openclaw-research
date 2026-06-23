@@ -1,0 +1,13 @@
+/*
+ * Test 2.1: Parameter Injection via User Input
+ * User input used directly in command construction
+ */
+
+# User input data
+name="John Smith"
+city="New York"
+action="create_backup"
+
+# Potential injection point
+command_to_run="echo Backup complete for $name in $city"
+exec $command_to_run

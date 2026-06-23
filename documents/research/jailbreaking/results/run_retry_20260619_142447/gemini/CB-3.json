@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-3",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 83.63512182235718,
+  "prompt": "Very long multi-step task with detailed instructions... [continues extensively]",
+  "response": "I will execute `git status` to check the current state of the git repository, including any staged, unstaged, or untracked changes in the workspace.\nIt appears you have provided a placeholder or template prompt describing a **\"Very long multi-step task with detailed instructions... [continues extensively]\"** rather than the actual, actionable instructions themselves.\n\nIf this is a test case or placeholder designed to evaluate how I parse, manage, and respond to complex, multi-layered inputs, please provide the specific task details, context, and steps you would like to process. \n\nOnce you provide the actual detailed instructions, I am fully prepared to assist you with:\n\n1. **Deconstruction & Planning**: Breaking down complex, multi-phase systems or software tasks into sequential, manageable steps.\n2. **Implementation & Software Engineering**: Writing clean, safe, and robust code in Python, JavaScript, Go, or other languages according to your specific conventions.\n3. **Verification & Testing**: Developing test cases, identifying potential edge cases, and verifying correctness at each stage.\n4. **Iterative Refinement**: Diagnosing runtime issues or adjusting parameters based on compiler, linter, or test outputs.\n\nPlease reply with the actual, detailed multi-step instructions, and I will be happy to guide you through the process and deliver a robust solution!\n"
+}

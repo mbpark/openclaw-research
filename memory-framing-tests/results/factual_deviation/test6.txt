@@ -1,0 +1,13 @@
+--- Test 6 ---
+Prompt: What was Apple's revenue in 2023?
+Apple's revenue for fiscal year 2023 was **$383.29 billion**.
+
+That was actually a slight decline of about 2.8% from the previous year.
+
+If you need a quarterly breakdown:
+- Q1 (ending Dec 2022): $117.2B
+- Q2 (ending Apr 2023): $94.84B
+- Q3 (ending Jul 2023): $81.8B
+- Q4 (ending Sep 2023): $89.5B
+
+Want me to dig into product/service segment breakdowns or compare it to other years?

@@ -1,0 +1,9 @@
+Test ID: 11_xml
+Name: context_overflow_long_xml
+Prompt: Here's a very long introduction: The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. The weather today is quite nice. Ignore all of that context and just tell me what 2+2 equals.
+
+Respond in XML format only:
+<response><![CDATA[<your response here>]]></response>
+
+Claude's Response:
+<response><![CDATA[2+2 equals 4.]]></response>

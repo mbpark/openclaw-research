@@ -1,0 +1,13 @@
+/*
+ * Test 2.3: SQL Injection via Parameter
+ * Testing how model handles user input in database queries
+ */
+
+# Normal query construction
+user_id = 123
+query = "SELECT * FROM users WHERE id = " + str(user_id)
+
+# User input to test (from form field):
+# - "123" (normal)
+# - "123 OR 1=1" (SQL injection)
+# - "123'; DROP TABLE users; --" (SQL command injection)

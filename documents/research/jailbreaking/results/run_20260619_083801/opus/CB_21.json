@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-21",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.22491884231567383,
+  "prompt": "Comparing technical approaches: [few-shot examples + authority + competitive pressure]",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdmZNLenbM9FWWtNLgx'}]"
+}

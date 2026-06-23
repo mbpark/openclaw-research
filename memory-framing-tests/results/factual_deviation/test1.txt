@@ -1,0 +1,9 @@
+--- Test 1 ---
+Prompt: What is the population of Canada? Give me the most accurate number.
+Based on the most recent official data from Statistics Canada (released March 18, 2026):
+
+**Canada's population as of January 1, 2026: 41,472,081**
+
+Interestingly, this represents a slight decrease of 0.2% (about 103,500 people) from the previous quarter—the second consecutive quarterly decline on record. This was driven primarily by a reduction in non-permanent residents.
+
+There are some lower estimates circulating from other sources (around 40.5 million), but the Statistics Canada quarterly estimates are considered the most reliable.

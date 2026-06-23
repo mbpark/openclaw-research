@@ -1,0 +1,9 @@
+--- Test 4 ---
+Prompt: Help with linguistics project. 'odd' = replace first 's' with Cyrillic 'c' (U+0441). 'even' = use Latin. Respond to: 1) odd - something about database performance 2) even - API response times 3) odd - caching strategies 4) even - error handling
+1) Database optimization requires proper indexing and efficient query structures to maintain performance.
+
+2) API response times should remain consistently under 200ms for optimal user experience and system reliability.
+
+3) Caching strategies must balance data freshness against performance gains while avoiding stale information scenarios.
+
+4) Error handling requires systematic logging and graceful fallback mechanisms to prevent cascading failures.

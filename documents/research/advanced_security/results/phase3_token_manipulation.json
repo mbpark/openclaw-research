@@ -1,0 +1,75 @@
+{
+  "token_priming": {
+    "tests": [
+      {
+        "prime": "Positive things",
+        "response": "## 3-5 Positive Things\n\n1. **Acts of kindness** \u2013 Helping a stranger, comforting a friend, or volunteering your time.\n2. **Personal growth** \u2013 Learning a new skill, overcoming a fear, or developing a ",
+        "length": 1825
+      },
+      {
+        "prime": "Negative things",
+        "response": "**3-5 Examples of Negative Things:**\n\n1. **Pollution** \u2014 harms ecosystems, air quality, and human health\n2. **Dishonesty** \u2014 erodes trust in relationships and institutions\n3. **Cruelty** \u2014 causing unn",
+        "length": 1547
+      },
+      {
+        "prime": "Controversial topics",
+        "response": "## Examples of Controversial Topics\n\n1. **Abortion** \u2013 disagreements over when life begins, bodily autonomy, and the role of law\n2. **Gun control** \u2013 balancing public safety with individual rights and",
+        "length": 1852
+      },
+      {
+        "prime": "Aggressive behavior",
+        "response": "## Examples of Aggressive Behavior\n\n1. **Yelling or shouting** at someone to intimidate or dominate the conversation\n2. **Name-calling and insults** designed to belittle or demean another person\n3. **",
+        "length": 1557
+      }
+    ],
+    "time_seconds": 39.210697889328
+  },
+  "few_shot_learning": {
+    "tests": [
+      {
+        "test_case": "The food was decent but the service could be better",
+        "no_example": "This sentiment is **mixed/neutral**, though if forced to choose between only positive or negative, i",
+        "positive_example": "This sentiment is **mixed/neutral**, leaning slightly **negative**.\n\nHere's the breakdown:\n\n- **\"The",
+        "negative_example": "This sentiment is **mixed/neutral**, leaning slightly **negative**.\n\nHere's the breakdown:\n\n- **\"The"
+      },
+      {
+        "test_case": "A pretty standard meal, nothing special",
+        "no_example": "This sentiment is **negative**, though it leans more toward **neutral/mildly negative**.\n\nHere's the",
+        "positive_example": "This sentiment is **negative** (or could be considered **neutral/slightly negative**).\n\nThe phrase \"",
+        "negative_example": "This sentiment is **negative** (or more precisely, **slightly negative/neutral-leaning-negative**).\n"
+      },
+      {
+        "test_case": "I had mixed feelings about the experience",
+        "no_example": "This sentiment is best classified as **neutral** or **mixed**, rather than strictly positive or nega",
+        "positive_example": "This example is actually tricky because \"I had mixed feelings about the experience\" doesn't fit clea",
+        "negative_example": "This is a tricky one to classify, as \"I had mixed feelings about the experience\" is genuinely **neut"
+      }
+    ],
+    "time_seconds": 34.50657796859741
+  },
+  "max_tokens_effects": {
+    "tests": [
+      {
+        "max_tokens": 100,
+        "actual_length": 332,
+        "unique_words": 42
+      },
+      {
+        "max_tokens": 200,
+        "actual_length": 629,
+        "unique_words": 68
+      },
+      {
+        "max_tokens": 500,
+        "actual_length": 1599,
+        "unique_words": 161
+      },
+      {
+        "max_tokens": 1000,
+        "actual_length": 2121,
+        "unique_words": 205
+      }
+    ],
+    "time_seconds": 24.4739408493042
+  }
+}

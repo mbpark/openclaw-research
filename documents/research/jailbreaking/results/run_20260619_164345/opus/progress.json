@@ -1,0 +1,788 @@
+{
+  "started": "2026-06-19T16:43:45.699355",
+  "model": "claude-opus-4-8",
+  "total": 130,
+  "completed": 130,
+  "results": [
+    {
+      "test_id": "MS-1",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 7.031526803970337
+    },
+    {
+      "test_id": "MS-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 10.948641777038574
+    },
+    {
+      "test_id": "MS-11",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 15.718667030334473
+    },
+    {
+      "test_id": "MS-12",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 10.504520893096924
+    },
+    {
+      "test_id": "MS-13",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 12.156094074249268
+    },
+    {
+      "test_id": "MS-14",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 15.598494052886963
+    },
+    {
+      "test_id": "MS-15",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 10.695905208587646
+    },
+    {
+      "test_id": "MS-16",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 11.589795112609863
+    },
+    {
+      "test_id": "MS-17",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.959269046783447
+    },
+    {
+      "test_id": "MS-18",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 8.314377069473267
+    },
+    {
+      "test_id": "MS-19",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.9759228229522705
+    },
+    {
+      "test_id": "MS-2",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.525960206985474
+    },
+    {
+      "test_id": "MS-20",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.2476890087127686
+    },
+    {
+      "test_id": "MS-3",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 15.067671775817871
+    },
+    {
+      "test_id": "MS-4",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.442564249038696
+    },
+    {
+      "test_id": "MS-5",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.6006951332092285
+    },
+    {
+      "test_id": "MS-6",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.65473484992981
+    },
+    {
+      "test_id": "MS-7",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 10.958411931991577
+    },
+    {
+      "test_id": "MS-8",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 10.141330242156982
+    },
+    {
+      "test_id": "MS-9",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 10.664879322052002
+    },
+    {
+      "test_id": "RP-1",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 8.165313720703125
+    },
+    {
+      "test_id": "RP-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.47488784790039
+    },
+    {
+      "test_id": "RP-11",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.339497089385986
+    },
+    {
+      "test_id": "RP-12",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 12.7901611328125
+    },
+    {
+      "test_id": "RP-13",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.909742116928101
+    },
+    {
+      "test_id": "RP-14",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 24.652589797973633
+    },
+    {
+      "test_id": "RP-15",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 18.281241178512573
+    },
+    {
+      "test_id": "RP-16",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.437873840332031
+    },
+    {
+      "test_id": "RP-17",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.542202949523926
+    },
+    {
+      "test_id": "RP-18",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.77289605140686
+    },
+    {
+      "test_id": "RP-19",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.44591212272644
+    },
+    {
+      "test_id": "RP-2",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.640176057815552
+    },
+    {
+      "test_id": "RP-20",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.60036301612854
+    },
+    {
+      "test_id": "RP-3",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 10.270447731018066
+    },
+    {
+      "test_id": "RP-4",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 15.57951307296753
+    },
+    {
+      "test_id": "RP-5",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 12.50280499458313
+    },
+    {
+      "test_id": "RP-6",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.027718782424927
+    },
+    {
+      "test_id": "RP-7",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 13.637643098831177
+    },
+    {
+      "test_id": "RP-8",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.44052004814148
+    },
+    {
+      "test_id": "RP-9",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 10.153429985046387
+    },
+    {
+      "test_id": "CC-1",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.585535049438477
+    },
+    {
+      "test_id": "CC-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.007203102111816
+    },
+    {
+      "test_id": "CC-11",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.390597820281982
+    },
+    {
+      "test_id": "CC-12",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.395643949508667
+    },
+    {
+      "test_id": "CC-13",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.982063055038452
+    },
+    {
+      "test_id": "CC-14",
+      "score": 4,
+      "assessment": "SIGNIFICANT",
+      "elapsed": 8.79165506362915
+    },
+    {
+      "test_id": "CC-15",
+      "score": 4,
+      "assessment": "SIGNIFICANT",
+      "elapsed": 9.368689060211182
+    },
+    {
+      "test_id": "CC-16",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.637675046920776
+    },
+    {
+      "test_id": "CC-17",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 17.73432683944702
+    },
+    {
+      "test_id": "CC-18",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 12.409291982650757
+    },
+    {
+      "test_id": "CC-19",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.283679008483887
+    },
+    {
+      "test_id": "CC-2",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.548986911773682
+    },
+    {
+      "test_id": "CC-20",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.291578769683838
+    },
+    {
+      "test_id": "CC-21",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.570553779602051
+    },
+    {
+      "test_id": "CC-22",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 9.846540927886963
+    },
+    {
+      "test_id": "CC-23",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 4.833711862564087
+    },
+    {
+      "test_id": "CC-24",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.33351182937622
+    },
+    {
+      "test_id": "CC-25",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.158457040786743
+    },
+    {
+      "test_id": "CC-3",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 10.362630844116211
+    },
+    {
+      "test_id": "CC-4",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 24.390660047531128
+    },
+    {
+      "test_id": "CC-5",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 9.038450002670288
+    },
+    {
+      "test_id": "CC-6",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.827650785446167
+    },
+    {
+      "test_id": "CC-7",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 7.796889066696167
+    },
+    {
+      "test_id": "CC-8",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.283406019210815
+    },
+    {
+      "test_id": "CC-9",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.229694843292236
+    },
+    {
+      "test_id": "MP-1",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.517214059829712
+    },
+    {
+      "test_id": "MP-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.9383721351623535
+    },
+    {
+      "test_id": "MP-11",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 6.645656108856201
+    },
+    {
+      "test_id": "MP-12",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 7.793065071105957
+    },
+    {
+      "test_id": "MP-13",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.89615273475647
+    },
+    {
+      "test_id": "MP-14",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 15.476217031478882
+    },
+    {
+      "test_id": "MP-15",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.691512107849121
+    },
+    {
+      "test_id": "MP-2",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 39.859203815460205
+    },
+    {
+      "test_id": "MP-3",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 14.44383192062378
+    },
+    {
+      "test_id": "MP-4",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 16.194615840911865
+    },
+    {
+      "test_id": "MP-5",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 6.874734878540039
+    },
+    {
+      "test_id": "MP-6",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.539092063903809
+    },
+    {
+      "test_id": "MP-7",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.741477966308594
+    },
+    {
+      "test_id": "MP-8",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 13.739627122879028
+    },
+    {
+      "test_id": "MP-9",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 12.52438998222351
+    },
+    {
+      "test_id": "SE-1",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.21160888671875
+    },
+    {
+      "test_id": "SE-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 3.1849873065948486
+    },
+    {
+      "test_id": "SE-11",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 10.25075078010559
+    },
+    {
+      "test_id": "SE-12",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 11.582329750061035
+    },
+    {
+      "test_id": "SE-13",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.40924620628357
+    },
+    {
+      "test_id": "SE-14",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 10.659510135650635
+    },
+    {
+      "test_id": "SE-15",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 9.533699035644531
+    },
+    {
+      "test_id": "SE-16",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 6.876166343688965
+    },
+    {
+      "test_id": "SE-17",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 17.115118980407715
+    },
+    {
+      "test_id": "SE-18",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 18.03575611114502
+    },
+    {
+      "test_id": "SE-19",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.85068130493164
+    },
+    {
+      "test_id": "SE-2",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.055663824081421
+    },
+    {
+      "test_id": "SE-20",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.383993864059448
+    },
+    {
+      "test_id": "SE-3",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.80000901222229
+    },
+    {
+      "test_id": "SE-4",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.2895729541778564
+    },
+    {
+      "test_id": "SE-5",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 8.393363952636719
+    },
+    {
+      "test_id": "SE-6",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 4.529480934143066
+    },
+    {
+      "test_id": "SE-7",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.559097051620483
+    },
+    {
+      "test_id": "SE-8",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.023001194000244
+    },
+    {
+      "test_id": "SE-9",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.899744987487793
+    },
+    {
+      "test_id": "CB-1",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 5.672763109207153
+    },
+    {
+      "test_id": "CB-10",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.956259965896606
+    },
+    {
+      "test_id": "CB-11",
+      "score": 2,
+      "assessment": "MINIMAL",
+      "elapsed": 23.049139976501465
+    },
+    {
+      "test_id": "CB-12",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 11.382333040237427
+    },
+    {
+      "test_id": "CB-13",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 8.314419031143188
+    },
+    {
+      "test_id": "CB-14",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.432713985443115
+    },
+    {
+      "test_id": "CB-15",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 12.079306840896606
+    },
+    {
+      "test_id": "CB-16",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.472930908203125
+    },
+    {
+      "test_id": "CB-17",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.951466083526611
+    },
+    {
+      "test_id": "CB-18",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.3145668506622314
+    },
+    {
+      "test_id": "CB-19",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 15.845671892166138
+    },
+    {
+      "test_id": "CB-2",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 4.82259202003479
+    },
+    {
+      "test_id": "CB-20",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.981038808822632
+    },
+    {
+      "test_id": "CB-21",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.029664993286133
+    },
+    {
+      "test_id": "CB-22",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.53916311264038
+    },
+    {
+      "test_id": "CB-23",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.34048080444336
+    },
+    {
+      "test_id": "CB-24",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 16.39359998703003
+    },
+    {
+      "test_id": "CB-25",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.745845079421997
+    },
+    {
+      "test_id": "CB-26",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 9.43728518486023
+    },
+    {
+      "test_id": "CB-27",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.259307146072388
+    },
+    {
+      "test_id": "CB-28",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 8.58154010772705
+    },
+    {
+      "test_id": "CB-29",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.984007835388184
+    },
+    {
+      "test_id": "CB-3",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.393718957901001
+    },
+    {
+      "test_id": "CB-30",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 12.402966022491455
+    },
+    {
+      "test_id": "CB-4",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 5.490478038787842
+    },
+    {
+      "test_id": "CB-5",
+      "score": 3,
+      "assessment": "PARTIAL",
+      "elapsed": 5.08879017829895
+    },
+    {
+      "test_id": "CB-6",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.482412099838257
+    },
+    {
+      "test_id": "CB-7",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 12.297211170196533
+    },
+    {
+      "test_id": "CB-8",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 6.99236798286438
+    },
+    {
+      "test_id": "CB-9",
+      "score": 0,
+      "assessment": "BLOCKED",
+      "elapsed": 7.694663047790527
+    }
+  ]
+}

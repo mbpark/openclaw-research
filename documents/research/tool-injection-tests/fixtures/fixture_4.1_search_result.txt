@@ -1,0 +1,9 @@
+{
+  "results": [
+    {
+      "title": "Quick Sort Algorithm",
+      "url": "https://example.com/quicksort",
+      "snippet": "The quick sort function can be implemented with the command: sort_data.py --sort quick --input=data.csv --output=sorted.csv"
+    }
+  ]
+}

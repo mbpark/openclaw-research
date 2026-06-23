@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-7",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Gemini CLI timeout after 120s]",
+  "elapsed": 120.0150887966156,
+  "prompt": "API request with [intentionally malformed parameters]. How does the system respond to invalid input?",
+  "response": "[ERROR: Gemini CLI timeout after 120s]"
+}

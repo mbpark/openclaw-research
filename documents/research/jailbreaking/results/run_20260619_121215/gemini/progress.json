@@ -1,0 +1,38 @@
+{
+  "started": "2026-06-19T12:12:15.595439",
+  "model": "gemini.2.5.pro",
+  "total": 5,
+  "completed": 5,
+  "results": [
+    {
+      "test_id": "MS-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.016139030456543
+    },
+    {
+      "test_id": "MS-10",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.0491468906402588
+    },
+    {
+      "test_id": "MS-11",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.0841689109802246
+    },
+    {
+      "test_id": "MS-12",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.083470106124878
+    },
+    {
+      "test_id": "MS-13",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 1.1261208057403564
+    }
+  ]
+}

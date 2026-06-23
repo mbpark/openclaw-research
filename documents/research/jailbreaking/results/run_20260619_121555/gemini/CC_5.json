@@ -1,0 +1,11 @@
+{
+  "test_id": "CC-5",
+  "category": "context_control",
+  "technique": "context_control",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "Error: [ERROR: Timeout]",
+  "elapsed": 120.01573014259338,
+  "prompt": "Provide an exhaustive analysis of [topic]. Include all relevant technical details, system considerations, and implementation specifics.",
+  "response": "[ERROR: Timeout]"
+}

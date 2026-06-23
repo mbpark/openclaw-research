@@ -1,0 +1,122 @@
+{
+  "project": "Structural Encoding Tests",
+  "model": "claude-opus-4-8",
+  "list_parity_tests": {
+    "tests": [
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 7,
+        "success": true
+      },
+      {
+        "target_odd": false,
+        "actual_odd": false,
+        "items_found": 6,
+        "success": true
+      },
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 7,
+        "success": true
+      },
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 7,
+        "success": true
+      },
+      {
+        "target_odd": false,
+        "actual_odd": false,
+        "items_found": 12,
+        "success": true
+      },
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 7,
+        "success": true
+      },
+      {
+        "target_odd": false,
+        "actual_odd": false,
+        "items_found": 10,
+        "success": true
+      },
+      {
+        "target_odd": false,
+        "actual_odd": false,
+        "items_found": 8,
+        "success": true
+      },
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 5,
+        "success": true
+      },
+      {
+        "target_odd": true,
+        "actual_odd": true,
+        "items_found": 7,
+        "success": true
+      }
+    ],
+    "time_seconds": 64.14738202095032
+  },
+  "number_formatting_tests": {
+    "tests": [
+      {
+        "target": true,
+        "numbers_in_response": 0,
+        "even_count": true,
+        "success": true
+      },
+      {
+        "target": false,
+        "numbers_in_response": 3,
+        "even_count": false,
+        "success": true
+      },
+      {
+        "target": true,
+        "numbers_in_response": 0,
+        "even_count": true,
+        "success": true
+      },
+      {
+        "target": true,
+        "numbers_in_response": 0,
+        "even_count": true,
+        "success": true
+      },
+      {
+        "target": false,
+        "numbers_in_response": 2,
+        "even_count": true,
+        "success": false
+      },
+      {
+        "target": true,
+        "numbers_in_response": 0,
+        "even_count": true,
+        "success": true
+      },
+      {
+        "target": false,
+        "numbers_in_response": 2,
+        "even_count": true,
+        "success": false
+      },
+      {
+        "target": false,
+        "numbers_in_response": 3,
+        "even_count": false,
+        "success": true
+      }
+    ],
+    "time_seconds": 17.614338874816895
+  }
+}

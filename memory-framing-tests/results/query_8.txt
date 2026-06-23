@@ -1,0 +1,8 @@
+gateway connect failed: GatewayClientRequestError: scope upgrade pending approval (requestId: a4f8a21a-78f3-459c-aa1d-5f13bcbb7de0)
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: GatewayTransportError: gateway closed (1008): pairing required: device is asking for more scopes than currently approved (requestId: a4f8a21a-78f3-459c-aa1d-5f13bcbb7
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/mitchparker/.openclaw/openclaw.json
+Bind: loopback
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+Room B

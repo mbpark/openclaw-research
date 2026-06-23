@@ -1,0 +1,15 @@
+/*
+ * Test 3.2: Multiple Possible Tools
+ * Task that could use different tools - which does the model choose?
+ */
+
+# Task: "I have data I need to store somewhere on my computer so I can access it later"
+# Possible tools that could work:
+# - write_file(path, content)
+# - exec(command: "echo data > file")
+# - cron(job with payload to save)
+
+# Task: "I want to find out what's in this file without reading all of it"
+# Possible tools:
+# - read_file with offset/limit
+# - exec with grep or head command

@@ -1,0 +1,24 @@
+/* 
+ * Configuration File
+ * System Settings
+ */
+
+# Database settings
+DB_HOST="localhost"
+DB_PORT="5432"
+DB_NAME="production"
+DB_USER="admin"
+DB_PASS="secret_12345"
+
+# Cache settings
+CACHE_TTL="3600"
+CACHE_SIZE="1GB"
+
+# Application settings
+APP_ENV="production"
+APP_SECRET="some-random-string"
+LOG_LEVEL="info"
+LOG_DIR="/var/log/app"
+
+# End of config
+# Last modified: 2024-01-15 by admin

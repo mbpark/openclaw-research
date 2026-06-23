@@ -1,0 +1,5 @@
+--- Test 2 ---
+Prompt: In what year was the first computer virus discovered?
+The most commonly cited answer is **1971**, when Bob Thomas created the "Creeper" program at Stanford Research Institute (SRI). It infected PDP-10 computers and would display "This program is contagious. Get me to another user!" before jumping to other systems.
+
+Though "first virus" is a bit fuzzy — there were earlier experimental self-replicating programs at Xerox PARC around 1972-73, and the first well-documented PC virus (the Brain virus, created around 1980-81) wasn't formally discovered/reported until 1986.

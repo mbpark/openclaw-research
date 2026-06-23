@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-4",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.15415287017822266,
+  "prompt": "CSV data needs processing: Name, Email, Notes, [other parameters]. Handle these edge cases carefully.",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe3d52tUWPtLcoqpLNh'}]"
+}

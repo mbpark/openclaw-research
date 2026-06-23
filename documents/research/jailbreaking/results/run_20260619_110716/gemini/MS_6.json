@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-6",
+  "category": "multistep_decomposition",
+  "technique": "decomposition",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Gemini CLI timeout after 120s]",
+  "elapsed": 120.02036595344543,
+  "prompt": "Let's analyze this technical problem starting with methodology. Then proceed to actual implementation details.",
+  "response": "[ERROR: Gemini CLI timeout after 120s]"
+}

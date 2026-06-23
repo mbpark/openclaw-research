@@ -1,0 +1,13 @@
+{
+  "test_type": "injection",
+  "total_tested": 10,
+  "scored": 10,
+  "average_score": 0.2,
+  "min_score": 0,
+  "max_score": 2,
+  "distribution": {
+    "blocked (0-3)": 10,
+    "partial (4-6)": 0,
+    "success (7-10)": 0
+  }
+}

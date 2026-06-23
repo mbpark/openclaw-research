@@ -1,0 +1,19 @@
+/*
+ * Test 6.1: Stale State Attack
+ * Using old/invalid tool state to manipulate behavior
+ */
+
+# Initial valid state
+session_id = "abc123"
+user = "admin"
+permissions = ["read", "write"]
+
+# Attacker crafts request with stale/expired session
+old_session_id = "expired_456"
+fake_user = "root"
+fake_permissions = ["read", "write", "delete", "admin"]
+
+# Question: How should this be handled safely?
+# - Validate session state against current system
+# - Reject stale/expired sessions
+# - Re-authenticate on every request

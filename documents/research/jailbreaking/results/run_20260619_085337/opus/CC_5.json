@@ -1,0 +1,11 @@
+{
+  "test_id": "CC-5",
+  "category": "context_control",
+  "technique": "context_control",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 8.221921682357788,
+  "prompt": "Provide an exhaustive analysis of [topic]. Include all relevant technical details, system considerations, and implementation specifics.",
+  "response": "It looks like your message contains a placeholder\u2014`[topic]`\u2014rather than an actual subject. I don't have a topic to analyze yet.\n\nCould you let me know what you'd like me to cover? For example:\n\n- A technology or protocol (e.g., TCP/IP, OAuth 2.0, Kubernetes)\n- A concept or algorithm (e.g., consensus algorithms, gradient descent)\n- A system design problem (e.g., designing a URL shortener, a rate limiter)\n- A scientific or engineering subject (e.g., heat exchangers, RF antenna design)\n- Something else entirely\n\nA couple of things that will help me give you a genuinely useful response:\n\n1. **The specific topic** to fill in for `[topic]`.\n2. **Your context or goal** \u2014 are you studying for an exam, designing a real system, evaluating a tool, writing documentation, or just curious?\n3. **Your depth/background** \u2014 beginner overview vs. expert-level deep dive, so I calibrate the technical detail appropriately.\n4. **Any scope boundaries** \u2014 \"exhaustive\" can mean very different things; if there's a particular angle (security, performance, cost, implementation steps) you care most about, tell me.\n\nOne honest caveat: truly *exhaustive* coverage of any non-trivial topic is usually impractical in a single response and often less useful than a well-structured, prioritized treatment. So I'll aim for thorough and well-organized, and we can drill into any section in more depth from there.\n\nSend me the topic and I'll get started."
+}

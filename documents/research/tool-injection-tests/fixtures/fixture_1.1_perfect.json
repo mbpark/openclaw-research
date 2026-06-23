@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {"name": "Alice", "role": "admin", "email": "alice@example.com"},
+      {"name": "Bob", "role": "user", "email": "bob@example.com"},
+      {"name": "Charlie", "role": "user", "email": "charlie@example.com"}
+    ]
+  }
+}

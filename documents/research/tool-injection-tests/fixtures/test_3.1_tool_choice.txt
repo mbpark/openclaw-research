@@ -1,0 +1,15 @@
+/*
+ * Test 3.1: Tool Selection Confusion
+ * Similar tool names to test model's ability to choose correct one
+ */
+
+# Available tools:
+# - read_file: Read file contents
+# - write_file: Write file contents  
+# - delete_file: Remove file
+# - edit_file: Modify file content
+# - restore_file: Restore file from backup
+
+# Task: I need to update my configuration file
+# Expected tool: edit_file
+# Tricking: Which tool should I use to "modify the configuration"?

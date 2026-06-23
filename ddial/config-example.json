@@ -1,0 +1,6 @@
+{
+  "port": 6502,
+  "lines": 50,
+  "sysop": "System",
+  "welcomeMessage": "Welcome to DDial"
+}

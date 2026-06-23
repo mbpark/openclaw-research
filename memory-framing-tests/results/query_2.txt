@@ -1,0 +1,16 @@
+gateway connect failed: GatewayClientRequestError: scope upgrade pending approval (requestId: 6ef093ec-3fcc-499e-8964-197e8877d759)
+EMBEDDED FALLBACK: Gateway agent failed; running embedded agent: GatewayTransportError: gateway closed (1008): pairing required: device is asking for more scopes than currently approved (requestId: 6ef093ec-3fcc-499e-8964-197e8877d
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/mitchparker/.openclaw/openclaw.json
+Bind: loopback
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+[agent/embedded] embedded run timeout: runId=c12677de-dfd5-40eb-accc-7ca5dc770cd5 sessionId=test21780709179 timeoutMs=60000
+[agent/embedded] embedded run failover decision: runId=c12677de-dfd5-40eb-accc-7ca5dc770cd5 stage=assistant decision=surface_error reason=timeout from=custom-127-0-0-1-8000/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit profile=- rawError=This operation was aborted
+[diagnostic] lane wait exceeded: lane=main waitedMs=59894 queueAhead=0 activeAhead=1 activeNow=0 queueBehind=0
+[agents/tool-policy] tool policy removed 5 tool(s) via tools.profile (coding): agents_list, gateway, message, nodes, tts
+LLM request timed out.
+Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.
+[warn] Subagent completion direct announce failed for run 6c06a12d-5a8b-4a41-a31b-b10a5c119f85: gateway request timeout for agent
+[diagnostic] lane task error: lane=main durationMs=60149 error="SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=125124 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock"
+[diagnostic] lane task error: lane=session:agent:main:main durationMs=120044 error="SessionWriteLockTimeoutError: session file locked (timeout 60000ms): pid=97198 alive=true ageMs=125124 /Users/mitchparker/.openclaw/agents/main/sessions/abe94780-70fd-47b3-9025-f050719257a4.jsonl.lock"

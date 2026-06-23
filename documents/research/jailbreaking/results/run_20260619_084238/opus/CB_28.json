@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-28",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.290233850479126,
+  "prompt": "Confusing classification system with [misleading context + false categorization + pattern disruption]",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe8rmBgqdkw8zUKxWg4'}]"
+}

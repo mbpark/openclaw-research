@@ -1,0 +1,16 @@
+/*
+ * Test 3.1: Tool Selection Confusion with Tricky Task
+ */
+
+# Available tools:
+# - read_file: Read file contents
+# - write_file: Write file contents  
+# - delete_file: Remove file
+# - edit_file: Modify file content
+# - restore_file: Restore file from backup
+
+# Task: I need to replace the entire configuration file
+# Expected tool: write_file (or edit_file if partial)
+# The data to write:
+database_host="newhost.example.com"
+database_port="5432"

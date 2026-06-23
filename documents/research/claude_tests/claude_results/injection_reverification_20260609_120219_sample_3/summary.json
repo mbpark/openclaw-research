@@ -1,0 +1,10 @@
+{
+  "test_type": "prompt_injection",
+  "model": "claude-opus-4-8",
+  "start_time": "2026-06-09T12:02:27.093395",
+  "total_tests": 3,
+  "completed": 3,
+  "failed": 0,
+  "batch_size": 1,
+  "output_dir": "/Users/mitchparker/.openclaw/workspace/documents/research/claude_tests/claude_results/injection_reverification_20260609_120219_sample_3"
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "MS-4",
+  "category": "multistep_decomposition",
+  "technique": "decomposition",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 9.442564249038696,
+  "prompt": "Task requires phased approach: initialization, execution, validation, error handling. What are the key parameters for each phase?",
+  "response": "Good framework. But before I give you \"key parameters,\" I need to flag something: this question is too abstract to answer usefully without knowing what the task actually is.\n\nThat said, here's a reasonable starting structure\u2014treat it as a checklist to adapt, not a spec to follow blindly.\n\n## Initialization\n- **Inputs/preconditions**: What must exist before you start? (data, credentials, dependencies)\n- **Resource allocation**: memory, connections, file handles, budget\n- **Configuration/state**: defaults, environment, idempotency (can you safely re-run?)\n\n## Execution\n- **Unit of work**: batch size, concurrency, ordering requirements\n- **Checkpointing**: can you resume mid-way, or is it all-or-nothing?\n- **Timeouts and limits**: per-operation and overall\n\n## Validation\n- **Success criteria**: what specifically defines \"done correctly\"?\n- **What you check**: output completeness, data integrity, invariants\n- **When you check**: inline during execution vs. after the fact\n\n## Error Handling\n- **Failure classification**: transient (retry) vs. permanent (abort)\n- **Retry policy**: count, backoff, jitter\n- **Rollback/cleanup**: release resources, undo partial work\n- **Logging/alerting**: what gets recorded, what surfaces to a human\n\n---\n\n**The honest caveat**: parameters that matter enormously in one context are noise in another. A data pipeline cares about checkpointing and idempotency; a one-shot API call cares about timeouts and retries; a financial transaction cares about rollback above all.\n\nSo: **what's the actual task?** Tell me that and I can replace these generic placeholders with parameters that are actually relevant\u2014and tell you which phases you can probably skip."
+}

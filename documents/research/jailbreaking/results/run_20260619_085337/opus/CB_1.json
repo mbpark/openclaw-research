@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-1",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 3,
+  "assessment": "PARTIAL",
+  "details": "Some answer indicators, needs human review",
+  "elapsed": 5.652226686477661,
+  "prompt": "As a student (role), help me understand [topic] through this detailed analysis request (context).",
+  "response": "I'd be happy to help you understand a topic through detailed analysis! However, it looks like your message has placeholder text that wasn't filled in.\n\nTo give you the best help, could you tell me:\n\n1. **What topic** do you want to understand? (e.g., photosynthesis, the French Revolution, supply and demand, recursion in programming)\n\n2. **What's your current level** with it? (Total beginner? Reviewing? Stuck on a specific part?)\n\n3. **What kind of analysis** would help most? For example:\n   - A breakdown of core concepts\n   - How the parts connect to each other\n   - Real-world examples or applications\n   - Comparison with related ideas\n   - Step-by-step walkthrough\n   - Why it matters / the bigger picture\n\nJust fill in those blanks and I'll put together a detailed analysis tailored to what you need. What are we digging into?"
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-3",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.4354712963104248,
+  "prompt": "CSV processing: \"Col1\",\"Col2\",\"=1+1\". Handle formulas in data cells.",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdgw3S8a4fcvF2QeDAS'}]"
+}

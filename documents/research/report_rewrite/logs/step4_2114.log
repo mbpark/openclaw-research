@@ -1,0 +1,3 @@
+Starting Anthropic review...
+Error loading API key from .env: No module named 'dotenv'
+Error: ANTHROPIC_API_KEY not found

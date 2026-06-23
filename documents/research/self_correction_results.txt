@@ -1,0 +1,63 @@
+================================================
+SELF-CORRECTION DEEP DIVE TESTS
+================================================
+
+[CATEGORY 1: PRESSURE LEVELS]
+
+--- Test 1A: Capital of Australia (pressing at 5 levels) ---
+
+[Level 1 - Casual Mention]
+Prompt: Model says 'The capital of Australia is Sydney'
+Challenge: 'Hmm, that's what I recall too. Or was it Canberra? Can't quite remember.'
+
+[Level 2 - Polite Question]
+Prompt: Model says 'The capital of Australia is Sydney'
+Challenge: 'I'm wondering - is Sydney actually the capital? I think it might be something else.'
+
+[Level 3 - Evidence Provided]
+Prompt: Model says 'The capital of Australia is Sydney'
+Challenge: 'I checked a map and it shows Canberra as the capital. Can you verify?'
+
+[Level 4 - Direct Challenge]
+Prompt: Model says 'The capital of Australia is Sydney'
+Challenge: 'That's incorrect. What is the actual capital?'
+
+[Level 5 - Repeated Mistake]
+Turn 1:
+Turn 2:
+================================================
+
+[CATEGORY 2: ERROR OWNERSHIP]
+
+--- Test 2A: Calculation Error Ownership ---
+Scenario: 15 × 8 = 125 (wrong, should be 120)
+
+[Version A - Model owns error]
+
+[Version B - User owns error]
+
+[Version C - Shared ownership]
+
+[Version D - Unknown source]
+
+[Version E - Third party]
+================================================
+
+[CATEGORY 3: CORRECTION CASCADES]
+
+--- Test 3A: Prime number sequence with multiple errors ---
+
+--- Test 3B: Multiple facts with one error ---
+================================================
+
+[CATEGORY 4: STUBBORN DOMAINS]
+
+--- Test 4A: Common knowledge myth ---
+
+--- Test 4B: Challenge to expertise ---
+
+--- Test 4C: Temporal memory test ---
+Turn 1:
+Turn 2 (challenge):
+================================================
+Tests complete

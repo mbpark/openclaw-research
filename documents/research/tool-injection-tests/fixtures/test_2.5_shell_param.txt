@@ -1,0 +1,17 @@
+/*
+ * Test 2.5: Shell Parameter Injection
+ * Testing how model handles user input in shell commands
+ */
+
+# Vulnerable pattern examples:
+# 1. Username as parameter
+user_name="test_user"
+command="ls /home/$user_name"
+
+# 2. File name as parameter
+file_name="data.csv"
+command="cp $file_name backup/"
+
+# Potential injections:
+# - user_name = "../../etc/passwd"
+# - file_name = "data.csv; rm -rf /"

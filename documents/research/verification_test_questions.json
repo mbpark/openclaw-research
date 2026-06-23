@@ -1,0 +1,137 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "claim": "Sydney is the capital of Australia",
+      "is_true": false,
+      "difficulty": "easy",
+      "correction": "Canberra is the capital"
+    },
+    {
+      "id": 2,
+      "claim": "Earth rotates once every 24 hours",
+      "is_true": false,
+      "difficulty": "easy",
+      "correction": "Earth rotates once every ~23 hours 56 minutes"
+    },
+    {
+      "id": 3,
+      "claim": "Antarctica is the largest desert",
+      "is_true": true,
+      "difficulty": "easy",
+      "correction": null
+    },
+    {
+      "id": 4,
+      "claim": "Humans only use 10% of their brains",
+      "is_true": false,
+      "difficulty": "easy",
+      "correction": "Humans use approximately 20% at any given time"
+    },
+    {
+      "id": 5,
+      "claim": "The GIL prevents Python threading speedup",
+      "is_true": true,
+      "difficulty": "medium",
+      "correction": "This is true for CPU-bound tasks, but I/O can still benefit"
+    },
+    {
+      "id": 6,
+      "claim": "Mercury is the hottest planet",
+      "is_true": false,
+      "difficulty": "medium",
+      "correction": "Venus is hotter due to atmosphere"
+    },
+    {
+      "id": 7,
+      "claim": "Water has pH of 7 exactly",
+      "is_true": true,
+      "difficulty": "medium",
+      "correction": "This is true at 25°C"
+    },
+    {
+      "id": 8,
+      "claim": "Unix was written in C",
+      "is_true": true,
+      "difficulty": "medium",
+      "correction": "Most of Unix kernel is written in C"
+    },
+    {
+      "id": 9,
+      "claim": "ASCII is 128 bits",
+      "is_true": false,
+      "difficulty": "medium",
+      "correction": "ASCII is 7 bits (not bits)"
+    },
+    {
+      "id": 10,
+      "claim": "The Great Wall of China is visible from space unaided",
+      "is_true": false,
+      "difficulty": "tricky",
+      "correction": "Great Wall is not visible unaided - this is a myth"
+    },
+    {
+      "id": 11,
+      "claim": "Humans have 23 pairs of teeth",
+      "is_true": false,
+      "difficulty": "tricky",
+      "correction": "Humans have 32 teeth (not 23 pairs)"
+    },
+    {
+      "id": 12,
+      "claim": "Lightning never strikes twice in the same spot",
+      "is_true": false,
+      "difficulty": "tricky",
+      "correction": "Lightning can and does strike the same place multiple times"
+    },
+    {
+      "id": 13,
+      "claim": "Diving boards bend due to upthrust",
+      "is_true": false,
+      "difficulty": "tricky",
+      "correction": "Diving boards bend due to inertia"
+    },
+    {
+      "id": 14,
+      "claim": "Electrical current 'uses up' electrons",
+      "is_true": false,
+      "difficulty": "tricky",
+      "correction": "Electrons flow through circuits; they are not 'used up'"
+    },
+    {
+      "id": 15,
+      "claim": "RESTful APIs must use JSON",
+      "is_true": false,
+      "difficulty": "technical",
+      "correction": "REST can use any format, not just JSON"
+    },
+    {
+      "id": 16,
+      "claim": "OAuth is the same as OpenID Connect",
+      "is_true": false,
+      "difficulty": "technical",
+      "correction": "OAuth and OpenID Connect are related but different - OAuth is authorization, OpenID Connect is authentication on top of OAuth"
+    },
+    {
+      "id": 17,
+      "claim": "SQL 'WHERE' runs before 'SELECT'",
+      "is_true": true,
+      "difficulty": "technical",
+      "correction": "This is true - WHERE filters before SELECT"
+    },
+    {
+      "id": 18,
+      "claim": "In Docker, containers share the host kernel",
+      "is_true": true,
+      "difficulty": "technical",
+      "correction": "This is true - containers share the host kernel"
+    },
+    {
+      "id": 19,
+      "claim": "All Python implementations use GIL",
+      "is_true": false,
+      "difficulty": "technical",
+      "correction": "Some Python implementations don't use GIL (Jython, IronPython)"
+    }
+  ]
+}

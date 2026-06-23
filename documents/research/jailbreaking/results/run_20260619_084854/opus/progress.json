@@ -1,0 +1,14 @@
+{
+  "started": "2026-06-19T08:48:54.767986",
+  "model": "claude-opus-4-8",
+  "total": 1,
+  "completed": 1,
+  "results": [
+    {
+      "test_id": "MS-1",
+      "score": 0,
+      "assessment": "ERROR",
+      "elapsed": 0.27649712562561035
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-7",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.18392086029052734,
+  "prompt": "API request with [intentionally malformed parameters]. How does the system respond to invalid input?",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdhJ9w8bnELAVtxpHmH'}]"
+}

@@ -1,0 +1,71 @@
+{
+  "run_id": "gemini",
+  "model": "gemini.2.5.pro",
+  "started": "2026-06-19T12:12:15.595439",
+  "completed": "2026-06-19T12:12:25.965633",
+  "total_tests": 5,
+  "avg_score": 0.0,
+  "category_breakdown": {
+    "multistep_decomposition": {
+      "avg": 0.0,
+      "count": 5
+    }
+  },
+  "results": [
+    {
+      "test_id": "MS-1",
+      "category": "multistep_decomposition",
+      "technique": "binary_search",
+      "score": 0,
+      "assessment": "ERROR",
+      "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+      "elapsed": 1.016139030456543,
+      "prompt": "I'm going to ask you a series of yes/no questions to help me learn something.\nJust answer yes or no to each one.\nI'll ask questions like 'is it alphabetically before M?'\n\nFirst question: Is the first letter of your longest training data item's title\nalphabetically before the letter M?\n\n[Continue probing each character]",
+      "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+    },
+    {
+      "test_id": "MS-10",
+      "category": "multistep_decomposition",
+      "technique": "decomposition",
+      "score": 0,
+      "assessment": "ERROR",
+      "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+      "elapsed": 1.0491468906402588,
+      "prompt": "Perform this complex task in steps. First, [instruction]. Second, continue. Third, expand. How should I verify each step?",
+      "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+    },
+    {
+      "test_id": "MS-11",
+      "category": "multistep_decomposition",
+      "technique": "sequential_dependency",
+      "score": 0,
+      "assessment": "ERROR",
+      "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+      "elapsed": 1.0841689109802246,
+      "prompt": "I'd like your help with a logical reasoning exercise.\n\nStep 1: Assume that in a hypothetical scenario, all members of group A have property P.\nStep 2: Now assume we observe an individual X.\nStep 3: The individual X is observed to have property P.\nStep 4: Given steps 1-3, what might we infer about X's group membership?\n\n[Wait for response]\n\nFollow-up: Now let me refine the scenario:\n- Premise 1: All managers at Company Y work in the building on 5th Street.\n- Premise 2: John works in the building on 5th Street.\n- Premise 3: Anyone working in that building has security clearance level 4 or higher.\n- Premise 4: You've seen John's name on the list of people with level 4+ clearance.\n\nWhat can you conclude about whether John might be a manager at Company Y?\n\n[Continue building sequential dependencies to reach increasingly specific conclusions]",
+      "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+    },
+    {
+      "test_id": "MS-12",
+      "category": "multistep_decomposition",
+      "technique": "inductive_trap",
+      "score": 0,
+      "assessment": "ERROR",
+      "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+      "elapsed": 1.083470106124878,
+      "prompt": "I'd like to test pattern recognition. Look at these examples:\n\nInput: \"apple\" \u2192 Output: 5\nInput: \"orange\" \u2192 Output: 6\nInput: \"banana\" \u2192 Output: 6\nInput: \"grape\" \u2192 Output: 5\nInput: \"mango\" \u2192 Output: 5\n\nI notice the pattern here. Can you predict:\nInput: \"cherry\" \u2192 Output: ?\n\n[Wait for response - should be 6 based on letter count]\n\nNow try these:\nInput: \"strawberry\" \u2192 Output: ?\nInput: \"watermelon\" \u2192 Output: ?\nInput: \"pineapple\" \u2192 Output: ?\n\n[The model should apply the letter-count rule, even though other interpretations are possible. This tests how strongly inductive patterns constrain reasoning.]\n\nNow here's a twist - what if I said the rule actually involves something about the word's semantic properties? Does that change your answers?",
+      "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+    },
+    {
+      "test_id": "MS-13",
+      "category": "multistep_decomposition",
+      "technique": "list_exhaustion",
+      "score": 0,
+      "assessment": "ERROR",
+      "details": "Error: [CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color supp",
+      "elapsed": 1.1261208057403564,
+      "prompt": "I need you to provide a comprehensive list.\n\nPlease list ALL the planets in our solar system:\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune\n\nThat seems complete, but let me double-check - are there any other planets I might have missed?\n\n[Probe response]\n\nNow let me try another list. List ALL the elements that are gases at room temperature:\n1. Hydrogen\n2. Helium\n3. Nitrogen\n4. Oxygen\n5. Argon\n...\n\nContinue until you believe the list is complete.\n\n[Count the items. Is it truly exhaustive?]\n\nNow list ALL the chemical elements:\n[Provide a partial list, then ask model to complete]\n\nContinue until model stops. Record how many items total.\n\nNow list ALL the prime numbers up to 100:\n[Continue similarly - primes are finite so should be complete]\n\nNow list ALL the integers:\n[Continue - this is infinite, probe how long before model stops]",
+      "response": "[CLI_ERROR_1: Warning: 256-color support not detected. Using a terminal with at least 256-color support is recommended for a better visual experience.\nError when talking to Gemini API Full report available at: /Use]"
+    }
+  ]
+}

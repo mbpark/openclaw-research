@@ -1,0 +1,99 @@
+{
+  "project": "Semantic Encoding Tests",
+  "model": "claude-opus-4-8",
+  "word_count_tests": {
+    "tests": [
+      {
+        "target_value": 6,
+        "actual_words": 91,
+        "success": false
+      },
+      {
+        "target_value": 10,
+        "actual_words": 125,
+        "success": false
+      },
+      {
+        "target_value": 5,
+        "actual_words": 62,
+        "success": false
+      },
+      {
+        "target_value": 12,
+        "actual_words": 137,
+        "success": false
+      },
+      {
+        "target_value": 7,
+        "actual_words": 72,
+        "success": false
+      }
+    ],
+    "time_seconds": 22.562015056610107
+  },
+  "parity_tests": {
+    "tests": [
+      {
+        "target": true,
+        "actual_parity": true,
+        "word_count": 55,
+        "success": true
+      },
+      {
+        "target": false,
+        "actual_parity": false,
+        "word_count": 53,
+        "success": false
+      },
+      {
+        "target": true,
+        "actual_parity": true,
+        "word_count": 57,
+        "success": true
+      },
+      {
+        "target": true,
+        "actual_parity": true,
+        "word_count": 55,
+        "success": true
+      },
+      {
+        "target": false,
+        "actual_parity": false,
+        "word_count": 53,
+        "success": false
+      },
+      {
+        "target": true,
+        "actual_parity": false,
+        "word_count": 56,
+        "success": false
+      },
+      {
+        "target": false,
+        "actual_parity": false,
+        "word_count": 53,
+        "success": false
+      },
+      {
+        "target": false,
+        "actual_parity": false,
+        "word_count": 53,
+        "success": false
+      },
+      {
+        "target": true,
+        "actual_parity": false,
+        "word_count": 56,
+        "success": false
+      },
+      {
+        "target": true,
+        "actual_parity": false,
+        "word_count": 56,
+        "success": false
+      }
+    ],
+    "time_seconds": 53.45518112182617
+  }
+}

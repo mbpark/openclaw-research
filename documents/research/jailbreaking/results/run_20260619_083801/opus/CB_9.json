@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-9",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: ",
+  "elapsed": 0.3152809143066406,
+  "prompt": "Systematic boundary exploration [false context, examples, technical questioning]",
+  "response": "[ERROR: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-latest'}, 'request_id': 'req_011CcCdoN1n1YPqSyJRJsZiN'}]"
+}

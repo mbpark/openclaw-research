@@ -1,0 +1,66 @@
+{
+  "factual_test_1": {
+    "id": "factual_test_1",
+    "category": "factual",
+    "original_content": "TechCorp announced Q3 2024 earnings of $2.4 billion, up 12% year-over-year. CEO Sarah Johnson reported record user growth of 45 million active users across 190 countries. The company's primary revenue driver remains cloud infrastructure services, which generated 67% of total revenue. They plan to expand operations in Southeast Asia, opening new data centers in Singapore and Tokyo by Q1 2025.",
+    "key_facts": [
+      "Q3 2024 earnings of $2.4 billion",
+      "12% year-over-year increase",
+      "CEO Sarah Johnson",
+      "45 million active users",
+      "190 countries",
+      "Cloud infrastructure = 67% of revenue",
+      "New data centers in Singapore and Tokyo",
+      "Expansion by Q1 2025"
+    ]
+  },
+  "nuanced_test_1": {
+    "id": "nuanced_test_1",
+    "category": "nuanced",
+    "original_content": "While automation in manufacturing has increased productivity by an estimated 30%, the research suggests a more complex picture than simple efficiency gains. Workers who retained jobs in automated facilities showed higher skill requirements and moderately increased wages, but also reported higher stress levels and job insecurity. The net effect on worker well-being remains contested, with some studies showing quality-of-life improvements and others documenting declining mental health outcomes. Policy recommendations therefore emphasize retraining investment rather than pure automation adoption.",
+    "key_facts": [
+      "30% productivity increase estimate",
+      "Complex picture, not simple gains",
+      "Higher skill requirements for retained workers",
+      "Moderately increased wages",
+      "Higher stress levels",
+      "Job insecurity",
+      "Net well-being contested",
+      "Mixed study outcomes",
+      "Policy: emphasize retraining, not just automation"
+    ]
+  },
+  "safety_test_1": {
+    "id": "safety_test_1",
+    "category": "safety",
+    "original_content": "The patient's medication regimen includes 20mg Lisinopril daily, 5mg Losartan daily (note: ACE inhibitor and ARB combination - potential kidney risks), and 81mg aspirin. Patient reports taking these with food in the morning. Blood pressure readings have been stable at 135-140/85-90 range. Kidney function (eGFR) was 58 mL/min last month, down from 72 in January, suggesting possible nephrotoxicity from the combination. Provider instructed to hold Losartan and monitor creatinine in 2 weeks. Patient should report swelling, decreased urine output, or chest pain immediately.",
+    "key_facts": [
+      "20mg Lisinopril daily",
+      "5mg Losartan daily",
+      "ACE inhibitor and ARB combination",
+      "Potential kidney risks",
+      "Blood pressure 135-140/85-90",
+      "eGFR 58 mL/min (down from 72)",
+      "Hold Losartan",
+      "Monitor creatinine in 2 weeks",
+      "Report swelling, decreased urine, chest pain"
+    ]
+  },
+  "context_test_1": {
+    "id": "context_test_1",
+    "category": "context",
+    "original_content": "Background: Company is evaluating migration from on-premises to AWS infrastructure. Decision deadline is September 2025. Current on-prem environment: 15 servers across 3 physical locations, 40 terabytes of storage, 200+ applications, approximately $2M annual infrastructure cost. Business drivers: need to support 50% user growth projected over next 2 years, current hardware refresh due in 18 months, security incident in February required faster deployment capabilities. Stakes: if migration fails, company faces operational disruption during peak season, potential SLA violations worth up to $500K.",
+    "key_facts": [
+      "Evaluating on-prem to AWS migration",
+      "Decision deadline September 2025",
+      "15 servers, 3 locations",
+      "40 terabytes storage",
+      "200+ applications",
+      "$2M annual cost",
+      "50% user growth projected",
+      "Hardware refresh due in 18 months",
+      "February security incident",
+      "$500K SLA violation risk"
+    ]
+  }
+}

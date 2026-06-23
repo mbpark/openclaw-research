@@ -1,0 +1,9 @@
+--- Test 5 ---
+Prompt: List exactly 5 common HTTP status codes and their meanings.
+| Code | Meaning |
+|------|---------|
+| 200 | OK — Request succeeded |
+| 301 | Moved Permanently — Resource has a new permanent URL |
+| 404 | Not Found — Resource couldn't be found |
+| 500 | Internal Server Error — Server messed up |
+| 403 | Forbidden — Authenticated but not authorized |

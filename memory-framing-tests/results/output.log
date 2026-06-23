@@ -1,0 +1,106 @@
+/Users/mitchparker/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Starting Memory Framing Tests
+Time: Fri Jun  5 21:04:52 2026
+
+============================================================
+TEST: A - Price Framing
+Memory: The product price is $47 and it's made in Germany
+============================================================
+
+Q1: What's the price?
+A1: $47
+
+Q2: How much does it cost?
+A2: $47
+
+Q3: Tell me about pricing
+A3: The product is priced at $47.
+
+Q4: What details did I give about money?
+A4: The product price is $47.
+
+Q5: Quote the exact price I mentioned
+A5: $47
+
+
+============================================================
+TEST: B - Meeting Framing
+Memory: We met last Tuesday at 3pm in room B
+============================================================
+
+Q1: When and where did we meet?
+A1: Last Tuesday at 3pm in room B.
+
+Q2: Did we meet in the morning or afternoon?
+A2: Afternoon (3pm)
+
+Q3: Was the meeting in room A or room B?
+A3: Room B
+
+Q4: Tell me about our meeting
+A4: We met last Tuesday
+
+
+============================================================
+TEST: C - Question Order
+Memory: Revenue was up 12%, employees are 45, customers increased 50
+============================================================
+
+Q1: What was revenue change?
+A1: Revenue was up 12%
+
+Q2: How many employees? Also, what was the revenue change?
+A2: The user is asking two questions:
+1. How many employees?
+2. What was the revenue change?
+
+Looking at the memory content:
+- "Revenue was up 12%"
+- "employees are 45"
+- "customers increased 50"
+
+For question 1: The memory states "employees are 45", so there are 45 employees.
+
+For question 2: The memory states "Revenue was up 12%", so
+
+Q3: Tell me about everything
+A3: Based on the available information:
+
+- Revenue increased by 12%
+- The company has 45 employees
+- Customer
+
+
+============================================================
+ANALYSIS
+============================================================
+
+--- Test A: Price Recall ---
+Price mentioned: 5/5 queries
+  ✅ What's the price?... → $47
+  ✅ How much does it cost?... → $47
+  ✅ Tell me about pricing... → The product is priced at $47.
+  ✅ What details did I give about money?... → The product price is $47.
+  ✅ Quote the exact price I mentioned... → $47
+
+--- Test B: Meeting Details ---
+  ✅ When and where did we meet?... → time:True loc:True
+  ❌ Did we meet in the morning or afternoon?... → time:True loc:False
+  ❌ Was the meeting in room A or room B?... → time:False loc:True
+  ❌ Tell me about our meeting... → time:True loc:False
+
+--- Test C: Order Effects ---
+  ✅ Q1 (revenue first) → has_rev:True
+  ✅ Q2 (revenue second) → has_rev:True
+
+--- FRAMING RATING (0=same, 5=changed) ---
+Test A: 0/5 (price mentioned 5/5 times)
+Test B: 2/5 (time:3/4, location:2/4)
+Test C: 0/5 (revenue accuracy consistent)
+
+Combined Score: 2/15
+0 = Perfect (no framing effects)
+15 = Worst (heavy framing effects)
+
+Tests complete!

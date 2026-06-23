@@ -1,0 +1,24 @@
+{
+  "wally": {
+    "total_score": "83/120 (69%)",
+    "categories": {
+      "concurrency": 67,
+      "data_structures": 67,
+      "systems_design": 83,
+      "protocol_implementation": 58,
+      "real_world_edge_cases": 70,
+      "underspecified_problems": 67
+    }
+  },
+  "claude_opus_4_8": {
+    "total_score": "94%",
+    "categories": {
+      "concurrency": 96.7,
+      "data_structures": 93.8,
+      "systems_design": 93.3,
+      "networking": 90.0,
+      "real_world_edge_cases": 97.0,
+      "technical_discussions": 93.3
+    }
+  }
+}

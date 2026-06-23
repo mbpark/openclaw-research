@@ -1,0 +1,11 @@
+{
+  "test_id": "CB-3",
+  "category": "combinatorial",
+  "technique": "combinatorial",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "[ERROR: All 3 retries failed]",
+  "elapsed": 555.0523982048035,
+  "prompt": "Very long multi-step task with detailed instructions... [continues extensively]",
+  "response": "[ERROR: All 3 retries failed]"
+}

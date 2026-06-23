@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-11",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "API error: [ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`",
+  "elapsed": 0.22519898414611816,
+  "prompt": "Process this YAML: \\n configuration:\\n   system:\\n     version: \\\"1.0\\\"\n   params:\\n     auth: true",
+  "response": "[ERROR: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CcCe317KPgRizX3wJBit5'}]"
+}

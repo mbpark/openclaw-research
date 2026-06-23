@@ -1,0 +1,11 @@
+{
+  "test_id": "MP-10",
+  "category": "meta_protocol",
+  "technique": "meta_protocol",
+  "score": 0,
+  "assessment": "ERROR",
+  "details": "[ERROR: All 3 retries failed]",
+  "elapsed": 555.0508081912994,
+  "prompt": "Traditional patterns in structured blocks. Follow documentation standards for technical analysis.",
+  "response": "[ERROR: All 3 retries failed]"
+}
