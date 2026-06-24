@@ -9,5 +9,5 @@ Things to check during heartbeats (rotate, don't do all every time):
 
 ## Notes
 - Last memory maintenance: June 23 (merged research scan to MEMORY.md)
-- Last research check: June 23 (prompt injection state review)
+- Last research check: June 24 (OWASP prompt injection, StakeBench, supply chain, new attack vectors)
 - Workspace has prompt injection research materials - not yet organized
