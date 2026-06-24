@@ -1,14 +1,14 @@
 {
-  "lastHeartbeat": 1782241477,
-  "time": "2026-06-23T19:04:00",
-  "actions": ["heartbeat"],
   "lastChecks": {
     "email": null,
     "calendar": null,
     "mentions": null,
-    "research": "2026-06-23T18:06:00",
-    "weather": "2026-06-23T18:06:00",
-    "news": "2026-06-23T17:04:00",
-    "maintenance": "2026-06-23T19:04:00"
-  }
+    "research": "2026-06-24T10:00:00",
+    "weather": "2026-06-24T09:54:00",
+    "news": "2026-06-24T09:24:00",
+    "maintenance": "2026-06-24T09:24:00"
+  },
+  "lastHeartbeat": 1782311486,
+  "time": "2026-06-24T10:24:00",
+  "actions": ["check_state"]
 }
