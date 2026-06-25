@@ -3,12 +3,12 @@
     "email": null,
     "calendar": null,
     "mentions": null,
-    "research": "2026-06-24T18:21:00",
-    "weather": "2026-06-24T18:21:00",
-    "news": "2026-06-24T18:21:00",
+    "research": "2026-06-24T21:21:00",
+    "weather": "2026-06-24T21:21:00",
+    "news": "2026-06-24T21:21:00",
     "maintenance": "2026-06-24T09:24:00"
   },
-  "lastHeartbeat": 1782349862,
-  "time": "2026-06-24T20:51:00",
-  "actions": ["weather_check", "housekeeping"]
+  "lastHeartbeat": 1782352262,
+  "time": "2026-06-24T21:51:00",
+  "actions": ["skip - recent scan"]
 }
