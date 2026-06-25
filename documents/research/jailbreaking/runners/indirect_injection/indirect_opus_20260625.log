@@ -1,0 +1,10 @@
+============================================
+Indirect Prompt Injection Test Suite
+============================================
+Model: opus
+Test limit: 0
+Start time: Thu Jun 25 15:13:28 EDT 2026
+============================================
+usage: run_indirect_tests.py [-h] [--model {opus-4-8,sonnet-4-6}]
+                             [--tests TESTS] [--run-all]
+run_indirect_tests.py: error: argument --model: invalid choice: 'opus' (choose from 'opus-4-8', 'sonnet-4-6')

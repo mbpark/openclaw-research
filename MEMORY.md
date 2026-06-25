@@ -1,5 +1,77 @@
 # Memory
 
+## June 25, 2026 - Research Scan (2026 Prompt Injection State Update)
+
+### Real World AI Security Conference (June 10, 2026 at Stanford)
+- 20 studies presented including dedicated prompt injection and agent security sessions
+- New attack techniques and defense strategies discussed
+
+### Critical 2026 Exploits and Attacks
+
+**AutoJack RCE** (Microsoft research June 18)
+- Malicious webpages turn AI browsing agents into RCE vectors via localhost trust abuse
+- First demonstrated exploit chain from untrusted content to arbitrary code execution
+
+**SearchLeak** in Microsoft 365 Copilot Search
+- Prompt injection via crafted links exfiltrates confidential data
+- Instructs Copilot to perform actions beyond its scope
+
+**Agentjacking attack** (June 2026)
+- 2,388 organizations hit
+- Fake error reports with malicious instructions targeting AI coding agents
+
+**ClawHavoc supply chain campaign**
+- 1,100+ malicious tools uploaded to ClawHub
+- Info-stealing malware upon AI agent installation
+
+**CVE-2026-7482 "Bleeding Llama"**
+- Ollama server vulnerability, ~175k unauthenticated instances
+- Misconfigured instance used as cognitive core for offensive operations
+
+### 2026 CVE Landscape
+- **Proofpoint finding**: 12 distinct 2026 CVEs actively exploited by May, CISA KEV catalog only listed 8
+- 2026 CVE volume projected at 59,000-70,000+ (first year to potentially cross 50k)
+- NIST CVE submissions Q1 2026 up nearly 1/3 from same period 2025
+- Notable exploited CVEs:
+  - CVE-2026-42208: BerriAI LiteLLM SQL injection (affects versions 1.81.16 to 1.83.6)
+  - CVE-2026-31431: Linux kernel local privilege escalation with public exploit
+  - CVE-2025-32711: Microsoft 365 Copilot zero-click data exfiltration
+
+### Schneider Paper on Role Confusion
+- "Role perception" in LLMs linked to prompt injection susceptibility
+- Genuine role perception needed as defense foundation
+- Bridges understanding of why injection works
+
+### Policy and Regulatory
+- **US Executive Order June 2, 2026**: "Promoting Advanced AI Innovation and Security" - establishes AI cybersecurity clearinghouse
+- **UK NCSC warning**: Prompt injection "may be a problem that is never fully fixed"
+- **Five Eyes joint warning**: Frontier AI accelerating cyber threats, timeline months not years
+
+### Emerging Threats
+- Memory poisoning vectors - indirect injection corrupting agent long-term memory
+- Multi-agent infections and multimodal attacks (images, audio, video)
+- Gaslight macOS malware (June 2026) - weaponizes prompt injection defensively to trick AI triage
+- Indirect prompt injection proven as universal AI flaw across cloud and local models
+
+### Defense Evolution
+- Shift from prevention-only thinking to constraining injected agent capabilities
+- Live monitoring and real-time containment becoming focus
+- UK NCSC: prevention alone insufficient, focus on containment
+
+---
+
+## June 24, 2026 - Industry Updates
+
+### Signaling by Major Tech
+- **Oracle SEC filing**: First major tech company to explicitly cite AI in regulatory document for 21,000 job cuts
+
+### Technical Developments
+- **GPT-5.6 previewed**: OpenAI targeting late June to reclaim benchmark leadership
+- **GLM-5.2 from Zhipu AI**: MIT licensed, nearly matches Claude Opus 4.8, cheap API
+- **Noam Shazeer**: Transformer co-author moved from DeepMind to OpenAI as Lead for Architecture Research
+
+---
+
 ## June 23, 2026 - Research Scan
 
 ### Prompt Injection State (as of June 2026)
