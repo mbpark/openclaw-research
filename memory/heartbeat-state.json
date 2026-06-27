@@ -1,11 +1,9 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": 1782515352,
-    "research": 1782508216,
-    "security_framework": 1782495620,
-    "last_heartbeat": 1782515352,
-    "last_research": 1782508216
+    "last_heartbeat": 1751058000,
+    "last_checks_today": 3,
+    "date": "2026-06-27",
+    "weather": 1751058000,
+    "security": 1751058000
   }
 }

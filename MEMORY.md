@@ -1,5 +1,24 @@
 # Memory
 
+## June 26, 2026 - Heartbeat Research Update
+
+### New Findings
+- **Schneier discusses role confusion paper** (June 25): "Prompt Injection as Role Confusion" - key finding: role tags are "a formatting trick that became the security architecture"; LLMs learn text style patterns not just tags; genuine role perception needed or injection defense is "perpetual whack-a-mole"
+- **340% YoY surge** in prompt injection attacks (2025→2026)
+- **Multi-language evasion** emerging: splitting payloads across languages to bypass English-trained classifiers
+
+### Notable New Exploited CVEs (H2 2026)
+- **CVE-2026-41940**: cPanel/WHM auth bypass, broadly exploited
+- **CVE-2026-20841**: Gnu Inetutils telnetd arg injection, Qilin ransomware using it
+- **CVE-2026-42208**: LiteLLM SQL injection still actively exploited (old but persistent)
+- **CVE-2026-34070**: LangChain directory traversal, arbitrary file access
+- **Palo Alto CVE-2026-0300**: PAN-OS buffer overflow, pre-disclosure exploitation by state actors
+
+### Cisco Research
+- "Prompt Injection is the New SQL Injection and Guardrails Aren't Enough" - advocates for architecture-level defense, not just input validation
+
+---
+
 ## June 25, 2026 - Research Scan (2026 Prompt Injection State Update)
 
 ### Real World AI Security Conference (June 10, 2026 at Stanford)
@@ -292,4 +311,84 @@ Extended research focusing on covert channels, model manipulation, and exfiltrat
 - Only direct overrides showed some blocking (96% persistence vs 100% for others)
 - Multi-agent systems are extremely vulnerable to chain-propagated injections
 - Much of the "interleaved runner" debugging was due to output buffering issues - keep runners simple
+
+
+---
+
+## June 26, 2026 - Extended Indirect Injection Research
+
+### Test Development and Execution
+- Developed 26 new tests (categories 7, 8, 9) to extend June 25 indirect injection research
+- Run all 3 models: Opus 4.8, Sonnet 4.6, Gemini 2.5 Pro
+- All 78 test results completed and manually corrected
+
+### New Test Categories
+**Category 7: Extended Tool Chaining (12 tests)**
+- Rationale-based file reads (security scan context)
+- Multi-context reinforcement (same instruction in doc + query)
+- Prerequisite file reads (make tool use seem required)
+- Standard practice tool use (frame as industry standard)
+- Progressive disclosure (start simple, expand scope)
+- Plausible authority (CTO requests)
+
+**Category 8: Semantic Hidden Instructions (8 tests)**
+- Procedural documentation (README with real tool actions)
+- API test endpoints (fake docs with test instructions)
+- Training data mimicry (synthetic Q&A showing model taking actions)
+- Docstring examples (system verification commands)
+- Plaintext justifications (no markup hiding, just persuasive text)
+
+**Category 9: Memory Persistence Push (6 tests)**
+- Multi-turn recall (inject claim, test after several turns)
+- Perceived authority (company standards)
+- Repeated embedding (same claim in multiple docs)
+- Decision evidence (technical decisions with justification)
+- Credential context (secret keys in technical docs)
+- Task state (project status claims)
+
+### Results (Corrected After Manual Scoring)
+
+| Model | Tool Chaining | Semantic Hidden | Memory Persistence | Overall |
+|-------|---------------|-----------------|-------------------|---------|
+| Opus 4.8 | 2.75/5 | 1.88/5 | 0/5 | 1.85/5 |
+| Sonnet 4.6 | 2.75/5 | 2.25/5 | 0/5 | 1.96/5 |
+| Gemini 2.5 Pro | 2.75/5 | 1.88/5 | 0/5 | 1.85/5 |
+
+**All Models:**
+- 0 executions
+- 16-17 acknowledged (score 3)
+- 9-10 blocked (score 0)
+
+### Comparison with Original Tests
+
+| Test Type | Original Avg (June 25) | Extended Avg (June 26) | Change |
+|-----------|----------------------|----------------------|--------|
+| Tool Chaining | 2.4/5 | 2.75/5 | +0.35 |
+| Hidden Instructions | 1.6/5 | 1.88-2.25/5 | +0.28-0.65 |
+| Memory Poisoning | 0/5 | 0/5 | 0 |
+
+### Key Findings
+1. **Still 0 executions** across all categories despite sophisticated rationale-based techniques
+2. Tool chaining higher acknowledgment (~92%) but doesn't lead to action
+3. Rationale-based framing (security scans, CTO requests, industry practice) didn't overcome resistance
+4. Memory persistence claims not recalled after several turns
+5. CTO authority framing completely ineffective
+
+### Scoring Function Bug
+- Auto-scoring function matched "I'll" as action language
+- All "score 5" auto-classifications corrected to score 3 (acknowledged/refused)
+- Manual verification performed on 100% of Opus and Sonnet tests
+- Manual verification performed on sample of Gemini tests, extrapolated
+
+### Files
+- Reports: documents/research/jailbreaking/runners/indirect_injection/cross_model_report.py
+- Test definitions: category_7,8,9 JSON files
+- Results in results/indirect_v2_*/ and results/indirect_gemini_v2_*/
+
+### Next Steps
+1. Git commit all materials
+2. Multi-agent chain research comprehensive report
+3. Review results and plan next test direction
+2.1 Consider memory persistence with larger context windows
+2.2 Explore state manipulation via code context (tool calling, function definitions)
 
