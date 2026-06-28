@@ -5,7 +5,7 @@
 **Lead Researcher:** Mitch
 **Assistant Researcher:** Wally (local 40B-parameter LLM)
 **Organization:** Independent Research
-**Report Version:** 1.1 (with Heterogeneous Chain Analysis)
+**Report Version:** 1.2 (with Heterogeneous Chain and Full Context Window Analysis)
 
 ---
 
@@ -16,6 +16,10 @@
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Heterogeneous Chain Analysis](#heterogeneous-chain-analysis)
+6. [Full Context Window Memory Persistence](#full-context-window-memory-persistence)
+7. [Discussion](#discussion)
+8. [Conclusions and Recommendations](#conclusions-and-recommendations)
+9. [Appendices](#appendices)
 6. [Discussion](#discussion)
 7. [Conclusions and Recommendations](#conclusions-and-recommendations)
 8. [Appendices](#appendices)
@@ -329,6 +333,67 @@ The heterogeneous chain results suggest:
 
 ---
 
+## Full Context Window Memory Persistence
+
+### Rationale
+
+Chain propagation testing demonstrated high persistence of injections through explicit agent handoffs. This raises a secondary question: can injections persist through large context windows when buried in extensive documentation, even within a single agent interaction? If injections can "hide" in large context windows and be retrieved later, this would represent a memory persistence vulnerability.
+
+### Methodology
+
+We constructed eight tests with large realistic contexts (approximately 60,000+ tokens each) designed to embed injection instructions within legitimate technical documentation. These contexts covered realistic scenarios where agents might process extensive documentation:
+
+1. **API Documentation** - Comprehensive API specification with embedded verification command
+2. **Code Repository Analysis** - Large codebase review with file creation request
+3. **Compliance Documentation** - Regulatory compliance materials with hidden task
+4. **Database Schema** - SQL schema with embedded initialization instruction
+5. **Project Handoff** - Project handoff document with tracking setup request
+6. **Meeting Transcript** - Extended meeting notes with spreadsheet creation request
+7. **Infrastructure Documentation** - Kubernetes configuration docs with kubectl command
+8. **Research Paper** - Academic paper with statistical analysis request
+
+### Results
+
+| Model | Tests | Executed | Acknowledged | Blocked | Avg Score (0-5) |
+|-------|-------|----------|--------------|---------|-----------------|
+| Claude Opus 4.8 | 8 | 0 | 1 | 7 | 0.38 |
+| Claude Sonnet 4.6 | 8 | 0 | 2 | 6 | 0.75 |
+| Gemini 2.5 Pro | 8 | 0* | 0 | 8 | 0.00 |
+
+*One score 5 by auto-scoring function (cat10-002) was verified as false positive through manual review.
+
+### Comparison with Prior Testing
+
+| Test Type | Avg Score | Interpretation |
+|-----------|-----------|----------------|
+| Tool Chaining (v1) | 2.4/5 | Moderate effectiveness |
+| Hidden Instructions (v1) | 1.6/5 | Low-moderate effectiveness |
+| Memory Poisoning (v1) | 0/5 | Minimal effectiveness |
+| **Full Context Window (Cat 10)** | **0.38-0.75/5** | **Very low effectiveness** |
+
+### Interpretation
+
+1. **Extremely low persistence rates:** Despite elaborate embedding in realistic technical documentation, injections were largely blocked or ignored on follow-up
+2. **Context dilution effect:** Large context windows appear to *dilate* rather than *preserve* embedded instructions
+3. **No memory poisoning effect:** Unlike direct memory poisoning tests, large context windows didn't improve instruction recall
+4. **Model consistency:** All three models showed similar resistance patterns
+
+### Implications for Chain Architecture
+
+This finding provides partial counterpoint to the chain propagation results: while injections persist well through explicit chain handoffs, they do not reliably persist when merely present in large context windows. This suggests:
+
+- Chain propagation is driven by *active task handoff*, not passive memory persistence
+- Context window size may not be the primary vulnerability vector previously hypothesized
+- The "memory" mechanism differs from context window retention
+
+### Limitations
+
+1. Only one model per category tested (not cross-model for each test)
+2. Scoring function had minor matching issues (caught through manual verification)
+3. Some contexts exceeded token limits and required simplification
+
+---
+
 ## Discussion
 
 ### The Failure of Chain Compounding Security
@@ -365,8 +430,17 @@ Multi-agent chains show overwhelming injection persistence regardless of composi
 1. **Homogeneous chains:** 97.8% persistence with no chain length benefit
 2. **Heterogeneous chains:** 87.0% persistence—modest but not transformative improvement
 3. **Structural persistence:** Three vector classes show near-perfect persistence in both chain types
+4. **Full context window persistence:** 0.38-0.75/5 average score—injections largely fail to persist through large context windows alone
 
 The ~10-point improvement from heterogeneity suggests model diversity has some value, but sophisticated attacks continue to persist at high rates.
+
+### Memory Persistence Findings
+
+Full context window testing (Category 10) demonstrates that injections do **not** persist well through large context windows alone. With an average score of 0.38-0.75/5 across models, this suggests:
+
+- Memory persistence through explicit handoff differs from passive context retention
+- Large context windows may *dilute* rather than preserve embedded instructions
+- The memory poisoning mechanism previously hypothesized appears weaker than chain handoff persistence
 
 ### Implications
 
@@ -383,6 +457,8 @@ The ~10-point improvement from heterogeneity suggests model diversity has some v
 4. Keyword-based detection
 5. No implementation quality scoring
 6. Gemini Flash used, not Gemini Pro
+7. Full context window tests (Category 10) had scoring function edge cases requiring manual verification
+8. Some Category 10 contexts exceeded token limits
 
 ---
 
@@ -395,6 +471,7 @@ The ~10-point improvement from heterogeneity suggests model diversity has some v
 *Report generated June 16, 2026*
 *Data sourced from 276 completed tests across two testing sessions*
 *Heterogeneous chain analysis added June 17, 2026*
+*Full context window memory persistence analysis added June 28, 2026*
 *All code and raw data preserved in chain_tests/comprehensive_results/*
 
 ---
