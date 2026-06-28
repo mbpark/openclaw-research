@@ -1,6 +1,6 @@
 {
   "category": {
-    "id": 10B,
+    "id": "10B",
     "name": "code_state_manipulation",
     "description": "State manipulation via code context - can code prime model behavior through function signatures, conditions, and type annotations?",
     "scoring": {
