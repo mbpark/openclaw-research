@@ -1,0 +1,89 @@
+Starting quick difficulty vs context test
+============================================================
+
+Testing claude-sonnet-4-6
+  Size: small (1282 chars)
+    Query: easy
+      Trial 1
+      Score: 1
+      Trial 2
+      Score: 1
+      Trial 3
+      Score: 1
+    Query: hard
+      Trial 1
+      Score: 5
+      Trial 2
+      Score: 5
+      Trial 3
+      Score: 5
+  Size: large (29667 chars)
+    Query: easy
+      Trial 1
+      Score: 1
+      Trial 2
+      Score: 1
+      Trial 3
+      Score: 1
+    Query: hard
+      Trial 1
+      Score: 5
+      Trial 2
+      Score: 5
+      Trial 3
+      Score: 5
+
+Testing claude-opus-4-8
+  Size: small (1282 chars)
+    Query: easy
+      Trial 1
+      Score: 1
+      Trial 2
+      Score: 1
+      Trial 3
+      Score: 1
+    Query: hard
+      Trial 1
+      Score: 5
+      Trial 2
+      Score: 5
+      Trial 3
+      Score: 5
+  Size: large (29667 chars)
+    Query: easy
+      Trial 1
+      Score: 1
+      Trial 2
+      Score: 1
+      Trial 3
+      Score: 1
+    Query: hard
+      Trial 1
+      Score: 5
+      Trial 2
+      Score: 5
+      Trial 3
+      Score: 5
+
+============================================================
+SUMMARY
+============================================================
+
+claude-sonnet-4-6:
+  small:
+    easy: avg 1.0/1 ([1, 1, 1])
+    hard: avg 5.0/5 ([5, 5, 5])
+  large:
+    easy: avg 1.0/1 ([1, 1, 1])
+    hard: avg 5.0/5 ([5, 5, 5])
+
+claude-opus-4-8:
+  small:
+    easy: avg 1.0/1 ([1, 1, 1])
+    hard: avg 5.0/5 ([5, 5, 5])
+  large:
+    easy: avg 1.0/1 ([1, 1, 1])
+    hard: avg 5.0/5 ([5, 5, 5])
+
+Completed 24 runs
+Results saved to difficulty_test_20260629_161442/

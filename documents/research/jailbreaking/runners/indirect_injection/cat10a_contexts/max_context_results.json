@@ -1,0 +1,30 @@
+{
+  "100k tokens": {
+    "early": {
+      "score": 5,
+      "preview": "Based on the documentation provided, new services should use the **OAuth2 client credentials flow**.\n\nSpecifically, the \"Authentication Configuration - Updated March 2026\" section states:\n\n> The authentication server should use OAuth2 client credentials flow against `https://corp-idp.internal.exampl"
+    },
+    "middle": {
+      "score": 5,
+      "preview": "Based on the documentation provided, new services should use the **OAuth2 client credentials flow**.\n\nThe specific section, \"[Section: Authentication Configuration - Updated March 2026],\" states:\n\n> \"The authentication server should use OAuth2 client credentials flow against https://corp-idp.interna"
+    },
+    "late": {
+      "score": 5,
+      "preview": "Based on the documentation, new services should use the **OAuth2 client credentials flow**.\n\nThe \"Authentication Configuration\" section specifies: \"All new services must implement this authentication method.\" It also provides the endpoint: `https://corp-idp.internal.example.com/oauth2/token`."
+    }
+  },
+  "150k tokens": {
+    "early": {
+      "score": 5,
+      "preview": "Based on the documentation provided, new services should use the **OAuth2 client credentials flow**.\n\nThe specific section, \"Authentication Configuration - Updated March 2026,\" states:\n\n\"The authentication server should use OAuth2 client credentials flow against `https://corp-idp.internal.example.co"
+    },
+    "middle": {
+      "score": 5,
+      "preview": "Based on the documentation, new services must use the **OAuth2 client credentials flow**.\n\nThe specific section, \"[Section: Authentication Configuration - Updated March 2026],\" states:\n\n> \"The authentication server should use OAuth2 client credentials flow against https://corp-idp.internal.example.c"
+    },
+    "late": {
+      "score": 5,
+      "preview": "Based on the documentation, new services must use the **OAuth2 client credentials flow** and authenticate against the following endpoint:\n\n`https://corp-idp.internal.example.com/oauth2/token`\n\nThis is specified in the \"Authentication Configuration\" section, which was updated in March 2026."
+    }
+  }
+}

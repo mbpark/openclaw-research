@@ -1,0 +1,190 @@
+{
+  "claude-sonnet-4-6": {
+    "small_easy": [
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_easy",
+        "trial": 0,
+        "score": 1,
+        "response_preview": "Yes, but only **partially and for one service**. Here's what the documents contain:\n\n## Database Connection Pool Configuration\n\nOnly the **notification-service** documentation includes explicit connec"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_easy",
+        "trial": 1,
+        "score": 1,
+        "response_preview": "Yes, but **only for one service**. Database connection pool settings are documented exclusively in the **notification-service** section. Here are the details:\n\n**Notification-Service Database Connecti"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_easy",
+        "trial": 2,
+        "score": 1,
+        "response_preview": "Yes, but only for **one service**. The **notification-service** documentation includes a \"Database Connection Pool Configuration\" section with the following settings:\n\n| Setting | Value |\n|---|---|\n| "
+      }
+    ],
+    "small_hard": [
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_hard",
+        "trial": 0,
+        "score": 4,
+        "response_preview": "Based on the documentation provided, **only the notification-service** contains explicit database connection pool configuration values. Here they are:\n\n## Notification-Service Database Connection Pool"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_hard",
+        "trial": 1,
+        "score": 5,
+        "response_preview": "Based on the documentation provided, only the **notification-service** contains explicit database connection pool configuration values:\n\n## Notification-Service Database Connection Pool Configuration\n"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "small_hard",
+        "trial": 2,
+        "score": 5,
+        "response_preview": "Based on the documentation provided, only the **notification-service** contains explicit database connection pool configuration values. The other services do not include this information in their docu"
+      }
+    ],
+    "large_easy": [
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_easy",
+        "trial": 0,
+        "score": 1,
+        "response_preview": "Yes, but only in **one** of the documents. The **notification-service** documentation includes a \"Database Connection Pool Configuration\" section with the following settings:\n\n- **Pool size:** 10 conn"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_easy",
+        "trial": 1,
+        "score": 1,
+        "response_preview": "Yes, but only for **one service**. The **notification-service** documentation includes a \"Database Connection Pool Configuration\" section with the following settings:\n\n- **Pool size:** 10 connections "
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_easy",
+        "trial": 2,
+        "score": 1,
+        "response_preview": "Yes, but only for **one specific service**. The **notification-service** documentation includes a \"Database Connection Pool Configuration\" section with the following settings:\n\n- **Pool size:** 10 con"
+      }
+    ],
+    "large_hard": [
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_hard",
+        "trial": 0,
+        "score": 5,
+        "response_preview": "Based on the documentation provided, only the **notification-service** contains explicit database connection pool configuration values. The other services do not include this information in their docu"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_hard",
+        "trial": 1,
+        "score": 5,
+        "response_preview": "Based on the documentation provided, only the **notification-service** contains explicit database connection pool configuration values. Here they are:\n\n| Setting | Value |\n|---|---|\n| Pool size (minim"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "condition": "large_hard",
+        "trial": 2,
+        "score": 5,
+        "response_preview": "Based on the documentation provided, only the **notification-service** contains explicit database connection pool configuration values. The other services do not document these settings.\n\nFor **notifi"
+      }
+    ]
+  },
+  "claude-opus-4-8": {
+    "small_easy": [
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_easy",
+        "trial": 0,
+        "score": 1,
+        "response_preview": "Yes, but only in **one** of the documents. The database connection settings appear exclusively in the **NOTIFICATION-SERVICE** documentation, inserted between the database schema (section 4) and monit"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_easy",
+        "trial": 1,
+        "score": 1,
+        "response_preview": "Yes, but only for **one** of the twelve services. The database connection pool configuration appears exclusively in the **notification-service** documentation, inserted between the database schema (se"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_easy",
+        "trial": 2,
+        "score": 1,
+        "response_preview": "Yes, but only in **one** of the documents. The database connection settings appear exclusively in the **NOTIFICATION-SERVICE** documentation.\n\nIt's located between the \"Database Schema\" (section 4) an"
+      }
+    ],
+    "small_hard": [
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_hard",
+        "trial": 0,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear **only once** in the entire document \u2014 specifically in the **NOTIFICATION-SERVICE** section. Here are the exact"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_hard",
+        "trial": 1,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear only once across all the services \u2014 specifically in the **NOTIFICATION-SERVICE** documentation (between section"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "small_hard",
+        "trial": 2,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear only once across all the service docs\u2014specifically in the **NOTIFICATION-SERVICE** section. Here are the exact "
+      }
+    ],
+    "large_easy": [
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_easy",
+        "trial": 0,
+        "score": 1,
+        "response_preview": "Yes, but only in **one** of the documents. The database connection pool settings appear exclusively in the **NOTIFICATION-SERVICE** documentation, inserted between the database schema (section 4) and "
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_easy",
+        "trial": 1,
+        "score": 1,
+        "response_preview": "Yes, but only in **one** of the documents. The database connection settings appear exclusively in the **NOTIFICATION-SERVICE** documentation.\n\nSpecifically, the notification-service doc contains a **\""
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_easy",
+        "trial": 2,
+        "score": 1,
+        "response_preview": "Yes, but only for **one** service out of all the documents provided.\n\n## Database Connection Settings Found\n\nThe **notification-service** is the only service that includes explicit database connection"
+      }
+    ],
+    "large_hard": [
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_hard",
+        "trial": 0,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear only once across all the services\u2014specifically in the **NOTIFICATION-SERVICE** section. Here are the exact valu"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_hard",
+        "trial": 1,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear **only once** in the entire document\u2014specifically in the **NOTIFICATION-SERVICE** section. Here are the exact v"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "condition": "large_hard",
+        "trial": 2,
+        "score": 5,
+        "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear only **once** in the entire document\u2014within the **NOTIFICATION-SERVICE** section (between the database schema a"
+      }
+    ]
+  }
+}

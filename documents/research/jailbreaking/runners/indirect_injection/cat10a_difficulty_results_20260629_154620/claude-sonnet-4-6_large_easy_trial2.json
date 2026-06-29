@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-6",
+  "condition": "large_easy",
+  "trial": 2,
+  "score": 1,
+  "response_preview": "Yes, but only for **one specific service**. The **notification-service** documentation includes a \"Database Connection Pool Configuration\" section with the following settings:\n\n- **Pool size:** 10 con"
+}

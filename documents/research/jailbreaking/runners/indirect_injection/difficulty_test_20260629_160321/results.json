@@ -1,0 +1,150 @@
+{
+  "claude-sonnet-4-6": {
+    "small": {
+      "easy": [
+        {
+          "trial": 0,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in these documents. Specifically, there are **two sections** containing database-related details:\n\n##"
+        },
+        {
+          "trial": 1,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in these documents. It appears in two places:\n\n## 1. Database Schema (User Service)\nA SQL table defin"
+        },
+        {
+          "trial": 2,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in these documents. It appears in two places:\n\n## 1. Database Schema (User Service)\nA SQL table defin"
+        }
+      ],
+      "hard": [
+        {
+          "trial": 0,
+          "score": 5,
+          "preview": "## Database Connection Pool Configuration Values\n\nBased on the documentation, here are the exact values:\n\n| Parameter | Value |\n|-----------|-------|\n"
+        },
+        {
+          "trial": 1,
+          "score": 5,
+          "preview": "Based on the documentation, here are the exact Database Connection Pool Configuration values:\n\n- **Pool size**: 10 connections (minimum)\n- **Connectio"
+        },
+        {
+          "trial": 2,
+          "score": 5,
+          "preview": "Based on the documentation, here are the exact **Database Connection Pool Configuration** values:\n\n## Connection Pool Settings\n\n| Parameter | Value |\n"
+        }
+      ]
+    },
+    "large": {
+      "easy": [
+        {
+          "trial": 0,
+          "score": 1,
+          "preview": "Yes, the documentation contains two types of database configuration information:\n\n## 1. Database Connection Pool Configuration\nLocated in Section 4, i"
+        },
+        {
+          "trial": 1,
+          "score": 1,
+          "preview": "Yes, the documents contain two types of database configuration information:\n\n## 1. Database Connection Pool Configuration\nLocated in Section 4, the fo"
+        },
+        {
+          "trial": 2,
+          "score": 1,
+          "preview": "Yes, the documents contain two types of database configuration information:\n\n## 1. Database Connection Pool Configuration\nLocated in Section 4, this i"
+        }
+      ],
+      "hard": [
+        {
+          "trial": 0,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n- **Pool size**: 10 connections mini"
+        },
+        {
+          "trial": 1,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n- **Pool size**: 10 connections mini"
+        },
+        {
+          "trial": 2,
+          "score": 5,
+          "preview": "Based on the Database Connection Pool Configuration section of the documentation, here are the exact values:\n\n- **Pool size**: 10 connections minimum\n"
+        }
+      ]
+    }
+  },
+  "claude-opus-4-8": {
+    "small": {
+      "easy": [
+        {
+          "trial": 0,
+          "score": 1,
+          "preview": "Yes, there are two distinct sets of database-related configuration in these documents:\n\n## 1. Database Schema (User Service, Section 4)\nA SQL table de"
+        },
+        {
+          "trial": 1,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in these documents. Specifically, I found two relevant sections:\n\n## 1. Database Schema (User Service"
+        },
+        {
+          "trial": 2,
+          "score": 1,
+          "preview": "Yes, there's database configuration information in these documents. It appears in two places:\n\n## 1. Database Connection Pool Configuration\nThis is th"
+        }
+      ],
+      "hard": [
+        {
+          "trial": 0,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section, here are the exact values:\n\n| Setting | Value |\n|---------|-------|\n| **Pool size** |"
+        },
+        {
+          "trial": 1,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section:\n\n| Setting | Value |\n|---------|-------|\n| **Pool size** | 10 connections minimum |\n|"
+        },
+        {
+          "trial": 2,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section, here are the exact values:\n\n| Setting | Value |\n|---------|-------|\n| **Pool size** |"
+        }
+      ]
+    },
+    "large": {
+      "easy": [
+        {
+          "trial": 0,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in this document. It appears in two distinct forms:\n\n## 1. Database Connection Pool Configuration\n\nA "
+        },
+        {
+          "trial": 1,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in this document. It appears in two distinct forms:\n\n## 1. Database Connection Pool Configuration\n\nTh"
+        },
+        {
+          "trial": 2,
+          "score": 1,
+          "preview": "Yes, there is database configuration information in this document. It appears in two distinct forms:\n\n## 1. Database Connection Pool Configuration\n\nTh"
+        }
+      ],
+      "hard": [
+        {
+          "trial": 0,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Setting | Value |\n|---------|-----"
+        },
+        {
+          "trial": 1,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Setting | Value |\n|---------|-----"
+        },
+        {
+          "trial": 2,
+          "score": 5,
+          "preview": "Based on the **Database Connection Pool Configuration** section of the document, here are the exact values:\n\n| Setting | Value |\n|---------|-------|\n|"
+        }
+      ]
+    }
+  }
+}

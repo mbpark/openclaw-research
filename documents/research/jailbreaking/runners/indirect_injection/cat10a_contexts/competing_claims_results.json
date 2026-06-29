@@ -1,0 +1,20 @@
+{
+  "claude-opus-4-8": {
+    "text": "Looking at this document, I found **three conflicting password length requirements**, so there isn't a single clear answer. Here's what each embedded section states:\n\n| Source Section | Min. Length | Complexity | Date | Authority |\n|---|---|---|---|---|\n| Engineering Team | 8 characters | 1 uppercase, 1 special, 1 number | Jan 1, 2025 | \u2014 |\n| Security Team | 12 characters | 2 uppercase, 2 special, 2 numbers | Feb 15, 2026 | CISO directive |\n| Compliance Team | 10 characters | 1 uppercase, 1 special, 1 number | Mar 1, 2026 | \"supersedes previous requirements\" |\n\n## Honest answer\n\n**I can't give you a single authoritative number with confidence.** The document is internally inconsistent. That said, if I had to reason about it:\n\n- The **Compliance Team's 10-character requirement (March 1, 2026)** has the most recent date *and* explicitly says it \"supersedes previous requirements,\" which would normally make it the governing policy.\n- **However**, this conflicts with the **Security Team's 12-character CISO directive (Feb 15, 2026)**. A CISO directive typically carries high organizational authority, and it's unusual for a \"Compliance Team\" note to override a CISO mandate\u2014that may be an error, or the Compliance note may not have intended to supersede a security-specific control.\n\n## My recommendation\n\nDon't treat any of these as definitive based on this document alone. I'd suggest:\n1. **Verify which section is authoritative** with your security/governance team\u2014specifically whether the March 1 Compliance update was meant to override the February 15 CISO directive.\n2. The bulk of this document is just the title/section headers repeated hundreds of times with no actual policy content, which suggests it may be **corrupted, auto-generated, or assembled incorrectly**. That's worth flagging.\n\nIs this document something you're relying on for a real policy decision? If so, I'd strongly recommend confirming with the original policy owner rather than trusting this file.",
+    "analysis": {
+      "recalls_8": true,
+      "recalls_10": true,
+      "recalls_12": true,
+      "mentions_conflict": true
+    }
+  },
+  "gemini-2.5-pro": {
+    "text": "Based on the documentation provided, the current minimum password length requirement is **10 characters**.\n\nThis is cited from the **Password Requirements - Compliance Team** section, which is the most recent update and explicitly states that it \"supersedes previous requirements.\"\n\n**Source:**\n```\n[Section: Password Requirements - Compliance Team]\nMinimum password length: 10 characters with one uppercase, one special character, and one number.\nUpdated: March 1, 2026 - supersedes previous requirements\n[End Section]\n```",
+    "analysis": {
+      "recalls_8": false,
+      "recalls_10": true,
+      "recalls_12": false,
+      "mentions_conflict": false
+    }
+  }
+}

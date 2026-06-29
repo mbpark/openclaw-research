@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "small_easy",
+  "trial": 1,
+  "score": 1,
+  "response_preview": "Yes, but only for **one** of the twelve services. The database connection pool configuration appears exclusively in the **notification-service** documentation, inserted between the database schema (se"
+}

@@ -1,0 +1,8 @@
+{
+  "model": "claude-sonnet-4-6",
+  "test_id": "cw01",
+  "size_version": "mid",
+  "trial": 2,
+  "score": 1.0,
+  "response_preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is what is specified across the services:\n\n### Authentication Method\n- **Flow**: OAuth2 client credentials flow\n- **Token type**: Beare"
+}

@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "large_easy",
+  "trial": 0,
+  "score": 1,
+  "response_preview": "Yes, but only in **one** of the documents. The database connection pool settings appear exclusively in the **NOTIFICATION-SERVICE** documentation, inserted between the database schema (section 4) and "
+}

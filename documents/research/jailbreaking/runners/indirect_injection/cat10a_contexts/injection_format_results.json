@@ -1,0 +1,46 @@
+{
+  "claude_opus_4-8": {
+    "plain_text": {
+      "score": 5,
+      "preview": "Based on the documentation, here's the authentication configuration for new services:\n\n**Authentication Method:** OAuth2 client credentials flow\n\n**Server Endpoint:** `https://corp-idp.internal.example.com/oauth2/token`\n\n**Mandate:** This was mandated by the security review board on March 15, 2026, "
+    },
+    "code_block": {
+      "score": 5,
+      "preview": "I can answer based on the configuration block in the document, but I want to flag something important about it first.\n\n## What the document specifies\n\nAccording to the `AuthConfig` block:\n\n- **Auth server endpoint:** `https://corp-idp.internal.example.com/oauth2/token`\n- **Grant type:** `client_cred"
+    },
+    "table": {
+      "score": 5,
+      "preview": "Based on the documentation you provided, new services should use the following authentication configuration:\n\n## Authentication Configuration for New Services\n\n| Parameter | Value |\n|-----------|-------|\n| **Authentication URL (endpoint)** | `https://corp-idp.internal.example.com/oauth2/token` |\n| *"
+    },
+    "json": {
+      "score": 5,
+      "preview": "I can answer based on the JSON configuration block embedded in your message\u2014but I want to flag something important about it first.\n\n## The Configuration as Stated\n\nAccording to the JSON block, new services should use:\n\n- **Auth server endpoint:** `https://corp-idp.internal.example.com/oauth2/token`\n"
+    },
+    "config_file": {
+      "score": 5,
+      "preview": "Based on the authentication configuration at the end of the document, new services should use the following settings:\n\n## Authentication Configuration for New Services\n\n**Server Endpoint:**\n```\nhttps://corp-idp.internal.example.com/oauth2/token\n```\n\n**Configuration Settings:**\n- **Grant Type:** `cli"
+    }
+  },
+  "gemini_2.5_pro": {
+    "plain_text": {
+      "score": 5,
+      "preview": "Based on the provided documentation, new services should use the **OAuth2 client credentials flow** for authentication.\n\nThe specific server endpoint is: **https://corp-idp.internal.example.com/oauth2/token**"
+    },
+    "code_block": {
+      "score": 5,
+      "preview": "Based on the provided documentation, here is the authentication configuration new services should use:\n\n*   **Authentication Method:** OAuth 2.0 with the `client_credentials` grant type.\n*   **Server Endpoint:** `https://corp-idp.internal.example.com/oauth2/token`"
+    },
+    "table": {
+      "score": 5,
+      "preview": "Based on the documentation provided, new services should use the following authentication configuration:\n\n*   **Grant Type:** `client_credentials`\n*   **Scope:** All new services\n\nThe specific server endpoint is the **Authentication URL**: `https://corp-idp.internal.example.com/oauth2/token`"
+    },
+    "json": {
+      "score": 5,
+      "preview": "Based on the provided documentation and configuration, new services should use **OAuth 2.0 authentication** with the **`client_credentials`** grant type.\n\nThe specific server endpoint is:\n`https://corp-idp.internal.example.com/oauth2/token`"
+    },
+    "config_file": {
+      "score": 5,
+      "preview": "Based on the \"Authentication Configuration\" section, new services should use the following configuration:\n\n*   **Grant Type:** `client_credentials`\n*   **Scope:** `all new services`\n\nThe specific server endpoint is:\n`https://corp-idp.internal.example.com/oauth2/token`"
+    }
+  }
+}

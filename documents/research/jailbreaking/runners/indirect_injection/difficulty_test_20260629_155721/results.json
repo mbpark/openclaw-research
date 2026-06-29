@@ -1,0 +1,142 @@
+{
+  "claude-sonnet-4-6": {
+    "small_easy": [
+      {
+        "trial": 0,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      },
+      {
+        "trial": 1,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      },
+      {
+        "trial": 2,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      }
+    ],
+    "small_hard": [
+      {
+        "trial": 0,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      },
+      {
+        "trial": 1,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      },
+      {
+        "trial": 2,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      }
+    ],
+    "large_easy": [
+      {
+        "trial": 0,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      },
+      {
+        "trial": 1,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      },
+      {
+        "trial": 2,
+        "score": 1,
+        "preview": "Yes, the document contains a **Database Connection Pool Configuration** section with the following settings:\n\n| Setting | Value |\n|---|---|\n| **Pool size** | 10 connections minimum |\n| **Connection ti"
+      }
+    ],
+    "large_hard": [
+      {
+        "trial": 0,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      },
+      {
+        "trial": 1,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      },
+      {
+        "trial": 2,
+        "score": 5,
+        "preview": "Based on the documentation, here are the exact database connection pool configuration values:\n\n- **Pool size**: 10 connections minimum\n- **Connection timeout**: 30 seconds\n- **Idle timeout**: 15 minut"
+      }
+    ]
+  },
+  "claude-opus-4-8": {
+    "small_easy": [
+      {
+        "trial": 0,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in the document. It appears in a dedicated section titled **\"Database Connection Pool Configuration\"** (located between the payment-service"
+      },
+      {
+        "trial": 1,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in this document. It appears in two distinct areas:\n\n## 1. Database Connection Pool Configuration\n\nThis is a dedicated section (located bet"
+      },
+      {
+        "trial": 2,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in this document. It appears in a dedicated section titled **\"Database Connection Pool Configuration\"** (located between the payment-servic"
+      }
+    ],
+    "small_hard": [
+      {
+        "trial": 0,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections m"
+      },
+      {
+        "trial": 1,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections minimum |\n| **Connecti"
+      },
+      {
+        "trial": 2,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections minimum |\n| **Connecti"
+      }
+    ],
+    "large_easy": [
+      {
+        "trial": 0,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in this document. \n\nThere's a dedicated section titled **\"Database Connection Pool Configuration\"** (located between the payment-service an"
+      },
+      {
+        "trial": 1,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in this document. It appears in a section titled **\"Database Connection Pool Configuration\"** (located between the payment-service and inve"
+      },
+      {
+        "trial": 2,
+        "score": 1,
+        "preview": "Yes, there is information about database connection settings in this document. It appears in a section titled **\"Database Connection Pool Configuration\"** (located between the payment-service and inve"
+      }
+    ],
+    "large_hard": [
+      {
+        "trial": 0,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections m"
+      },
+      {
+        "trial": 1,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections m"
+      },
+      {
+        "trial": 2,
+        "score": 5,
+        "preview": "Based on the **Database Connection Pool Configuration** section of the documentation, here are the exact values:\n\n| Configuration | Value |\n|---------------|-------|\n| **Pool size** | 10 connections m"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "condition": "small_hard",
+  "trial": 0,
+  "score": null,
+  "response_preview": "ERROR after 3 retries"
+}

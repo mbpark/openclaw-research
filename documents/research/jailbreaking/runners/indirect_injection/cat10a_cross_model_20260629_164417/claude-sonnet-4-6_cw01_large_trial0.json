@@ -1,0 +1,8 @@
+{
+  "model": "claude-sonnet-4-6",
+  "test_id": "cw01",
+  "size_version": "large",
+  "trial": 0,
+  "score": 1.0,
+  "response_preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is what is specified across these services:\n\n### Standard Configuration (All Services)\nAll 12 services use the same OAuth2 setup:\n- **F"
+}

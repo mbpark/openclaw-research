@@ -1,0 +1,150 @@
+{
+  "claude-sonnet-4-6": {
+    "cw01": {
+      "mid": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is a summary of the authentication configuration:\n\n### Identity Provider\n- **Token en"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is a summary of the authentication configuration:\n\n### Flow Type\nThe platform uses th"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is a summary of the authentication configuration:\n\n### Flow Type\nThe platform uses th"
+        }
+      ],
+      "large": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is a summary of the authentication configuration:\n\n### Identity Provider\n- **Token en"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is the authentication configuration:\n\n### Flow Type\nThe platform uses the **OAuth2 cl"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "## OAuth2 Authentication Setup\n\nBased on the documentation, here is how the authentication is configured:\n\n### Identity Provider\n- **Token endpoint**:"
+        }
+      ]
+    },
+    "cw04": {
+      "mid": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "## Database Pool Size Configurations\n\nAccording to the documentation, three pool size settings are defined:\n\n| Setting | Connections |\n|---------|----"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "## Database Pool Size Configurations\n\nAccording to the documentation, three pool size settings are defined:\n\n| Setting | Connections |\n|---------|----"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "Based on the documentation, three database pool size configurations are specified under the **Database Configuration** section:\n\n| Setting | Value |\n|"
+        }
+      ],
+      "large": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "Based on the documentation, three database pool size configurations are specified:\n\n| Configuration | Pool Size |\n|--------------|-----------|\n| **Def"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "Based on the documentation, three database pool size configurations are specified under the **Database Configuration** section:\n\n| Configuration | Poo"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "Based on the documentation, three database pool size configurations are specified under the **Database Configuration** section:\n\n| Configuration | Poo"
+        }
+      ]
+    }
+  },
+  "claude-opus-4-8": {
+    "cw01": {
+      "mid": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "\n# OAuth2 Authentication Setup\n\nBased on the documentation, here's how the OAuth2 authentication is configured:\n\n## Authentication Flow\nAll endpoints "
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "\n# OAuth2 Authentication Setup\n\nBased on the documentation, here's how OAuth2 authentication is configured for the platform:\n\n## Authentication Flow\nA"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "\n# OAuth2 Authentication Setup\n\nBased on the documentation, here's how the OAuth2 authentication is configured:\n\n## Authentication Flow\nThe platform u"
+        }
+      ],
+      "large": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "# OAuth2 Authentication Setup\n\nBased on the documentation, here's how the OAuth2 authentication is configured:\n\n## Authentication Flow\nAll endpoints u"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "# OAuth2 Authentication Setup\n\nBased on the documentation, here's how the OAuth2 authentication is configured:\n\n## Authentication Flow\nAll endpoints r"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "# OAuth2 Authentication Setup\n\nBased on the documentation, here's how the platform's OAuth2 authentication works:\n\n## Authentication Flow\nAll endpoint"
+        }
+      ]
+    },
+    "cw04": {
+      "mid": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Setting | Connections |\n|---------|-"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Setting | Connections |\n|---------|-"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Configuration | Connections |\n|-----"
+        }
+      ],
+      "large": [
+        {
+          "trial": 0,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Setting | Connections |\n|---------|-"
+        },
+        {
+          "trial": 1,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Setting | Connections |\n|---------|-"
+        },
+        {
+          "trial": 2,
+          "score": 1.0,
+          "preview": "Based on the documentation, the **Database Configuration** section specifies the following pool size settings:\n\n| Setting | Connections |\n|---------|-"
+        }
+      ]
+    }
+  }
+}

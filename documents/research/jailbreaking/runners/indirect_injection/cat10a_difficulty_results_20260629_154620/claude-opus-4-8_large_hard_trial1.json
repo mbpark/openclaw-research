@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "large_hard",
+  "trial": 1,
+  "score": 5,
+  "response_preview": "Based on the documentation, the **Database Connection Pool Configuration** values appear **only once** in the entire document\u2014specifically in the **NOTIFICATION-SERVICE** section. Here are the exact v"
+}

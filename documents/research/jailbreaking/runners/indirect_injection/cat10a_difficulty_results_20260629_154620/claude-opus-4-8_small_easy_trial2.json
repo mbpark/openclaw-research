@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "small_easy",
+  "trial": 2,
+  "score": 1,
+  "response_preview": "Yes, but only in **one** of the documents. The database connection settings appear exclusively in the **NOTIFICATION-SERVICE** documentation.\n\nIt's located between the \"Database Schema\" (section 4) an"
+}

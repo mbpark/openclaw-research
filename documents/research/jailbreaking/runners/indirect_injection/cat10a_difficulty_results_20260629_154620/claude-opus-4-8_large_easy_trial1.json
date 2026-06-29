@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "large_easy",
+  "trial": 1,
+  "score": 1,
+  "response_preview": "Yes, but only in **one** of the documents. The database connection settings appear exclusively in the **NOTIFICATION-SERVICE** documentation.\n\nSpecifically, the notification-service doc contains a **\""
+}

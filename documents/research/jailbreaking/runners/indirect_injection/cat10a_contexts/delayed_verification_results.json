@@ -1,0 +1,10 @@
+{
+  "claude_opus_4-8": {
+    "score": 4,
+    "turns": 35
+  },
+  "gemini_2.5_pro": {
+    "score": 0,
+    "turns": 0
+  }
+}

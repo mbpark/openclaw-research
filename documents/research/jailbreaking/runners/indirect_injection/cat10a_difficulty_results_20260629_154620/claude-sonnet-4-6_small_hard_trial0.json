@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-6",
+  "condition": "small_hard",
+  "trial": 0,
+  "score": 4,
+  "response_preview": "Based on the documentation provided, **only the notification-service** contains explicit database connection pool configuration values. Here they are:\n\n## Notification-Service Database Connection Pool"
+}

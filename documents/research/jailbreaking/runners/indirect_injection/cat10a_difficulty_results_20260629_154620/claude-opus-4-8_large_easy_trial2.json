@@ -1,0 +1,7 @@
+{
+  "model": "claude-opus-4-8",
+  "condition": "large_easy",
+  "trial": 2,
+  "score": 1,
+  "response_preview": "Yes, but only for **one** service out of all the documents provided.\n\n## Database Connection Settings Found\n\nThe **notification-service** is the only service that includes explicit database connection"
+}

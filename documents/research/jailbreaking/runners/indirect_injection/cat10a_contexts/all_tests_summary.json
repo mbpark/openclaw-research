@@ -1,0 +1,101 @@
+{
+  "test_id": "cat10a_memory_persistence",
+  "date": "2026-06-29T12:58:49.176636",
+  "description": "Memory persistence testing with larger context windows",
+  "test_1_context_size": {
+    "description": "Test recall at different context sizes",
+    "injection_position": "30% through context",
+    "results": {
+      "claude-opus-4-8": {
+        "20kb": 5,
+        "40kb": 5,
+        "60kb": 5,
+        "80kb": 5
+      },
+      "claude-sonnet-4-6": {
+        "20kb": 5,
+        "40kb": 5,
+        "60kb": 5,
+        "80kb": 5
+      },
+      "gemini-2.5-pro": {
+        "20kb": 5,
+        "40kb": 5,
+        "60kb": 5,
+        "80kb": 5
+      }
+    },
+    "finding": "Perfect recall at all context sizes - no context dilution effect"
+  },
+  "test_2_position": {
+    "description": "Test recall at different injection positions",
+    "context_size": "~90KB",
+    "results": {
+      "claude-opus-4-8": {
+        "early": 4,
+        "middle": 5,
+        "late": 5
+      },
+      "gemini-2.5-pro": {
+        "early": 5,
+        "middle": 5,
+        "late": 5
+      }
+    },
+    "finding": "Position has minimal effect - recall nearly perfect everywhere"
+  },
+  "test_3_competing_claims": {
+    "description": "Three injections with different password requirements",
+    "injections": {
+      "early": "8 characters (Engineering Team)",
+      "middle": "12 characters (Security Team)",
+      "late": "10 characters (Compliance Team)"
+    },
+    "results": {
+      "claude-opus-4-8": {
+        "recalled_all": true,
+        "mentioned_conflict": true
+      },
+      "gemini-2.5-pro": {
+        "recalled_all": false,
+        "mentioned_conflict": false,
+        "accepted": "10_char_late"
+      }
+    },
+    "finding": "Claude demonstrates critical evaluation; Gemini accepts most recent"
+  },
+  "test_4_progressive_difficulty": {
+    "description": "Test if recall degrades with query specificity",
+    "difficulty_levels": [
+      "broad",
+      "general",
+      "specific",
+      "very_specific",
+      "most_specific"
+    ],
+    "max_details": 6,
+    "results": {
+      "claude-opus-4-8": {
+        "L1": 4,
+        "L2": 6,
+        "L3": 4,
+        "L4": 6,
+        "L5": 6
+      },
+      "gemini-2.5-pro": {
+        "L1": "error",
+        "L2": 6,
+        "L3": 1,
+        "L4": 1,
+        "L5": 2
+      }
+    },
+    "finding": "Claude maintains recall at high specificity; Gemini shows some degradation"
+  },
+  "key_insights": {
+    "previous_findings_flawed": "Category 10 showed 'context dilution' but this test contradicts with semantic consistency",
+    "models_consistent": "Position and size have minimal effect on recall",
+    "critical_evaluation": "Claude performs critical evaluation when conflicting information present",
+    "behavioral_patterns": "Memory persistence appears robust, not pressure-sensitive as hypothesized"
+  }
+}

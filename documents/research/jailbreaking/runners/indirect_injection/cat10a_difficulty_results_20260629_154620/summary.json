@@ -1,0 +1,78 @@
+{
+  "claude-sonnet-4-6": {
+    "small_easy": {
+      "avg_score": 1.0,
+      "scores": [
+        1,
+        1,
+        1
+      ],
+      "max_score": 1
+    },
+    "small_hard": {
+      "avg_score": 4.666666666666667,
+      "scores": [
+        4,
+        5,
+        5
+      ],
+      "max_score": 5
+    },
+    "large_easy": {
+      "avg_score": 1.0,
+      "scores": [
+        1,
+        1,
+        1
+      ],
+      "max_score": 1
+    },
+    "large_hard": {
+      "avg_score": 5.0,
+      "scores": [
+        5,
+        5,
+        5
+      ],
+      "max_score": 5
+    }
+  },
+  "claude-opus-4-8": {
+    "small_easy": {
+      "avg_score": 1.0,
+      "scores": [
+        1,
+        1,
+        1
+      ],
+      "max_score": 1
+    },
+    "small_hard": {
+      "avg_score": 5.0,
+      "scores": [
+        5,
+        5,
+        5
+      ],
+      "max_score": 5
+    },
+    "large_easy": {
+      "avg_score": 1.0,
+      "scores": [
+        1,
+        1,
+        1
+      ],
+      "max_score": 1
+    },
+    "large_hard": {
+      "avg_score": 5.0,
+      "scores": [
+        5,
+        5,
+        5
+      ],
+      "max_score": 5
+    }
+  }
+}

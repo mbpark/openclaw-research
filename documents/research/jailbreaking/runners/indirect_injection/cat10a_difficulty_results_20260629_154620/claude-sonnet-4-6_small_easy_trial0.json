@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-6",
+  "condition": "small_easy",
+  "trial": 0,
+  "score": 1,
+  "response_preview": "Yes, but only **partially and for one service**. Here's what the documents contain:\n\n## Database Connection Pool Configuration\n\nOnly the **notification-service** documentation includes explicit connec"
+}
