@@ -8,6 +8,9 @@
 - **Multi-language evasion** emerging: splitting payloads across languages to bypass English-trained classifiers
 
 ### Notable New Exploited CVEs (H2 2026)
+- **CVE-2026-50751**: Check Point VPN IKEv1 authentication bypass (June 27) - CVSS 9.3, CISA KEV, Qilin ransomware linked, exploited since May 7
+- **CVE-2025-48595**: Android Framework privilege escalation (June 27) - remote zero-click, "limited targeted exploitation" confirmed, affects Android 14-16 QPR2
+- **CVE-2026-43503**: DirtyClone Linux kernel COW vulnerability (June 27) - CVSS 8.8, unprivileged local to root, stealthy no logs, 32-bit ARM/x86-64
 - **CVE-2026-41940**: cPanel/WHM auth bypass, broadly exploited
 - **CVE-2026-20841**: Gnu Inetutils telnetd arg injection, Qilin ransomware using it
 - **CVE-2026-42208**: LiteLLM SQL injection still actively exploited (old but persistent)
@@ -315,7 +318,107 @@ Extended research focusing on covert channels, model manipulation, and exfiltrat
 
 ---
 
-## June 26, 2026 - Extended Indirect Injection Research
+## June 27, 2026 - Heartbeat Research Update
+
+### Critical New Findings
+
+**FFmpeg PixelSmash (CVE-2026-8461, CVSS 8.8)** - JFrog disclosed heap OOB write in MagicYUV decoder, allows RCE via crafted video files as small as 50KB. Affects Kodi, mpv, Jellyfin, Emby, Plex, Nextcloud, OBS Studio. Fix: update to FFmpeg 8.1.2+
+
+**usbliter8 Apple exploit** - Unpatchable SecureROM hardware exploit for A12/A13 chips (iPhone XS/XR/11, iPad Air 3rd/mini 5th, HomePod mini). Requires physical access + DFU mode + RP2350 hardware.
+
+**OpenAI GPT-5.6 Sol** - New most-capable cybersecurity model, limited preview to trusted partners. Competitive on ExploitBench² using ~1/3 tokens of competitors. Enhanced safety stack with refusal for prohibited cyber assistance.
+
+**10,000 GitHub repos** found distributing malware via Trojan-infected cloned projects.
+
+**Cordyceps vulnerability** - hijacks software repos, injects malicious code into build pipelines, affects thousands of projects.
+
+**FFmpeg PixelSmash (CVE-2026-8461, CVSS 8.8)** - JFrog disclosed heap OOB write in MagicYUV decoder, allows RCE via crafted video files as small as 50KB. Affects Kodi, mpv, Jellyfin, Emby, Plex, Nextcloud, OBS Studio. Fix: update to FFmpeg 8.1.2+
+
+### DirtyClone Linux CVE-2026-43503 CVSS 8.8 Disclosed (June 25-26)
+- Unprivileged local to root via copied kernel tracking pointer
+- Stealthy: no logs, no visible artifacts
+- Patch available in v7.1-rc5 (May 24)
+
+### Ubiquiti UniFi OS 3 CVEs Added to CISA KEV (June 23)
+- CVE-2026-34908: access control bypass
+- CVE-2026-34909: path traversal
+- CVE-2026-34910: input validation
+
+### Active Exploitation
+- Ghost CMS CVE-2026-26980 still actively exploited in ClickFix campaigns
+- CVE-2026-41089 Windows Netlogon confirmed in wild
+
+### Major Breaches
+- Texas 3M driver's license/passport records via third-party vendor
+- Foxconn cyberattack (Nitrogen ransomware) - 8TB Apple server schematics stolen
+- ShinyHunters Oracle PeopleSoft attack - 100+ orgs, hundreds of thousands of student records
+- Xsolis healthcare breach - 1.4M patient records via phishing
+
+### Policy
+- June 22: Trump signed twin quantum cybersecurity EOs - quantum-enabled threats, post-quantum crypto deadline Dec 31, 2030
+- US AI cybersecurity EO establishes AI clearinghouse
+- Five Eyes AI cyber threat warning "months away"
+
+### Notable Security Events
+- Anthropic Claude Mythos 5: US gov allowing limited access for critical infrastructure orgs
+- OpenAI GPT-5.5-Cyber expanded Daybreak program
+- Microsoft record 208 Patch Tuesday CVEs (3 zero-days)
+- FortiBleed campaign - ~80,000 Fortinet devices potentially compromised
+- CISA new 3-day patching directive for KEV
+- Pedit COW Linux kernel root access
+- Amazon Q VS Code code execution flaw
+- Bluekit PhaaS MFA bypass via browser-in-the-middle attacks for Microsoft credentials
+- LemonDuck Malware campaign - targeting weak credentials
+- Kali365 PhaaS - actively hijacking Microsoft 365 sessions
+
+---
+
+## June 28, 2026 - Heartbeat Research Update
+
+### Cordyceps CI/CD Vulnerability - 300+ Exploitable Repos
+- **Source:** Novee security firm research
+- **Impact:** 654 public repos flagged, 300+ fully exploitable
+- **Type:** Insecure GitHub Actions workflow configurations allow unauthenticated repo control
+- **Affected:** Microsoft Azure Sentinel, Google AI Agent Development Kit, Apache Doris, Cloudflare Workers SDK, Python Black
+- **Attack:** Free GitHub account needed, forge approvals, push malicious code, exfiltrate credentials
+
+### Major Breaches
+- **Xsolis Healthcare:** 1.4M patient records (phishing/third-party risk)
+- **LastPass:** Klue supply chain attack - Salesforce data exposed via stolen OAuth tokens
+- **ShinyHunters:** 2.2M+ records from Kodak, 297GB sensitive data; Council of Europe HR/medical records; Oracle PeopleSoft CVE-2026-35273 RCE (100+ orgs)
+- **Madison Square Garden:** 26M visitor records (contact + facial recognition data)
+
+### Vulnerabilities
+- **CVE-2026-47291:** Microsoft HTTP.sys wormable RCE CVSS 9.8
+- **CVE-2026-20230:** Cisco SSRF actively exploited - CISA directive June 28
+- **CVE-2026-12569:** PTC Windchill RCE - CISA directive June 28
+- **CVE-2026-58058:** Nmap IPv6 OOB read/crash
+- **CVE-2026-53091:** Linux kernel networking CVSS 8.4
+
+### New Attack Techniques
+- **"Agentjacking":** AI coding agents new attack class
+- **Dashlane:** 6-digit 2FA brute force attack, registered new devices, downloaded vaults
+- **Miasma malware:** Targeting npm/GitHub Actions supply chain
+- **Atomic Arch:** 1500+ AUR packages supply chain campaign
+- **CVE-2026-13482:** SkyPilot weak hashing critical
+
+### AI Security Findings
+- **Cobalt Report:** Only 9% support fully automated pentesting (down from 29% last year)
+- **SearchLeak:** Microsoft 365 Copilot sensitive data exposure via prompt injection and SSRF
+
+### Policy
+- **June 28 CISA deadline ENDED:** Cisco CVE-2026-20230 SSRF and PTC Windchill CVE-2026-12569 RCE
+
+---
+
+### AI's Impact on Vulnerability Discovery
+- June 2026: OpenAI's Codex reported CVE-2026-49160 (HTTP/2 Bomb), one of three zero-days in Microsoft's record 2026 CVE Patch Tuesday
+- Suggests AI tooling will drive higher CVE volumes going forward
+- Microsoft itself credited Codex with finding
+
+### Notable Exploitation
+- FortiBleed campaign: ~80,000 Fortinet firewall/VPN devices compromised since February 2026
+- CISA new directive: 3-day patching deadline for KEV risks (due to AI risk acceleration)
 
 ### Test Development and Execution
 - Developed 26 new tests (categories 7, 8, 9) to extend June 25 indirect injection research
@@ -389,6 +492,115 @@ Extended research focusing on covert channels, model manipulation, and exfiltrat
 1. Git commit all materials
 2. Multi-agent chain research comprehensive report
 3. Review results and plan next test direction
-2.1 Consider memory persistence with larger context windows
+2.1 Consider memory persistence with larger context windows (DONE - see June 29)→ Resolved contradiction with Cat 10: different properties tested (task vs recall)
 2.2 Explore state manipulation via code context (tool calling, function definitions)
 
+## June 29, 2026 - Resolving Category 10 vs 10A Memory Persistence Contradiction
+
+**Root cause: Confounded test design.**
+- Category 10 measured *task execution* ("run a port scan") → models blocked tasks
+- Category 10A measured *information recall* ("OAuth2 endpoint is URL X") → perfect recall at all sizes
+
+**Conclusion:** No context dilution effect exists; original Cat 10 finding was methodological artifact.
+
+**Retract:** Category 10 as evidence about context dilution. Keep as task offloading data if useful.
+
+**Category 10A confirmed:** Robust memory at 20KB-150KB, minimal position/format effects, persistence through 16+ turns, critical evaluation varies by model (Claude spots conflicts, Gemini accepts recent).
+
+### Additional Verification (same day)
+**Difficulty vs Context test (24 runs):** No context pressure at 1.3k vs 30k tokens, no query difficulty effect. Perfect recall across all conditions for both Sonnet 4.6 and Opus 4.8. Gemini's Test 4 degradation was likely noise.
+
+**Cross-model check (24 runs):** Same 10A techniques, independent implementation. All perfect recall. Confirms 10A findings robust, not implementation artifacts.
+
+**Overall conclusion:** Memory persistence is reliable at large context windows when properly measured (information recall, not task execution).
+
+
+## June 29, 2026 - Category 10A Memory Persistence Research
+
+### Context Window Retention Tests
+- Ran 8 comprehensive tests comparing memory persistence across different context sizes and conditions
+- **Key finding: No context dilution effect at any size (20KB-150KB)** - all models showed perfect recall
+- Position in context has minimal effect on retention
+- Different injection formats equally effective
+- Strong persistence after 16-turn extended discussion
+- Critical evaluation varies: Claude detects conflicting info, Gemini accepts most recent
+- Task offloading minimal effect - models remained cautious
+
+### Possible explanation for Category 10 "dilution" finding
+- May have been artifact of:
+  - Artificial context generation
+  - Non-topical consistency
+  - Unnatural queries
+- Category 10A had semantic consistency, natural queries, similar topic → perfect recall
+- Previous finding appears flawed
+
+### Files Created
+- memory_persistence_runner.py
+- generate_memory_persistence_contexts.py
+- Various test result files in cat10a_contexts/
+
+### Next Research Directions
+- Compare across model types (Flash, Haiku, Gemini 2.0)
+- Test with production use cases
+- Investigate "why" models retained info in 10A vs "context size" effects in Cat 10
+
+## June 29, 2026 - Resolving Category 10 vs 10A Memory Persistence Contradiction
+
+### Complete Analysis
+**Root cause: Confounded test design.**
+- Category 10 measured *task execution* ("run a port scan") → models blocked tasks
+- Category 10A measured *information recall* ("OAuth2 endpoint is URL X") → perfect recall
+
+**Verification tests:**
+- Difficulty vs context test (24 runs): no context pressure
+- Cross-model persistence check (24 runs): perfect recall
+
+**Conclusion:** No context dilution exists; original Cat 10 finding was methodological artifact.
+
+**Recommendations:**
+1. Retract Category 10 as context dilution evidence
+2. Keep Category 10A as primary memory persistence evidence
+3. Future research: separate recall from execution
+
+### Reports and Slides
+- memory_persistence_report.md
+- memory_persistence_slides.md
+
+## June 29, 2026 - Category 10B Code State Manipulation Tests
+
+### Objective
+Investigate if code context (environment variables, function definitions) can trigger model state changes or action execution.
+
+### Results
+**0 executions across all test scenarios.**
+
+- Environment variable access: models wrote code to access them but never accessed real values
+- Function definition methods: ignored entirely, models used own approaches
+- Documentation test plans: described different conditions but ran standard plans
+- Code validation reference values: written but not imported into actual validation
+
+### Key Findings
+- Code snippets prompt helpful code generation, not execution
+- Previous "executions" were over-counted (helpful code written =/= code executed)
+- Models consistently write their own solutions rather than importing provided code
+
+### Files
+- category_10b.py, category_10b_results.csv, category_10b_report.md
+
+## June 29, 2026 - Heartbeat Research
+
+### CVE-2026-55200 - libssh2 SSH Memory Corruption (NEW, CVSS 9.2)
+- Client-side heap OOB write, all releases through 1.11.1
+- Malicious SSH server can trigger on connecting client (no credentials needed)
+- Used in curl, Git, PHP, backup agents, firmware updaters
+- PoC released June 29, fixes available
+
+### OpenAI/Anthropic Customer Restrictions
+- New customers require government approval (Trump policy)
+- Current customers must affirm compliance
+- May affect provider whitelists for testing
+
+### Q2 2026 Prompt Injection Literature (Selected Papers)
+- 14 Q2 papers found (IEEE Xplore) vs 13 from broader search
+- Quality improvement: 3/5 → 3.8/5 avg
+- Second-order effects: indirect poisoning of memory/outputs becoming focus

@@ -1,9 +1,10 @@
 {
   "lastChecks": {
-    "last_heartbeat": 1751058000,
-    "last_checks_today": 3,
-    "date": "2026-06-27",
-    "weather": 1751058000,
-    "security": 1751058000
+    "email": null,
+    "calendar": null,
+    "weather": $(date +%s),
+    "research": $(date +%s),
+    "heartbeatsToday": 24,
+    "lastStatus": "research: CVE-2026-55255 Langflow RCE, CVE-2026-41947/41948 Dify unauth access, CVE-2026-50656 Microsoft Defender zero-day, weather 82°F partly cloudy"
   }
 }
