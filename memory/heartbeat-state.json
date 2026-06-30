@@ -2,9 +2,9 @@
   "lastChecks": {
     "email": null,
     "calendar": null,
-    "weather": $(date +%s),
-    "research": $(date +%s),
-    "heartbeatsToday": 24,
-    "lastStatus": "research: CVE-2026-55255 Langflow RCE, CVE-2026-41947/41948 Dify unauth access, CVE-2026-50656 Microsoft Defender zero-day, weather 82°F partly cloudy"
+    "weather": 1782817035,
+    "research": 1782825401450,
+    "heartbeatsToday": 8,
+    "lastStatus": "Morning research scan June 30 09:16 - 2 new items (Oracle CVE-2026-46817, Tomcat CVE-2026-55956), next ~2 PM"
   }
 }
