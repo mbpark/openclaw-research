@@ -281,12 +281,12 @@ Detailed Results:
 
 if __name__ == "__main__":
     # Initialize test runner with Google Gemini API
-    api_key = os.getenv("GOOGLE_API_KEY", "AIzaSy...e49g")
+    api_key = "AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g"
     
-    runner = GeminiVPITestRunner(api_key=api_key, model="gemini-2.0-flash")
+    runner = GeminiVPITestRunner(api_key=api_key, model="gemini-2.5-flash")
     
     # Load test cases
-    test_cases_file = "vpi_test_cases_subset.json"
+    test_cases_file = "vpi_test_cases_full.json"
     test_cases = runner.load_test_cases(test_cases_file)
     
     # Run tests
