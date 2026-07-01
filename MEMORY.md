@@ -604,3 +604,19 @@ Investigate if code context (environment variables, function definitions) can tr
 - 14 Q2 papers found (IEEE Xplore) vs 13 from broader search
 - Quality improvement: 3/5 → 3.8/5 avg
 - Second-order effects: indirect poisoning of memory/outputs becoming focus
+
+---
+
+## June 30, 2026 - Heartbeat Research Update
+
+### Apple Patches (30+ vulns iOS/macOS/Safari, incl 4 WebKit found by AI tools)
+### BioShacking Attack - tricks AI browsers (ChatGPT Atlas, Perplexity Comet, Claude) into leaking credentials
+### Progress Kemp LoadMaster CVE-2026-8037 (CVSS 9.8) - remote root command execution
+### SimpleHelp CVE-2026-48558 - authentication bypass, exploited by Djinn Stealer malware
+### Nissan Americas employee data breach via Oracle PeopleSoft zero-day (CVE-2026-35273) by ShinyHunters
+### CVE-2026-46817 Oracle E-Business Suite (CVSS 9.8) - improper privilege management actively exploited
+### CVE-2026-55956 Apache Tomcat Improper Authorization - upgrade to 11.0.23+/10.1.56+/9.0.119+
+### CISA confirmed BlueHammer CVE-2026-33825 being exploited by ransomware groups
+### CVE-2026-10816 NetScaler ADC/Gateway - arbitrary file read critical, affects management interfaces
+### CVE-2026-14209 Keycloak Admin UI - security restrictions bypass allowing user data access even with FGAPv2 enabled
+### CVE-2026-14162 Hospital Queuing Management (Advantech) - sensitive data exposure, unauthenticated API access

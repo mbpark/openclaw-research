@@ -1,10 +1,10 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": 1782817035,
-    "research": 1782825401450,
-    "heartbeatsToday": 8,
-    "lastStatus": "Morning research scan June 30 09:16 - 2 new items (Oracle CVE-2026-46817, Tomcat CVE-2026-55956), next ~2 PM"
+    "email": 1782870008985,
+    "calendar": 1782870008985,
+    "weather": 1782870008985,
+    "research": 1782870008985,
+    "heartbeatsToday": 15,
+    "lastStatus": "June 30 21:40 EDT - heartbeat check. No new urgent updates since 19:19 EDT research (SimpleHelp CVE-2026-48558 auth bypass, KTM e-BOK CVE-2026-35098, Microsoft Patch Tuesday DHCP CVSS 9.8/AKS CVSS 8.8, June 30 breaches including Tchap gov/Nintendo/Nottingham Univ)"
   }
 }
