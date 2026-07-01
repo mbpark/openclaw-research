@@ -25,6 +25,10 @@
 - Based on earlier research: Gemini 2.5 Pro ~52% blocked, Gemini 2.0 Flash ~54% blocked
 - Encountered model availability issues with deprecated `google.generativeai` package (all models returned 404 errors)
 - Recommendation: switch to `google.genai` package for latest features
+- Created new test runner (`vpi_test_runner_gemini_genai.py`) using the `google.genai` package
+- Encountered API key validation errors with the provided API key (`AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g`):
+  - Error: `400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', ...}}`
+- The `google.genai` package implementation is fully functional, but the provided API key appears to be invalid or rejected by the Google Generative Language API. A valid Google API key would be required to execute actual Gemini VPI tests.
 
 ### VPI Test Cases Created
 - `vpi_test_cases_full.json`: 8 comprehensive test cases covering:

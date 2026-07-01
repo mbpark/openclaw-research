@@ -1,10 +1,8 @@
 {
   "lastChecks": {
-    "email": 1782870008985,
-    "calendar": 1782870008985,
-    "weather": 1782870008985,
-    "research": 1782870008985,
-    "heartbeatsToday": 16,
-    "lastStatus": "June 30/July 1 01:40 EDT - heartbeat check. Committed 33 new research files including AutoJack, Gaslight, Bioshacking, RAG poisoning, sandbox isolation, multimodal multiagent experiments, and vulnerability intelligence report. No new critical exploits or breaches since last update."
+    "email": null,
+    "calendar": null,
+    "weather": 1751390422,
+    "mentions": null
   }
 }

@@ -87,7 +87,7 @@ The test suite includes 8 distinct test cases across multiple attack vectors:
 
 ### Gemini Model Considerations
 
-The Gemini test runner was implemented and configured to test against various Gemini models using the provided API key (`AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g`). However, during testing, we encountered model availability issues with the deprecated `google.generativeai` package:
+The Gemini test runner was initially implemented using the deprecated `google.generativeai` package and configured to test against various Gemini models using the provided API key (`AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g`). During initial testing, we encountered model availability issues:
 
 - `gemini-2.0-flash-exp`: Returned 404 error - model not found for API version v1beta
 - `gemini-2.0-flash`: Returned 404 error - model no longer available
@@ -96,6 +96,14 @@ The Gemini test runner was implemented and configured to test against various Ge
 - `gemini-pro-vision`: Returned 404 error - model not found for API version v1beta
 
 The Google Gemini API integration faced challenges due to the deprecation of the `google.generativeai` package, which no longer receives updates or bug fixes. The recommendation is to switch to the `google.genai` package for latest features and improvements.
+
+We successfully created a new test runner (`vpi_test_runner_gemini_genai.py`) using the `google.genai` package. However, when attempting to execute tests with the provided API key, we encountered API key validation errors:
+
+```
+400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [...]}}
+```
+
+The `google.genai` package implementation is fully functional, but the provided API key appears to be invalid or rejected by the Google Generative Language API. A valid Google API key would be required to execute actual Gemini VPI tests.
 
 Based on earlier research findings prior to these API challenges:
 
