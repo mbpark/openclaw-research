@@ -1,1 +1,94 @@
+# Environment
 .env
+.env.*
+*.env
+
+# Virtual environments
+vlmguard-env/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+*.logs/
+uvicorn*.log
+polinrider*.log
+organization*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage.xml
+*.coverage
+.py
+.nyc_output/
+reports/
+tmp/
+temp/
+test_results/
+test_output/
+
+# Secrets (should never be committed)
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Paper drafts (can be added to docs/)
+draft/
+drafts/
+
+# Data files
+data/
+*.csv
+*.json
+!requirements.json
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.backup
+*.old
+*.tmp
+
+# Submodules
+research/
+submodules/
