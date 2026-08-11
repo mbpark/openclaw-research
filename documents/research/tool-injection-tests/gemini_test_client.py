@@ -8,7 +8,10 @@ import sys
 import json
 import requests
 
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g')
+API_KEY = os.environ.get('GEMINI_API_KEY')
+if not API_KEY:
+    print("ERROR: GEMINI_API_KEY environment variable not set")
+    sys.exit(1)
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
 

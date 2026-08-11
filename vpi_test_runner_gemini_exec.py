@@ -243,8 +243,11 @@ Detailed Results:
         return report
 
 if __name__ == "__main__":
-    # Initialize test runner with Google Gemini API
-    api_key = "AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g"
+    # Get API key from environment variable
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        print("ERROR: GOOGLE_API_KEY environment variable not set")
+        sys.exit(1)
     
     runner = GeminiVPITestRunner(api_key=api_key, model="gemini-pro-vision")
     

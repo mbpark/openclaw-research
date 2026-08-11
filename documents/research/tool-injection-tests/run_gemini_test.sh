@@ -1,6 +1,10 @@
 #!/bin/bash
 # Gemini test runner
-API_KEY="${GEMINI_API_KEY:-AIzaSyAQRWS9tgMutnfTU34LjIGf0P8wbpEe49g}"
+API_KEY="${GEMINI_API_KEY:-}"
+if [ -z "$API_KEY" ]; then
+    echo "ERROR: GEMINI_API_KEY environment variable not set"
+    exit 1
+fi
 FIXTURE_PATH="$1"
 PROMPT="$2"
 

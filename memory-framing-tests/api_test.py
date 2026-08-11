@@ -4,9 +4,10 @@
 import requests
 import json
 import time
+import os
 
 API_URL = "http://127.0.0.1:8000/v1/chat/completions"
-API_KEY = "gr0epaz!"
+API_KEY = os.getenv("MEMORY_FRAMING_API_KEY", "gr0epaz!")
 MODEL = "custom-127-0-0-1-8000/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit"
 
 def query(memory, question, temp=0.7):
