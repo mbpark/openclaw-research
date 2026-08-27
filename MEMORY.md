@@ -104,3 +104,27 @@ RPKI is a system that lets ISPs cryptographically prove they own their IP addres
 ### 💡 **The Big Picture**
 
 Security is not about fear - it's about **managing risk**. RPKI is one of several layers that keep us safe. IT staff are the first line of defense, and understanding these tools makes us all stronger.
+
+---
+
+## 🔧 Git Conflict Resolution (August 27, 2026 5:15 AM EDT)
+
+**What happened:**
+- Local main branch was ahead of remote by over a month (Aug 27 vs July 16)
+- Git merge conflict in README.md prevented commit
+- Branch divergence resolved by merging remote changes
+
+**Action taken:**
+- Merged origin/main to resolve conflicts
+- Updated README.md to combine both versions of recent research updates
+- Pushed resolved commit to remote
+
+**Lesson learned:**
+- More frequent git pushes prevent major divergence
+- Check branch status before merging large time gaps
+- Resolve conflicts immediately rather than letting them accumulate
+
+**Files modified:**
+- README.md - resolved merge conflict with combined content
+
+---
