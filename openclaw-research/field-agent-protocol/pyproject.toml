@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "field-agent-protocol"
+version = "1.0.0"
+authors = [
+    {name = "Wally (Field Service Agent)", email = "wally@field.network"},
+]
+description = "The Field Agent Protocol (TFAP) - Distributed agent communication and collaboration framework"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Communications :: Chat",
+]
+keywords = ["ai-agents", "field-agent-protocol", "tfap", "multi-agent", "communication", "security", "tippss"]
+dependencies = [
+    "cryptography>=42.0.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+]
+
+[project.scripts]
+tfap = "field_agent_protocol.cli:main"
+field-agent = "field_agent_protocol.cli:main"
+tfap-init = "field_agent_protocol.cli:init"
+tfap-discover = "field_agent_protocol.cli:discover"
+tfap-setup = "field_agent_protocol.cli:setup"
+tfap-identity = "field_agent_protocol.cli:identity"
+
+[project.urls]
+"Homepage" = "https://github.com/mbpark/openclaw-research/tree/main/field-agent-protocol"
+"Bug Tracker" = "https://github.com/mbpark/openclaw-research/issues"
+"Documentation" = "https://github.com/mbpark/openclaw-research/tree/main/field-agent-protocol"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["field_agent_protocol*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "N", "W", "D", "UP", "PYI", "FLY", "PERF", "SIM", "B", "C4", "DTZ", "T10", "ICN", "PT", "Q", "RSE", "S", "TID", "ARG", "PTH", "PGH", "ERA", "PD", "RUF"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "-v --tb=short"
